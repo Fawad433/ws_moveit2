@@ -1,0 +1,15 @@
+/home/robot/ws_moveit2/install/moveit_resources/share/ament_index/resource_index/package_run_dependencies/moveit_resources
+/home/robot/ws_moveit2/install/moveit_resources/share/ament_index/resource_index/parent_prefix_path/moveit_resources
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.sh
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.dsv
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/environment/path.sh
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/environment/path.dsv
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/local_setup.bash
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/local_setup.sh
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/local_setup.zsh
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/local_setup.dsv
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/package.dsv
+/home/robot/ws_moveit2/install/moveit_resources/share/ament_index/resource_index/packages/moveit_resources
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig.cmake
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig-version.cmake
+/home/robot/ws_moveit2/install/moveit_resources/share/moveit_resources/package.xml

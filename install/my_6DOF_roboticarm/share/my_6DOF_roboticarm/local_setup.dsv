@@ -1,0 +1,2 @@
+source;share/my_6DOF_roboticarm/environment/ament_prefix_path.sh
+source;share/my_6DOF_roboticarm/environment/path.sh

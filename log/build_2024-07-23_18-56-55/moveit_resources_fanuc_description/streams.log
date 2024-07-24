@@ -1,0 +1,58 @@
+[0.017s] Invoking command in '/home/robot/ws_moveit2/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ws_moveit2/install/generate_parameter_module_example:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/generate_parameter_library_py:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake /home/robot/ws_moveit2/src/moveit_resources/fanuc_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=--param ggc-min-expand=20 -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/moveit_resources_fanuc_description
+[0.224s] -- The C compiler identification is GNU 11.4.0
+[0.395s] -- The CXX compiler identification is GNU 11.4.0
+[0.423s] -- Detecting C compiler ABI info
+[0.532s] -- Detecting C compiler ABI info - done
+[0.558s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.559s] -- Detecting C compile features
+[0.560s] -- Detecting C compile features - done
+[0.569s] -- Detecting CXX compiler ABI info
+[0.719s] -- Detecting CXX compiler ABI info - done
+[0.751s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.751s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.761s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.003s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.336s] -- Configuring done (1.2s)
+[1.343s] -- Generating done (0.0s)
+[1.344s] -- Build files have been written to: /home/robot/ws_moveit2/build/moveit_resources_fanuc_description
+[1.378s] Invoked command in '/home/robot/ws_moveit2/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ws_moveit2/install/generate_parameter_module_example:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/generate_parameter_library_py:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake /home/robot/ws_moveit2/src/moveit_resources/fanuc_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=--param ggc-min-expand=20 -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/moveit_resources_fanuc_description
+[1.380s] Invoking command in '/home/robot/ws_moveit2/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ws_moveit2/install/generate_parameter_module_example:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/generate_parameter_library_py:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --build /home/robot/ws_moveit2/build/moveit_resources_fanuc_description -- -j6 -l6
+[1.532s] Invoked command in '/home/robot/ws_moveit2/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ws_moveit2/install/generate_parameter_module_example:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/generate_parameter_library_py:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --build /home/robot/ws_moveit2/build/moveit_resources_fanuc_description -- -j6 -l6
+[1.712s] Invoking command in '/home/robot/ws_moveit2/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ws_moveit2/install/generate_parameter_module_example:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/generate_parameter_library_py:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --install /home/robot/ws_moveit2/build/moveit_resources_fanuc_description
+[1.819s] -- Install configuration: "Release"
+[1.819s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_fanuc_description
+[1.820s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_fanuc_description
+[1.820s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/ament_prefix_path.sh
+[1.820s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/ament_prefix_path.dsv
+[1.820s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/path.sh
+[1.820s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/path.dsv
+[1.820s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.bash
+[1.821s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.sh
+[1.821s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.zsh
+[1.821s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.dsv
+[1.821s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.dsv
+[1.821s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/ament_index/resource_index/packages/moveit_resources_fanuc_description
+[1.822s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake/moveit_resources_fanuc_descriptionConfig.cmake
+[1.822s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake/moveit_resources_fanuc_descriptionConfig-version.cmake
+[1.822s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.xml
+[1.822s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes
+[1.822s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual
+[1.822s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/base_link.stl
+[1.823s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_6.stl
+[1.824s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_5.stl
+[1.824s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_3.stl
+[1.824s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_1.stl
+[1.824s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_2.stl
+[1.825s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_4.stl
+[1.825s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision
+[1.825s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/base_link.stl
+[1.826s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_6.stl
+[1.826s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_5.stl
+[1.827s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_3.stl
+[1.827s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_1.stl
+[1.827s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_2.stl
+[1.827s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_4.stl
+[1.828s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/urdf
+[1.828s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/urdf/fanuc.urdf
+[1.845s] Invoked command in '/home/robot/ws_moveit2/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ws_moveit2/install/generate_parameter_module_example:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/generate_parameter_library_py:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --install /home/robot/ws_moveit2/build/moveit_resources_fanuc_description

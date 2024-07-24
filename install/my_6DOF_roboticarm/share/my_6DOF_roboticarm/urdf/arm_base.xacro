@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- For the Base which is not static -->
+    <xacro:property name="arm_base_length" value="0.088" />
+    <xacro:property name="arm_base_width" value="0.090" />
+    <xacro:property name="arm_base_height" value="0.105" />
+
+    <!-- For First Joint -->
+    <xacro:property name="link1_length" value="0.0254" />
+    <xacro:property name="link1_width" value="0.05842" />
+    <xacro:property name="link1_height" value="0.0254" />
+
+    <!-- For Second -->
+    <xacro:property name="link2_width" value="0.05842" />
+    <xacro:property name="link2_height" value="0.12"/>
+    <xacro:property name="link2_length" value="0.0254" />
+
+    <!-- For Third -->
+    <xacro:property name="link3_length" value="0.0254"/>
+    <xacro:property name="link3_width" value="0.05842"/>
+    <xacro:property name="link3_height" value="0.1016"/>
+
+    <!-- For Forth -->
+    <xacro:property name="link4_length" value="0.0508"/>
+    <xacro:property name="link4_width" value="0.05715"/>
+    <xacro:property name="link4_height" value="0.0635"/>
+
+    <!-- For Fifth -->
+    <xacro:property name="link5_length" value="0.0254"/>
+    <xacro:property name="link5_width" value="0.03302"/>
+    <xacro:property name="link5_height" value="0.1016"/>    
+
+    <!-- For sixth -->
+    <xacro:property name="hand_length" value="0.05842"/>
+    <xacro:property name="hand_width" value="0.1016"/>
+    <xacro:property name="hand_height" value="0.0254"/>  
+
+    <!-- Links definations -->
+
+    <!-- FOOTPRINT -->
+    <link name="arm_base_footprint" />
+
+    <!-- BASE LINK STATIC -->
+    <link name="arm_base_link">
+        <visual>
+            <geometry>
+                <box size="${arm_base_length} ${arm_base_width} ${arm_base_height}" />
+            </geometry>
+            <origin xyz="0 0 ${arm_base_height / 2.0}" rpy="0 0 0" />
+            <material name="grey" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="${arm_base_length} ${arm_base_width} ${arm_base_height}" />
+            </geometry>
+            <origin xyz="0 0 ${arm_base_height / 2.0}" rpy="0 0 0" />
+        </collision>
+
+        <xacro:box_inertia m="0.5" l="${2*arm_base_length}" w="${2*arm_base_width}" h="${2*arm_base_height}"
+                           xyz="0 0 ${arm_base_height / 2.0}" rpy="0 0 0" />
+    </link>
+
+    <!-- LINK1 This is between first servos1 and 2 -->
+    <link name="link1">
+        <visual>
+            <geometry>
+                <box size="${link1_length} ${link1_width} ${link1_height}" />
+            </geometry>
+            <origin xyz="0 ${link1_width * 0.4} ${link1_height / 2.0}" rpy="0 0 0" />
+            <material name="green" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="${link1_length} ${link1_width} ${link1_height}" />
+            </geometry>
+            <origin xyz="0 ${link1_width * 0.4} ${link1_height / 2.0}" rpy="0 0 0" />
+        </collision>
+
+        <xacro:box_inertia m="0.5" l="${2*link1_length}" w="${2*link1_width}" h="${2*link1_height}"
+                           xyz="0 ${link1_width * 0.4} ${link1_height / 2.0}" rpy="0 0 0" />
+    </link>
+    
+
+    <!-- LINK2 This is between servos2 and 3 -->
+    <link name="link2">
+        <visual>
+            <geometry>
+                <box size="${link2_length} ${link2_width} ${link2_height}" />
+            </geometry>
+            <origin xyz="${-link2_width/2.0} ${link2_height*0.4} ${link2_length/2.0}" rpy="0 -1.5708 1.5708" />
+            <material name="blue" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="${link2_length} ${link2_width} ${link2_height*0.7}" />
+            </geometry>
+            <origin xyz="${-link2_width/2.0} ${link2_height*0.4} ${link2_length/2.0}" rpy="0 -1.5708 1.5708" />
+        </collision>
+
+        <xacro:box_inertia m="0.5" l="${2*link2_length}" w="${2*link2_width}" h="${2*link2_height}"
+                           xyz="${-link2_width/2.0} ${link2_height*0.4} ${link2_length/2.0}" rpy="0 -1.5708 1.5708" />
+    </link>
+
+
+    <!-- LINK3 This is between servos3 and 4 -->
+    <link name="link3">
+        <visual>
+            <geometry>
+                <box size="${link3_length} ${link3_width} ${link3_height}" />
+            </geometry>
+            <origin xyz="${link2_width/2.0} 0 ${-link3_height/2.0}" rpy="0 0 1.5708" />
+            <material name="yellow" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="${link3_length} ${link3_width} ${link3_height}" />
+            </geometry>
+            <origin xyz="${link2_width/2.0} 0 ${-link3_height/2.0}" rpy="0 0 1.5708" />
+        </collision>
+
+        <xacro:box_inertia m="0.5" l="${2*link3_length}" w="${2*link3_width}" h="${2*link3_height}"
+                           xyz="${link2_width/2.0} 0 ${-link3_height/2.0}" rpy="0 0 1.5708" />
+    </link>
+
+
+    <!-- LINK4 This is between servos4 and 5 -->
+    <link name="link4">
+        <visual>
+            <geometry>
+                <box size="${link4_length} ${link4_width} ${link4_height}" />
+            </geometry>
+            <origin xyz="${link4_width/2.0} ${link4_height/2.0} 0" rpy="1.5708 0 0" />
+            <material name="cyan" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="${link4_length} ${link4_width} ${link4_height}" />
+            </geometry>
+            <origin xyz="${link4_width/2.0} ${link4_height/2.0} 0" rpy="1.5708 0 0" />
+        </collision>
+
+        <xacro:box_inertia m="0.5" l="${2*link4_length}" w="${2*link4_width}" h="${2*link4_height}"
+                           xyz="${link4_width/2.0} ${link4_height/2.0} 0" rpy="1.5708 0 0" />
+    </link>
+
+
+    <!-- LINK5 This is between servos5 and 6 -->
+    <link name="link5">
+        <visual>
+            <geometry>
+                <box size="${link5_length} ${link5_width} ${link5_height}" />
+            </geometry>
+            <origin xyz="0 ${link4_height * 0.2} 0" rpy="0 0 0" />
+            <material name="magenta" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="${link5_length} ${link5_width} ${link5_height}" />
+            </geometry>
+            <origin xyz="0 ${link4_height * 0.2} 0" rpy="0 0 0" />
+        </collision>
+
+        <xacro:box_inertia m="0.5" l="${2*link5_length}" w="${2*link5_width}" h="${2*link5_height}"
+                           xyz="0 ${link4_height * 0.2} 0" rpy="0 0 0" />
+    </link>
+
+
+    <!-- hand This is between servos5 and 6 -->
+    <link name="hand">
+        <visual>
+            <geometry>
+                <box size="${hand_width} ${hand_width/2} ${hand_height}" />
+            </geometry>
+            <origin xyz="0 ${hand_width/2.0} 0" rpy="0 0 0" />
+            <material name="red" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="${hand_width} ${hand_width/2} ${hand_height}" />
+            </geometry>
+            <origin xyz="0 ${hand_width/2.0} 0" rpy="0 0 0" />
+        </collision>
+
+        <xacro:box_inertia m="0.5" l="${hand_width}" w="${hand_width}" h="${2*hand_height}"
+                           xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <link name="hand_leftfinger">
+        <visual>
+            <geometry>
+                <box size="${hand_height/2} ${hand_width/2} ${hand_height}" />
+            </geometry>
+            <origin xyz="${-hand_height} ${hand_width} 0" rpy="0 0 0" />
+            <material name="yellow" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="${hand_height/2} ${hand_width/2} ${hand_height}" />
+            </geometry>
+            <origin xyz="${-hand_height} ${hand_width} 0" rpy="0 0 0" />
+        </collision>
+
+        <xacro:box_inertia m="0.5" l="${hand_height}" w="${hand_width}" h="${2*hand_height}"
+                           xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <link name="hand_rightfinger">
+        <visual>
+            <geometry>
+                <box size="${hand_height/2} ${hand_width/2} ${hand_height}" />
+            </geometry>
+            <origin xyz="${hand_height} ${hand_width} 0" rpy="0 0 0" />
+            <material name="yellow" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="${hand_height/2} ${hand_width/2} ${hand_height}" />
+            </geometry>
+            <origin xyz="${hand_height} ${hand_width} 0" rpy="0 0 0" />
+        </collision>
+
+        <xacro:box_inertia m="0.5" l="${hand_height}" w="${hand_width}" h="${2*hand_height}"
+                           xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <!--JOINTS-->
+
+    <!--JOINT FROM FOOTPRINT TO BASE-->
+    <joint name="arm_base_joint" type="fixed">
+        <parent link="arm_base_footprint" />
+        <child link="arm_base_link" />
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+
+    <!--JOINT FROM BASE TO LINK1-->
+    <joint name="base_link1_joint" type="revolute">
+        <parent link="arm_base_link" />
+        <child link="link1" />
+        <origin xyz="0 0 ${arm_base_height}" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="0" upper="${pi}" effort="100" velocity="100"/>
+        <dynamic friction="0.05" damping="0.1" />
+    </joint>
+
+    <!--JOINT FROM LINK1 TO LINK2-->
+    <joint name="link1_link2_joint" type="revolute">
+        <parent link="link1" />
+        <child link="link2" />
+        <origin xyz="${link2_width/2.0} 0 ${link1_height}" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <limit lower="0" upper="${pi}" effort="100" velocity="100"/>
+        <dynamic friction="0.05" damping="0.1" />
+    </joint>
+
+
+    <!--JOINT FROM LINK2 TO LINK3-->
+    <joint name="link2_link3_joint" type="revolute">
+        <parent link="link2" />
+        <child link="link3" />
+        <origin xyz="${-link3_width} ${link3_height} ${link1_height}" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <limit lower="0" upper="${pi}" effort="100" velocity="100"/>
+        <dynamic friction="0.05" damping="0.1" />
+    </joint>
+
+    <!--JOINT FROM LINK3 TO LINK4-->
+    <joint name="link3_link4_joint" type="revolute">
+        <parent link="link3" />
+        <child link="link4" />
+        <origin xyz="0 0 ${-link3_height}" rpy="0 0 0"/>
+        <axis xyz="-1 0 0"/>
+        <limit lower="0" upper="${pi}" effort="100" velocity="100"/>
+        <dynamic friction="0.05" damping="0.1" />
+    </joint>
+
+    <!--JOINT FROM LINK4 TO LINK5-->
+    <joint name="link4_link5_joint" type="revolute">
+        <parent link="link4" />
+        <child link="link5" />
+        <origin xyz="${link4_width/2.0} ${link4_height/2.0 + link5_height/2.0 - link4_height * 0.2} 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="0" upper="${pi}" effort="100" velocity="100"/>
+        <dynamic friction="0.05" damping="0.1" />
+    </joint>
+
+    <!--JOINT FROM LINK5 TO HAND-->
+    <joint name="link5_hand_joint" type="fixed">
+        <parent link="link5" />
+        <child link="hand" />
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="hand_finger_joint1" type="prismatic">
+        <parent link="hand" />
+        <child link="hand_leftfinger" />
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <axis xyz="1 0 0" />
+        <limit effort="20" lower="0.0" upper="0.019" velocity="0.2" />
+    </joint>
+    <joint name="hand_finger_joint2" type="prismatic">
+        <parent link="hand" />
+        <child link="hand_rightfinger" />
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <axis xyz="-1 0 0" />
+        <limit effort="20" lower="0.0" upper="0.019" velocity="0.2" />
+        <mimic joint="hand_finger_joint1" />
+    </joint>
+            
+
+</robot>
