@@ -1,0 +1,21 @@
+-- Install configuration: "Release"
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm//urdf
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm//urdf/arm_base.xacro
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm//urdf/robotic_arm.urdf.xacro
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm//urdf/arm_base_gazebo.xacro
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm//urdf/common_properties.xacro
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/ament_index/resource_index/package_run_dependencies/my_6DOF_roboticarm
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/ament_index/resource_index/parent_prefix_path/my_6DOF_roboticarm
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/environment/path.sh
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/environment/path.dsv
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/local_setup.bash
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/local_setup.sh
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/local_setup.zsh
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/local_setup.dsv
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/package.dsv
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/ament_index/resource_index/packages/my_6DOF_roboticarm
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/cmake/my_6DOF_roboticarmConfig.cmake
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/cmake/my_6DOF_roboticarmConfig-version.cmake
+-- Up-to-date: /home/robot/ws_moveit2/install/my_6DOF_roboticarm/share/my_6DOF_roboticarm/package.xml

@@ -17,10 +17,12 @@
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/launch/static_virtual_joint_tfs.launch.py
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/launch/setup_assistant.launch.py
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/launch/moveit_rviz.launch.py
+/home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/launch/gpt_generated.launch.py
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/launch/move_group.launch.py
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/launch/warehouse_db.launch.py
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/launch/spawn_controllers.launch.py
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/launch/rsp.launch.py
+/home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/launch/myrobot_planning_execution.launch.py
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/my_robot.ros2_control.xacro
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/ros2_controllers.yaml
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/my_robot.urdf.xacro

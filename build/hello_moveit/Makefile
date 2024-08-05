@@ -210,6 +210,43 @@ hello_moveit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moveit.dir/build.make CMakeFiles/hello_moveit.dir/build
 .PHONY : hello_moveit/fast
 
+#=============================================================================
+# Target rules for targets named get_eef_pose
+
+# Build rule for target.
+get_eef_pose: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 get_eef_pose
+.PHONY : get_eef_pose
+
+# fast build rule for target.
+get_eef_pose/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_eef_pose.dir/build.make CMakeFiles/get_eef_pose.dir/build
+.PHONY : get_eef_pose/fast
+
+src/get_pose.o: src/get_pose.cpp.o
+.PHONY : src/get_pose.o
+
+# target to build an object file
+src/get_pose.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_eef_pose.dir/build.make CMakeFiles/get_eef_pose.dir/src/get_pose.cpp.o
+.PHONY : src/get_pose.cpp.o
+
+src/get_pose.i: src/get_pose.cpp.i
+.PHONY : src/get_pose.i
+
+# target to preprocess a source file
+src/get_pose.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_eef_pose.dir/build.make CMakeFiles/get_eef_pose.dir/src/get_pose.cpp.i
+.PHONY : src/get_pose.cpp.i
+
+src/get_pose.s: src/get_pose.cpp.s
+.PHONY : src/get_pose.s
+
+# target to generate assembly for a file
+src/get_pose.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_eef_pose.dir/build.make CMakeFiles/get_eef_pose.dir/src/get_pose.cpp.s
+.PHONY : src/get_pose.cpp.s
+
 src/hello_moveit.o: src/hello_moveit.cpp.o
 .PHONY : src/hello_moveit.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... hello_moveit_uninstall"
 	@echo "... uninstall"
+	@echo "... get_eef_pose"
 	@echo "... hello_moveit"
+	@echo "... src/get_pose.o"
+	@echo "... src/get_pose.i"
+	@echo "... src/get_pose.s"
 	@echo "... src/hello_moveit.o"
 	@echo "... src/hello_moveit.i"
 	@echo "... src/hello_moveit.s"

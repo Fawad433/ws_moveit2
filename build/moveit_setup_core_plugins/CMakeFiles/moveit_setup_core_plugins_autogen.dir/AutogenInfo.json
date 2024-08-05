@@ -2552,9 +2552,9 @@
 	"MOC_INCLUDES" : 
 	[
 		"/home/robot/ws_moveit2/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins/include",
-		"/home/robot/ws_moveit2/install/srdfdom/include",
 		"/home/robot/ws_moveit2/install/moveit_setup_framework/include",
 		"/home/robot/ws_moveit2/install/moveit_ros_visualization/include",
+		"/home/robot/ws_moveit2/install/srdfdom/include",
 		"/opt/ros/humble/include/ament_index_cpp",
 		"/opt/ros/humble/include/pluginlib",
 		"/opt/ros/humble/include/rclcpp",
