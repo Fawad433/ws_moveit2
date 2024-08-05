@@ -1,3 +1,6 @@
+# NOTE: This has issue when I plan with RVIZ planning
+
+
 import os
 import yaml
 import xacro
@@ -168,4 +171,3 @@ def generate_launch_description():
     ] + spawn_controllers)
 
 
-# This has issue when I plan with RVIZ planning

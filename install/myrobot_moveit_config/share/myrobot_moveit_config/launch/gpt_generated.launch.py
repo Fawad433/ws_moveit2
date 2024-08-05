@@ -1,3 +1,6 @@
+# This works with planning script 
+# it has kinematics loading 
+
 import os
 from launch import LaunchDescription
 from moveit_configs_utils import MoveItConfigsBuilder
