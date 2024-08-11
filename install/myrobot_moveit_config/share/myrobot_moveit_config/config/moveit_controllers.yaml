@@ -17,9 +17,12 @@ moveit_simple_controller_manager:
       - link2_link3_joint
       - link3_link4_joint
       - link4_link5_joint
+    
   myrobot_hand_controller:
     type: GripperCommand
     joints:
       - hand_finger_joint1
     action_ns: gripper_cmd
     default: true
+  
+  

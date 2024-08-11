@@ -1,0 +1,12 @@
+[  0%] Built target gtest_autogen_timestamp_deps
+[  0%] Built target moveit_setup_controllers_autogen_timestamp_deps
+[  0%] Built target gtest_main_autogen_timestamp_deps
+[  2%] Built target gtest_autogen
+[  5%] Built target gtest_main_autogen
+[  8%] Built target moveit_setup_controllers_autogen
+[ 20%] Built target gtest
+[ 31%] Built target gtest_main
+[ 88%] Built target moveit_setup_controllers
+[ 88%] Built target test_controllers_autogen_timestamp_deps
+[ 91%] Built target test_controllers_autogen
+[100%] Built target test_controllers

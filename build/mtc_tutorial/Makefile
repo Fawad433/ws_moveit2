@@ -210,6 +210,19 @@ mtc_tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mtc_tutorial.dir/build.make CMakeFiles/mtc_tutorial.dir/build
 .PHONY : mtc_tutorial/fast
 
+#=============================================================================
+# Target rules for targets named myrobot_mtc_tutorial
+
+# Build rule for target.
+myrobot_mtc_tutorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myrobot_mtc_tutorial
+.PHONY : myrobot_mtc_tutorial
+
+# fast build rule for target.
+myrobot_mtc_tutorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/build
+.PHONY : myrobot_mtc_tutorial/fast
+
 src/mtc_tutorial.o: src/mtc_tutorial.cpp.o
 .PHONY : src/mtc_tutorial.o
 
@@ -234,6 +247,30 @@ src/mtc_tutorial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mtc_tutorial.dir/build.make CMakeFiles/mtc_tutorial.dir/src/mtc_tutorial.cpp.s
 .PHONY : src/mtc_tutorial.cpp.s
 
+src/myrobot_mtc_tutorial.o: src/myrobot_mtc_tutorial.cpp.o
+.PHONY : src/myrobot_mtc_tutorial.o
+
+# target to build an object file
+src/myrobot_mtc_tutorial.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/src/myrobot_mtc_tutorial.cpp.o
+.PHONY : src/myrobot_mtc_tutorial.cpp.o
+
+src/myrobot_mtc_tutorial.i: src/myrobot_mtc_tutorial.cpp.i
+.PHONY : src/myrobot_mtc_tutorial.i
+
+# target to preprocess a source file
+src/myrobot_mtc_tutorial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/src/myrobot_mtc_tutorial.cpp.i
+.PHONY : src/myrobot_mtc_tutorial.cpp.i
+
+src/myrobot_mtc_tutorial.s: src/myrobot_mtc_tutorial.cpp.s
+.PHONY : src/myrobot_mtc_tutorial.s
+
+# target to generate assembly for a file
+src/myrobot_mtc_tutorial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/src/myrobot_mtc_tutorial.cpp.s
+.PHONY : src/myrobot_mtc_tutorial.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... mtc_tutorial_uninstall"
 	@echo "... uninstall"
 	@echo "... mtc_tutorial"
+	@echo "... myrobot_mtc_tutorial"
 	@echo "... src/mtc_tutorial.o"
 	@echo "... src/mtc_tutorial.i"
 	@echo "... src/mtc_tutorial.s"
+	@echo "... src/myrobot_mtc_tutorial.o"
+	@echo "... src/myrobot_mtc_tutorial.i"
+	@echo "... src/myrobot_mtc_tutorial.s"
 .PHONY : help
 
 

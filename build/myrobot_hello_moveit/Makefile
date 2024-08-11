@@ -198,6 +198,19 @@ myrobot_hello_moveit_uninstall/fast:
 .PHONY : myrobot_hello_moveit_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named myrobot_planning_around_objects
+
+# Build rule for target.
+myrobot_planning_around_objects: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myrobot_planning_around_objects
+.PHONY : myrobot_planning_around_objects
+
+# fast build rule for target.
+myrobot_planning_around_objects/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_planning_around_objects.dir/build.make CMakeFiles/myrobot_planning_around_objects.dir/build
+.PHONY : myrobot_planning_around_objects/fast
+
+#=============================================================================
 # Target rules for targets named myrobot_hello_moveit
 
 # Build rule for target.
@@ -271,6 +284,30 @@ src/myrobot_hello_moveit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_hello_moveit.dir/build.make CMakeFiles/myrobot_hello_moveit.dir/src/myrobot_hello_moveit.cpp.s
 .PHONY : src/myrobot_hello_moveit.cpp.s
 
+src/myrobot_planningaroundobjects.o: src/myrobot_planningaroundobjects.cpp.o
+.PHONY : src/myrobot_planningaroundobjects.o
+
+# target to build an object file
+src/myrobot_planningaroundobjects.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_planning_around_objects.dir/build.make CMakeFiles/myrobot_planning_around_objects.dir/src/myrobot_planningaroundobjects.cpp.o
+.PHONY : src/myrobot_planningaroundobjects.cpp.o
+
+src/myrobot_planningaroundobjects.i: src/myrobot_planningaroundobjects.cpp.i
+.PHONY : src/myrobot_planningaroundobjects.i
+
+# target to preprocess a source file
+src/myrobot_planningaroundobjects.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_planning_around_objects.dir/build.make CMakeFiles/myrobot_planning_around_objects.dir/src/myrobot_planningaroundobjects.cpp.i
+.PHONY : src/myrobot_planningaroundobjects.cpp.i
+
+src/myrobot_planningaroundobjects.s: src/myrobot_planningaroundobjects.cpp.s
+.PHONY : src/myrobot_planningaroundobjects.s
+
+# target to generate assembly for a file
+src/myrobot_planningaroundobjects.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_planning_around_objects.dir/build.make CMakeFiles/myrobot_planning_around_objects.dir/src/myrobot_planningaroundobjects.cpp.s
+.PHONY : src/myrobot_planningaroundobjects.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +325,16 @@ help:
 	@echo "... uninstall"
 	@echo "... get_eef_pose"
 	@echo "... myrobot_hello_moveit"
+	@echo "... myrobot_planning_around_objects"
 	@echo "... src/myrobot_get_pose.o"
 	@echo "... src/myrobot_get_pose.i"
 	@echo "... src/myrobot_get_pose.s"
 	@echo "... src/myrobot_hello_moveit.o"
 	@echo "... src/myrobot_hello_moveit.i"
 	@echo "... src/myrobot_hello_moveit.s"
+	@echo "... src/myrobot_planningaroundobjects.o"
+	@echo "... src/myrobot_planningaroundobjects.i"
+	@echo "... src/myrobot_planningaroundobjects.s"
 .PHONY : help
 
 

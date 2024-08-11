@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/robot/ws_moveit2/build/myrobot_hello_moveit
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/myrobot_planning_around_objects.dir/all
 all: CMakeFiles/myrobot_hello_moveit.dir/all
 all: CMakeFiles/get_eef_pose.dir/all
 .PHONY : all
@@ -74,6 +75,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/myrobot_hello_moveit_uninstall.dir/clean
+clean: CMakeFiles/myrobot_planning_around_objects.dir/clean
 clean: CMakeFiles/myrobot_hello_moveit.dir/clean
 clean: CMakeFiles/get_eef_pose.dir/clean
 .PHONY : clean
@@ -129,6 +131,32 @@ myrobot_hello_moveit_uninstall: CMakeFiles/myrobot_hello_moveit_uninstall.dir/ru
 CMakeFiles/myrobot_hello_moveit_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_hello_moveit_uninstall.dir/build.make CMakeFiles/myrobot_hello_moveit_uninstall.dir/clean
 .PHONY : CMakeFiles/myrobot_hello_moveit_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myrobot_planning_around_objects.dir
+
+# All Build rule for target.
+CMakeFiles/myrobot_planning_around_objects.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_planning_around_objects.dir/build.make CMakeFiles/myrobot_planning_around_objects.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_planning_around_objects.dir/build.make CMakeFiles/myrobot_planning_around_objects.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robot/ws_moveit2/build/myrobot_hello_moveit/CMakeFiles --progress-num=5,6 "Built target myrobot_planning_around_objects"
+.PHONY : CMakeFiles/myrobot_planning_around_objects.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myrobot_planning_around_objects.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/ws_moveit2/build/myrobot_hello_moveit/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/myrobot_planning_around_objects.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/ws_moveit2/build/myrobot_hello_moveit/CMakeFiles 0
+.PHONY : CMakeFiles/myrobot_planning_around_objects.dir/rule
+
+# Convenience name for target.
+myrobot_planning_around_objects: CMakeFiles/myrobot_planning_around_objects.dir/rule
+.PHONY : myrobot_planning_around_objects
+
+# clean rule for target.
+CMakeFiles/myrobot_planning_around_objects.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_planning_around_objects.dir/build.make CMakeFiles/myrobot_planning_around_objects.dir/clean
+.PHONY : CMakeFiles/myrobot_planning_around_objects.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/myrobot_hello_moveit.dir

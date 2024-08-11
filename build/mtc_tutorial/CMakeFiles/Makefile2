@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/robot/ws_moveit2/build/mtc_tutorial
 
 # The main recursive "all" target.
 all: CMakeFiles/mtc_tutorial.dir/all
+all: CMakeFiles/myrobot_mtc_tutorial.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/mtc_tutorial_uninstall.dir/clean
 clean: CMakeFiles/mtc_tutorial.dir/clean
+clean: CMakeFiles/myrobot_mtc_tutorial.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ mtc_tutorial: CMakeFiles/mtc_tutorial.dir/rule
 CMakeFiles/mtc_tutorial.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mtc_tutorial.dir/build.make CMakeFiles/mtc_tutorial.dir/clean
 .PHONY : CMakeFiles/mtc_tutorial.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myrobot_mtc_tutorial.dir
+
+# All Build rule for target.
+CMakeFiles/myrobot_mtc_tutorial.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles --progress-num=3,4 "Built target myrobot_mtc_tutorial"
+.PHONY : CMakeFiles/myrobot_mtc_tutorial.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myrobot_mtc_tutorial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/myrobot_mtc_tutorial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles 0
+.PHONY : CMakeFiles/myrobot_mtc_tutorial.dir/rule
+
+# Convenience name for target.
+myrobot_mtc_tutorial: CMakeFiles/myrobot_mtc_tutorial.dir/rule
+.PHONY : myrobot_mtc_tutorial
+
+# clean rule for target.
+CMakeFiles/myrobot_mtc_tutorial.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/clean
+.PHONY : CMakeFiles/myrobot_mtc_tutorial.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,57 @@
+[0.045s] Invoking command in '/home/robot/ws_moveit2/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --build /home/robot/ws_moveit2/build/srdfdom -- -j6 -l6
+[0.289s] [ 27%] Built target srdfdom
+[0.306s] [ 27%] Built target ament_cmake_python_copy_srdfdom
+[0.308s] [ 45%] Built target gtest_main
+[0.317s] [ 63%] Built target gtest
+[0.362s] [ 81%] Built target test_cpp_C
+[0.364s] [100%] Built target test_cpp_nl_NL.UTF-8
+[0.809s] running egg_info
+[0.810s] writing srdfdom.egg-info/PKG-INFO
+[0.810s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[0.811s] writing top-level names to srdfdom.egg-info/top_level.txt
+[0.814s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.814s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.849s] [100%] Built target ament_cmake_python_build_srdfdom_egg
+[0.877s] Invoked command in '/home/robot/ws_moveit2/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --build /home/robot/ws_moveit2/build/srdfdom -- -j6 -l6
+[1.158s] Invoking command in '/home/robot/ws_moveit2/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --install /home/robot/ws_moveit2/build/srdfdom
+[1.294s] -- Install configuration: "Release"
+[1.294s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[1.295s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/lib/libsrdfdom.so
+[1.295s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/include/srdfdom
+[1.296s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/include/srdfdom/model.h
+[1.296s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/include/srdfdom/srdf_writer.h
+[1.296s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/include/srdfdom/visibility_control.h
+[1.296s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/lib/srdfdom/display_srdf
+[1.297s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[1.297s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[1.297s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+[1.298s] -- Installing: /home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+[1.298s] -- Installing: /home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+[1.299s] -- Installing: /home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+[1.300s] -- Installing: /home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+[1.300s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[1.300s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[1.300s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[1.370s] Listing '/home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[1.377s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/environment/library_path.sh
+[1.377s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[1.378s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[1.378s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[1.378s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[1.379s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[1.379s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/environment/path.sh
+[1.379s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/environment/path.dsv
+[1.380s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.bash
+[1.380s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.sh
+[1.380s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.zsh
+[1.381s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.dsv
+[1.381s] -- Installing: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/package.dsv
+[1.382s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[1.382s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[1.382s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-release.cmake
+[1.383s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[1.383s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.384s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[1.384s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[1.384s] -- Up-to-date: /home/robot/ws_moveit2/install/srdfdom/share/srdfdom/package.xml
+[1.404s] Invoked command in '/home/robot/ws_moveit2/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --install /home/robot/ws_moveit2/build/srdfdom

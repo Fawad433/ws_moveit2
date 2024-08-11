@@ -1,5 +1,6 @@
 /home/robot/ws_moveit2/build/myrobot_hello_moveit/CMakeFiles/uninstall.dir
 /home/robot/ws_moveit2/build/myrobot_hello_moveit/CMakeFiles/myrobot_hello_moveit_uninstall.dir
+/home/robot/ws_moveit2/build/myrobot_hello_moveit/CMakeFiles/myrobot_planning_around_objects.dir
 /home/robot/ws_moveit2/build/myrobot_hello_moveit/CMakeFiles/myrobot_hello_moveit.dir
 /home/robot/ws_moveit2/build/myrobot_hello_moveit/CMakeFiles/get_eef_pose.dir
 /home/robot/ws_moveit2/build/myrobot_hello_moveit/CMakeFiles/test.dir

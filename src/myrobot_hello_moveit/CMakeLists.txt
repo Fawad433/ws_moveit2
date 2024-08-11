@@ -17,7 +17,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(moveit_visual_tools REQUIRED)
 
 
-
+add_executable(myrobot_planning_around_objects src/myrobot_planningaroundobjects.cpp)
 add_executable(myrobot_hello_moveit src/myrobot_hello_moveit.cpp)
 add_executable(get_eef_pose src/myrobot_get_pose.cpp)
 
@@ -45,9 +45,20 @@ ament_target_dependencies(
   "moveit_visual_tools"
 )
 
+ament_target_dependencies(
+  myrobot_planning_around_objects
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "moveit_core"
+  "moveit_ros_planning"
+  "geometry_msgs"
+  "moveit_visual_tools"
+)
+
 install(TARGETS 
   myrobot_hello_moveit 
   get_eef_pose
+  myrobot_planning_around_objects
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch/
