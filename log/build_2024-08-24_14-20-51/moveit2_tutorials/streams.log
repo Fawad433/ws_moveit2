@@ -1,0 +1,308 @@
+[0.446s] Invoking command in '/home/robot/ws_moveit2/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robot/ws_moveit2/install/moveit_resources:/home/robot/ws_moveit2/install/myrobot_moveit_config:/home/robot/ws_moveit2/install/moveit_runtime:/home/robot/ws_moveit2/install/moveit2_tutorials:/home/robot/ws_moveit2/install/moveit:/home/robot/ws_moveit2/install/moveit_planners:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner:/home/robot/ws_moveit2/install/myrobot_hello_moveit:/home/robot/ws_moveit2/install/mtc_tutorial:/home/robot/ws_moveit2/install/hello_moveit:/home/robot/ws_moveit2/install/moveit_visual_tools:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization:/home/robot/ws_moveit2/install/moveit_task_constructor_demo:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities:/home/robot/ws_moveit2/install/moveit_task_constructor_core:/home/robot/ws_moveit2/install/moveit_ros_control_interface:/home/robot/ws_moveit2/install/moveit_plugins:/home/robot/ws_moveit2/install/moveit_simple_controller_manager:/home/robot/ws_moveit2/install/moveit_setup_assistant:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robot/ws_moveit2/install/moveit_setup_core_plugins:/home/robot/ws_moveit2/install/moveit_setup_controllers:/home/robot/ws_moveit2/install/moveit_setup_app_plugins:/home/robot/ws_moveit2/install/moveit_setup_framework:/home/robot/ws_moveit2/install/moveit_servo:/home/robot/ws_moveit2/install/moveit_ros:/home/robot/ws_moveit2/install/moveit_ros_visualization:/home/robot/ws_moveit2/install/moveit_hybrid_planning:/home/robot/ws_moveit2/install/moveit_ros_planning_interface:/home/robot/ws_moveit2/install/moveit_ros_benchmarks:/home/robot/ws_moveit2/install/moveit_ros_warehouse:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction:/home/robot/ws_moveit2/install/moveit_ros_perception:/home/robot/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robot/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robot/ws_moveit2/install/moveit_ros_move_group:/home/robot/ws_moveit2/install/moveit_planners_ompl:/home/robot/ws_moveit2/install/moveit_ros_planning:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robot/ws_moveit2/install/moveit_planners_chomp:/home/robot/ws_moveit2/install/moveit_kinematics:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robot/ws_moveit2/install/chomp_motion_planner:/home/robot/ws_moveit2/install/moveit_core:/home/robot/ws_moveit2/install/srdfdom:/home/robot/ws_moveit2/install/rviz_marker_tools:/home/robot/ws_moveit2/install/rosparam_shortcuts:/home/robot/ws_moveit2/install/my_6DOF_roboticarm:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs:/home/robot/ws_moveit2/install/moveit_resources_prbt_support:/home/robot/ws_moveit2/install/moveit_resources_pr2_description:/home/robot/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_panda_description:/home/robot/ws_moveit2/install/moveit_resources_myrobot_description:/home/robot/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_fanuc_description:/home/robot/ws_moveit2/install/moveit_common:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_robot_bringup:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/my_robot_interfaces:/home/robot/ros2_ws/install/my_robot_firstrobot:/home/robot/ros2_ws/install/my_robot_first_roboticarm:/home/robot/ros2_ws/install/my_cpp_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/home/robot/turtlebot_ws/install/turtlebot3_simulations:/home/robot/turtlebot_ws/install/turtlebot3_gazebo:/home/robot/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=/home/robot/ws_moveit2/install/moveit:/home/robot/ws_moveit2/install/moveit_task_constructor_core:/home/robot/ws_moveit2/install/moveit_setup_assistant:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robot/ws_moveit2/install/moveit_setup_core_plugins:/home/robot/ws_moveit2/install/moveit_setup_controllers:/home/robot/ws_moveit2/install/moveit_setup_app_plugins:/home/robot/ws_moveit2/install/moveit_planners:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner:/home/robot/ws_moveit2/install/moveit_setup_framework:/home/robot/ws_moveit2/install/moveit_ros:/home/robot/ws_moveit2/install/moveit_servo:/home/robot/ws_moveit2/install/moveit_ros_visualization:/home/robot/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robot/ws_moveit2/install/moveit_hybrid_planning:/home/robot/ws_moveit2/install/moveit_ros_planning_interface:/home/robot/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robot/ws_moveit2/install/moveit_ros_move_group:/home/robot/ws_moveit2/install/moveit_ros_benchmarks:/home/robot/ws_moveit2/install/moveit_visual_tools:/home/robot/ws_moveit2/install/moveit_ros_warehouse:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction:/home/robot/ws_moveit2/install/moveit_ros_perception:/home/robot/ws_moveit2/install/moveit_planners_ompl:/home/robot/ws_moveit2/install/moveit_kinematics:/home/robot/ws_moveit2/install/moveit_ros_planning:/home/robot/ws_moveit2/install/moveit_plugins:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robot/ws_moveit2/install/moveit_simple_controller_manager:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robot/ws_moveit2/install/moveit_core:/home/robot/ws_moveit2/install/rviz_marker_tools:/home/robot/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/robot/ws_moveit2/install/srdfdom:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs:/home/robot/ws_moveit2/install/moveit_resources_prbt_support:/home/robot/ws_moveit2/install/moveit_resources_pr2_description:/home/robot/ws_moveit2/install/moveit_resources_panda_description:/home/robot/ws_moveit2/install/moveit_resources_fanuc_description:/home/robot/ws_moveit2/install/moveit_common:/home/robot/ws_moveit2/install/moveit_resources:/home/robot/ws_moveit2/install/myrobot_moveit_config:/home/robot/ws_moveit2/install/moveit_runtime:/home/robot/ws_moveit2/install/moveit2_tutorials:/home/robot/ws_moveit2/install/myrobot_hello_moveit:/home/robot/ws_moveit2/install/mtc_tutorial:/home/robot/ws_moveit2/install/hello_moveit:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization:/home/robot/ws_moveit2/install/moveit_task_constructor_demo:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities:/home/robot/ws_moveit2/install/moveit_ros_control_interface:/home/robot/ws_moveit2/install/moveit_planners_chomp:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robot/ws_moveit2/install/chomp_motion_planner:/home/robot/ws_moveit2/install/rosparam_shortcuts:/home/robot/ws_moveit2/install/my_6DOF_roboticarm:/home/robot/ws_moveit2/install/moveit_resources_myrobot_description:/home/robot/ros2_ws/install/my_robot_bringup:/home/robot/ros2_ws/install/my_robot_interfaces:/home/robot/ros2_ws/install/my_robot_firstrobot:/home/robot/ros2_ws/install/my_robot_first_roboticarm:/home/robot/ros2_ws/install/my_cpp_pkg:/home/robot/turtlebot_ws/install/turtlebot3_simulations:/home/robot/turtlebot_ws/install/turtlebot3_gazebo:/home/robot/turtlebot_ws/install/turtlebot3_fake_node:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/ws_moveit2/install/moveit_task_constructor_core/lib:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_controllers/lib:/home/robot/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_setup_framework/lib:/home/robot/ws_moveit2/install/moveit_servo/lib:/home/robot/ws_moveit2/install/moveit_ros_visualization/lib:/home/robot/ws_moveit2/install/moveit_hybrid_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/robot/ws_moveit2/install/moveit_ros_move_group/lib:/home/robot/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/robot/ws_moveit2/install/moveit_visual_tools/lib:/home/robot/ws_moveit2/install/moveit_ros_warehouse/lib:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/robot/ws_moveit2/install/moveit_ros_perception/lib:/home/robot/ws_moveit2/install/moveit_planners_ompl/lib:/home/robot/ws_moveit2/install/moveit_kinematics/lib:/home/robot/ws_moveit2/install/moveit_ros_planning/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/robot/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/rviz_marker_tools/lib:/home/robot/ws_moveit2/install/srdfdom/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/robot/ws_moveit2/install/moveit_ros_control_interface/lib:/home/robot/ws_moveit2/install/moveit_setup_assistant/lib:/home/robot/ws_moveit2/install/moveit_planners_chomp/lib:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/robot/ws_moveit2/install/chomp_motion_planner/lib:/home/robot/ws_moveit2/install/rosparam_shortcuts/lib:/home/robot/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robot/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/home/robot/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/robot/ros2_ws/install/my_turtlesim_project/lib/python3.10/site-packages:/home/robot/ros2_ws/install/my_robot_first_servo_control/lib/python3.10/site-packages:/home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/robot/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/robot/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:/home/robot/ros2_ws/install/course3_project/lib/python3.10/site-packages:/home/robot/ros2_ws/install/actions_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/robot/.local/bin/cmake --build /home/robot/ws_moveit2/build/moveit2_tutorials -- -j6 -l6
+[0.614s] -- Found moveit_common: 2.5.5 (/home/robot/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.615s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.229s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.229s] -- BACKWARD_HAS_UNWIND=1
+[1.229s] -- BACKWARD_HAS_BACKTRACE=0
+[1.229s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.229s] -- BACKWARD_HAS_DW=1
+[1.229s] -- BACKWARD_HAS_BFD=0
+[1.231s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake
+[1.233s] [33mCMake Warning (dev) at CMakeLists.txt:9 (find_package):
+[1.233s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.233s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.233s]   set the policy and suppress this warning.
+[1.233s] 
+[1.233s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.233s] [0m
+[1.250s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread
+[1.252s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.289s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.304s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.310s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.335s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.370s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.233s] -- Found moveit_core: 2.5.5 (/home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[2.233s] [33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+[2.233s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.233s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.233s]   set the policy and suppress this warning.
+[2.233s] 
+[2.233s] Call Stack (most recent call first):
+[2.233s]   /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[2.233s]   CMakeLists.txt:12 (find_package)
+[2.233s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.233s] [0m
+[2.251s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread
+[2.303s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.390s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.397s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.676s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.921s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.992s] [33mCMake Warning (dev) at /opt/ros/humble/share/geometric_shapes/cmake/ConfigExtras.cmake:31 (find_package):
+[2.992s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.992s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.992s]   set the policy and suppress this warning.
+[2.992s] 
+[2.992s] Call Stack (most recent call first):
+[2.992s]   /opt/ros/humble/share/geometric_shapes/cmake/geometric_shapesConfig.cmake:41 (include)
+[2.992s]   /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.992s]   /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[2.992s]   CMakeLists.txt:12 (find_package)
+[2.992s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.992s] [0m
+[2.997s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem
+[3.083s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.417s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.874s] -- Found moveit_task_constructor_core: 0.1.3 (/home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[4.978s] [33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+[4.978s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[4.978s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[4.978s]   set the policy and suppress this warning.
+[4.978s] 
+[4.979s] Call Stack (most recent call first):
+[4.979s]   /home/robot/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+[4.979s]   /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.979s]   /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+[4.979s]   CMakeLists.txt:13 (find_package)
+[4.979s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.979s] [0m
+[4.985s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono
+[5.810s] [33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+[5.810s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[5.810s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[5.810s]   set the policy and suppress this warning.
+[5.810s] 
+[5.810s] Call Stack (most recent call first):
+[5.810s]   /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[5.811s]   /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[5.811s]   /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+[5.811s]   CMakeLists.txt:13 (find_package)
+[5.811s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.811s] [0m
+[5.817s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread
+[6.106s] [33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+[6.106s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[6.106s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[6.106s]   set the policy and suppress this warning.
+[6.106s] 
+[6.106s] Call Stack (most recent call first):
+[6.106s]   /home/robot/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+[6.106s]   /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.106s]   /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[6.107s]   /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.107s]   /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+[6.107s]   CMakeLists.txt:13 (find_package)
+[6.107s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.107s] [0m
+[6.113s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options
+[6.473s] [33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+[6.473s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[6.473s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[6.473s]   set the policy and suppress this warning.
+[6.474s] 
+[6.474s] Call Stack (most recent call first):
+[6.474s]   /home/robot/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+[6.474s]   /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.474s]   /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[6.474s]   /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.474s]   /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+[6.474s]   CMakeLists.txt:13 (find_package)
+[6.474s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.474s] [0m
+[6.480s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread
+[7.809s] -- Found moveit_ros_perception: 2.5.5 (/home/robot/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake)
+[7.810s] [33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake/ConfigExtras.cmake:3 (find_package):
+[7.810s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[7.810s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[7.810s]   set the policy and suppress this warning.
+[7.810s] 
+[7.810s] Call Stack (most recent call first):
+[7.810s]   /home/robot/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig.cmake:41 (include)
+[7.810s]   CMakeLists.txt:16 (find_package)
+[7.810s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.810s] [0m
+[7.814s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread
+[8.281s] -- Found moveit_servo: 2.5.5 (/home/robot/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake)
+[9.186s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[9.205s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[9.377s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[9.379s] -- Found OGRE
+[9.379s] --   static     : OFF
+[9.379s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[9.379s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[9.379s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[9.380s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[9.380s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[9.380s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[9.380s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[9.380s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[9.380s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[9.380s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[9.380s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[9.655s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[9.655s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[10.591s] -- Found moveit_visual_tools: 4.1.0 (/home/robot/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[11.690s] [33mCMake Warning (dev) at doc/examples/perception_pipeline/CMakeLists.txt:7 (find_package):
+[11.690s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[11.690s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[11.690s]   set the policy and suppress this warning.
+[11.690s] 
+[11.691s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.691s] [0m
+[11.695s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")
+[11.738s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[11.738s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[11.738s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[11.738s]   cmake_policy command to set the policy and suppress this warning.
+[11.739s] 
+[11.739s]   CMake variable EIGEN_ROOT is set to:
+[11.739s] 
+[11.739s]     /usr/include/eigen3
+[11.739s] 
+[11.739s]   For compatibility, find_package is ignoring the variable, but code in a
+[11.739s]   .cmake module might still use it.
+[11.740s] Call Stack (most recent call first):
+[11.740s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[11.740s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[11.740s]   doc/examples/perception_pipeline/CMakeLists.txt:10 (find_package)
+[11.740s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.741s] [0m
+[11.751s] -- Checking for module 'eigen3'
+[11.797s] --   Found eigen3, version 3.4.0
+[11.916s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[11.916s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.917s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[11.917s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[11.918s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[11.918s]   set the policy and suppress this warning.
+[11.918s] 
+[11.918s] Call Stack (most recent call first):
+[11.918s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[11.918s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[11.918s]   doc/examples/perception_pipeline/CMakeLists.txt:10 (find_package)
+[11.918s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.919s] [0m
+[11.932s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization
+[11.946s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[11.946s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[11.946s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[11.946s]   cmake_policy command to set the policy and suppress this warning.
+[11.946s] 
+[11.946s]   CMake variable FLANN_ROOT is set to:
+[11.946s] 
+[11.946s]     /usr
+[11.946s] 
+[11.946s]   For compatibility, find_package is ignoring the variable, but code in a
+[11.946s]   .cmake module might still use it.
+[11.946s] Call Stack (most recent call first):
+[11.946s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[11.946s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[11.946s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[11.946s]   doc/examples/perception_pipeline/CMakeLists.txt:10 (find_package)
+[11.946s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.950s] [0m
+[12.000s] -- Checking for module 'flann'
+[12.104s] --   Found flann, version 1.9.1
+[12.408s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[12.408s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[12.494s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so
+[12.500s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX
+[13.049s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1")
+[13.054s] -- Found MPI: TRUE (found version "3.1") found components: C
+[13.073s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0")
+[13.159s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37")
+[13.171s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0")
+[13.774s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7")
+[13.780s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so
+[13.789s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3")
+[13.795s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5")
+[13.830s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80")
+[13.882s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")
+[13.894s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1")
+[13.907s] -- Found utf8cpp: /usr/include/utf8cpp
+[14.150s] -- Checking for module 'libusb-1.0'
+[14.210s] --   Found libusb-1.0, version 1.0.25
+[14.324s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[14.334s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0")
+[14.334s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.564s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33")
+[14.565s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[14.566s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[15.310s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[15.311s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[15.311s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[15.311s]   set the policy and suppress this warning.
+[15.311s] 
+[15.311s] Call Stack (most recent call first):
+[15.311s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[15.311s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[15.311s]   doc/examples/perception_pipeline/CMakeLists.txt:10 (find_package)
+[15.311s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.311s] [0m
+[15.335s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[15.350s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.366s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[16.040s] -- Found Qhull version 8.0.2
+[16.674s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.294s] -- looking for PCL_COMMON
+[17.296s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[17.296s] -- looking for PCL_KDTREE
+[17.297s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[17.297s] -- looking for PCL_OCTREE
+[17.299s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[17.299s] -- looking for PCL_SEARCH
+[17.301s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[17.301s] -- looking for PCL_SAMPLE_CONSENSUS
+[17.303s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[17.303s] -- looking for PCL_FILTERS
+[17.304s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[17.304s] -- looking for PCL_2D
+[17.305s] -- Found PCL_2D: /usr/include/pcl-1.12
+[17.305s] -- looking for PCL_GEOMETRY
+[17.306s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[17.306s] -- looking for PCL_IO
+[17.308s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[17.308s] -- looking for PCL_FEATURES
+[17.310s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[17.311s] -- looking for PCL_ML
+[17.312s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[17.312s] -- looking for PCL_SEGMENTATION
+[17.313s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[17.314s] -- looking for PCL_VISUALIZATION
+[17.315s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[17.316s] -- looking for PCL_SURFACE
+[17.317s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[17.317s] -- looking for PCL_REGISTRATION
+[17.319s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[17.319s] -- looking for PCL_KEYPOINTS
+[17.320s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[17.321s] -- looking for PCL_TRACKING
+[17.321s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[17.321s] -- looking for PCL_RECOGNITION
+[17.321s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[17.321s] -- looking for PCL_STEREO
+[17.327s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[17.327s] -- looking for PCL_APPS
+[17.329s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[17.330s] -- looking for PCL_IN_HAND_SCANNER
+[17.330s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[17.330s] -- looking for PCL_MODELER
+[17.331s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[17.331s] -- looking for PCL_POINT_CLOUD_EDITOR
+[17.332s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[17.332s] -- looking for PCL_OUTOFCORE
+[17.333s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[17.333s] -- looking for PCL_PEOPLE
+[17.335s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[17.336s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL
+[17.369s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[17.369s]   ament_target_dependencies() the passed package name 'rosbag2_cpp' was not
+[17.369s]   found before
+[17.369s] Call Stack (most recent call first):
+[17.369s]   doc/examples/perception_pipeline/CMakeLists.txt:18 (ament_target_dependencies)
+[17.369s] 
+[17.369s] [0m
+[17.369s] -- Configuring incomplete, errors occurred!
+[17.416s] gmake: *** [Makefile:436: cmake_check_build_system] Error 1
+[17.434s] Invoked command in '/home/robot/ws_moveit2/build/moveit2_tutorials' returned '2': AMENT_PREFIX_PATH=/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robot/ws_moveit2/install/moveit_resources:/home/robot/ws_moveit2/install/myrobot_moveit_config:/home/robot/ws_moveit2/install/moveit_runtime:/home/robot/ws_moveit2/install/moveit2_tutorials:/home/robot/ws_moveit2/install/moveit:/home/robot/ws_moveit2/install/moveit_planners:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner:/home/robot/ws_moveit2/install/myrobot_hello_moveit:/home/robot/ws_moveit2/install/mtc_tutorial:/home/robot/ws_moveit2/install/hello_moveit:/home/robot/ws_moveit2/install/moveit_visual_tools:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization:/home/robot/ws_moveit2/install/moveit_task_constructor_demo:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities:/home/robot/ws_moveit2/install/moveit_task_constructor_core:/home/robot/ws_moveit2/install/moveit_ros_control_interface:/home/robot/ws_moveit2/install/moveit_plugins:/home/robot/ws_moveit2/install/moveit_simple_controller_manager:/home/robot/ws_moveit2/install/moveit_setup_assistant:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robot/ws_moveit2/install/moveit_setup_core_plugins:/home/robot/ws_moveit2/install/moveit_setup_controllers:/home/robot/ws_moveit2/install/moveit_setup_app_plugins:/home/robot/ws_moveit2/install/moveit_setup_framework:/home/robot/ws_moveit2/install/moveit_servo:/home/robot/ws_moveit2/install/moveit_ros:/home/robot/ws_moveit2/install/moveit_ros_visualization:/home/robot/ws_moveit2/install/moveit_hybrid_planning:/home/robot/ws_moveit2/install/moveit_ros_planning_interface:/home/robot/ws_moveit2/install/moveit_ros_benchmarks:/home/robot/ws_moveit2/install/moveit_ros_warehouse:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction:/home/robot/ws_moveit2/install/moveit_ros_perception:/home/robot/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robot/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robot/ws_moveit2/install/moveit_ros_move_group:/home/robot/ws_moveit2/install/moveit_planners_ompl:/home/robot/ws_moveit2/install/moveit_ros_planning:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robot/ws_moveit2/install/moveit_planners_chomp:/home/robot/ws_moveit2/install/moveit_kinematics:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robot/ws_moveit2/install/chomp_motion_planner:/home/robot/ws_moveit2/install/moveit_core:/home/robot/ws_moveit2/install/srdfdom:/home/robot/ws_moveit2/install/rviz_marker_tools:/home/robot/ws_moveit2/install/rosparam_shortcuts:/home/robot/ws_moveit2/install/my_6DOF_roboticarm:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs:/home/robot/ws_moveit2/install/moveit_resources_prbt_support:/home/robot/ws_moveit2/install/moveit_resources_pr2_description:/home/robot/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_panda_description:/home/robot/ws_moveit2/install/moveit_resources_myrobot_description:/home/robot/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_fanuc_description:/home/robot/ws_moveit2/install/moveit_common:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_robot_bringup:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/my_robot_interfaces:/home/robot/ros2_ws/install/my_robot_firstrobot:/home/robot/ros2_ws/install/my_robot_first_roboticarm:/home/robot/ros2_ws/install/my_cpp_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/home/robot/turtlebot_ws/install/turtlebot3_simulations:/home/robot/turtlebot_ws/install/turtlebot3_gazebo:/home/robot/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=/home/robot/ws_moveit2/install/moveit:/home/robot/ws_moveit2/install/moveit_task_constructor_core:/home/robot/ws_moveit2/install/moveit_setup_assistant:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robot/ws_moveit2/install/moveit_setup_core_plugins:/home/robot/ws_moveit2/install/moveit_setup_controllers:/home/robot/ws_moveit2/install/moveit_setup_app_plugins:/home/robot/ws_moveit2/install/moveit_planners:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner:/home/robot/ws_moveit2/install/moveit_setup_framework:/home/robot/ws_moveit2/install/moveit_ros:/home/robot/ws_moveit2/install/moveit_servo:/home/robot/ws_moveit2/install/moveit_ros_visualization:/home/robot/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robot/ws_moveit2/install/moveit_hybrid_planning:/home/robot/ws_moveit2/install/moveit_ros_planning_interface:/home/robot/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robot/ws_moveit2/install/moveit_ros_move_group:/home/robot/ws_moveit2/install/moveit_ros_benchmarks:/home/robot/ws_moveit2/install/moveit_visual_tools:/home/robot/ws_moveit2/install/moveit_ros_warehouse:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction:/home/robot/ws_moveit2/install/moveit_ros_perception:/home/robot/ws_moveit2/install/moveit_planners_ompl:/home/robot/ws_moveit2/install/moveit_kinematics:/home/robot/ws_moveit2/install/moveit_ros_planning:/home/robot/ws_moveit2/install/moveit_plugins:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robot/ws_moveit2/install/moveit_simple_controller_manager:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robot/ws_moveit2/install/moveit_core:/home/robot/ws_moveit2/install/rviz_marker_tools:/home/robot/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/robot/ws_moveit2/install/srdfdom:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs:/home/robot/ws_moveit2/install/moveit_resources_prbt_support:/home/robot/ws_moveit2/install/moveit_resources_pr2_description:/home/robot/ws_moveit2/install/moveit_resources_panda_description:/home/robot/ws_moveit2/install/moveit_resources_fanuc_description:/home/robot/ws_moveit2/install/moveit_common:/home/robot/ws_moveit2/install/moveit_resources:/home/robot/ws_moveit2/install/myrobot_moveit_config:/home/robot/ws_moveit2/install/moveit_runtime:/home/robot/ws_moveit2/install/moveit2_tutorials:/home/robot/ws_moveit2/install/myrobot_hello_moveit:/home/robot/ws_moveit2/install/mtc_tutorial:/home/robot/ws_moveit2/install/hello_moveit:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization:/home/robot/ws_moveit2/install/moveit_task_constructor_demo:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities:/home/robot/ws_moveit2/install/moveit_ros_control_interface:/home/robot/ws_moveit2/install/moveit_planners_chomp:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robot/ws_moveit2/install/chomp_motion_planner:/home/robot/ws_moveit2/install/rosparam_shortcuts:/home/robot/ws_moveit2/install/my_6DOF_roboticarm:/home/robot/ws_moveit2/install/moveit_resources_myrobot_description:/home/robot/ros2_ws/install/my_robot_bringup:/home/robot/ros2_ws/install/my_robot_interfaces:/home/robot/ros2_ws/install/my_robot_firstrobot:/home/robot/ros2_ws/install/my_robot_first_roboticarm:/home/robot/ros2_ws/install/my_cpp_pkg:/home/robot/turtlebot_ws/install/turtlebot3_simulations:/home/robot/turtlebot_ws/install/turtlebot3_gazebo:/home/robot/turtlebot_ws/install/turtlebot3_fake_node:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/ws_moveit2/install/moveit_task_constructor_core/lib:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_controllers/lib:/home/robot/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_setup_framework/lib:/home/robot/ws_moveit2/install/moveit_servo/lib:/home/robot/ws_moveit2/install/moveit_ros_visualization/lib:/home/robot/ws_moveit2/install/moveit_hybrid_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/robot/ws_moveit2/install/moveit_ros_move_group/lib:/home/robot/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/robot/ws_moveit2/install/moveit_visual_tools/lib:/home/robot/ws_moveit2/install/moveit_ros_warehouse/lib:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/robot/ws_moveit2/install/moveit_ros_perception/lib:/home/robot/ws_moveit2/install/moveit_planners_ompl/lib:/home/robot/ws_moveit2/install/moveit_kinematics/lib:/home/robot/ws_moveit2/install/moveit_ros_planning/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/robot/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/rviz_marker_tools/lib:/home/robot/ws_moveit2/install/srdfdom/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/robot/ws_moveit2/install/moveit_ros_control_interface/lib:/home/robot/ws_moveit2/install/moveit_setup_assistant/lib:/home/robot/ws_moveit2/install/moveit_planners_chomp/lib:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/robot/ws_moveit2/install/chomp_motion_planner/lib:/home/robot/ws_moveit2/install/rosparam_shortcuts/lib:/home/robot/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robot/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/home/robot/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/robot/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/robot/ros2_ws/install/my_turtlesim_project/lib/python3.10/site-packages:/home/robot/ros2_ws/install/my_robot_first_servo_control/lib/python3.10/site-packages:/home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/robot/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/robot/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:/home/robot/ros2_ws/install/course3_project/lib/python3.10/site-packages:/home/robot/ros2_ws/install/actions_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/robot/.local/bin/cmake --build /home/robot/ws_moveit2/build/moveit2_tutorials -- -j6 -l6

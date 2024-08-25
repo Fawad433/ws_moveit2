@@ -1,0 +1,11 @@
+[01m[K/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/perception_pipeline/src/bag_publisher_maintain_time.cpp:[m[K In member function ‘[01m[Kvoid BagPublisherMaintainTime::publishPointCloud()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/perception_pipeline/src/bag_publisher_maintain_time.cpp:52:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::SerializedMessage[m[K’ has no member named ‘[01m[Kdata[m[K’
+   52 |       serialized_message.[01;31m[Kdata[m[K = data.data();
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/perception_pipeline/src/bag_publisher_maintain_time.cpp:53:26:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Ksize_t rclcpp::SerializedMessage::size() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   53 |       [01;31m[Kserialized_message.size[m[K = data.size();
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+      |                              [32m[K()[m[K
+gmake[2]: *** [doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/build.make:76: doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/src/bag_publisher_maintain_time.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:506: doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -8,7 +8,7 @@ def generate_launch_description():
     # MTC Demo node
     pick_place_demo = Node(
         package="mtc_tutorial",
-        executable="myrobot_mtc_tutorial",
+        executable="AI_Code",
         output="screen",
         parameters=[
             moveit_config,

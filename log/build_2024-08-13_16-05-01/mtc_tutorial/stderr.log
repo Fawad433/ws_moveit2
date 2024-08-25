@@ -1,0 +1,14 @@
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:193:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char [2][m[K’ to ‘[01m[Kconst Vector3d&[m[K’ {aka ‘[01m[Kconst Eigen::Matrix<double, 3, 1>&[m[K’}
+  193 |     stage->setRotationAxis([01;31m[K"z"[m[K);
+      |                            [01;31m[K^~~[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Kconst char [2][m[K
+In file included from [01m[K/home/robot/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h:47[m[K,
+                 from [01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:6[m[K:
+[01m[K/home/robot/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h:58:53:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid moveit::task_constructor::stages::GenerateGraspPose::setRotationAxis(const Vector3d&)[m[K’
+   58 |         void setRotationAxis([01;36m[Kconst Eigen::Vector3d& axis[m[K) { setProperty("rotation_axis", axis); }
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/myrobot_mtc_tutorial.dir/build.make:76: CMakeFiles/myrobot_mtc_tutorial.dir/src/myrobot_mtc_tutorial.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/myrobot_mtc_tutorial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -861,3 +861,355 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "doc/examples/perception_pipeline/CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-MovneV"
+      binary: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-MovneV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed "
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-MovneV'
+        
+        Run Build Command(s): /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d083/fast
+        gmake[1]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-MovneV'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d083.dir/build.make CMakeFiles/cmTC_1d083.dir/build
+        gmake[2]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-MovneV'
+        Building C object CMakeFiles/cmTC_1d083.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_1d083.dir/test_mpi.c.o -c /home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-MovneV/test_mpi.c
+        Linking C executable cmTC_1d083
+        /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d083.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed   -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_1d083.dir/test_mpi.c.o -o cmTC_1d083  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-MovneV'
+        gmake[1]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-MovneV'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "doc/examples/perception_pipeline/CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-tFgx0Q"
+      binary: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-tFgx0Q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed "
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-tFgx0Q'
+        
+        Run Build Command(s): /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_03fea/fast
+        gmake[1]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-tFgx0Q'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_03fea.dir/build.make CMakeFiles/cmTC_03fea.dir/build
+        gmake[2]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-tFgx0Q'
+        Building C object CMakeFiles/cmTC_03fea.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_03fea.dir/test_mpi.c.o -c /home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-tFgx0Q/test_mpi.c
+        Linking C executable cmTC_03fea
+        /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03fea.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed   -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_03fea.dir/test_mpi.c.o -o cmTC_03fea  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-tFgx0Q'
+        gmake[1]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-tFgx0Q'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "doc/examples/perception_pipeline/CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-j0Ewv5"
+      binary: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-j0Ewv5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed "
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-j0Ewv5'
+        
+        Run Build Command(s): /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c758a/fast
+        gmake[1]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-j0Ewv5'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c758a.dir/build.make CMakeFiles/cmTC_c758a.dir/build
+        gmake[2]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-j0Ewv5'
+        Building C object CMakeFiles/cmTC_c758a.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c758a.dir/test_mpi.c.o -c /home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-j0Ewv5/test_mpi.c
+        Linking C executable cmTC_c758a
+        /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c758a.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed   -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_c758a.dir/test_mpi.c.o -o cmTC_c758a  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-j0Ewv5'
+        gmake[1]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-j0Ewv5'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "doc/examples/perception_pipeline/CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-qNqmwb"
+      binary: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-qNqmwb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed "
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-qNqmwb'
+        
+        Run Build Command(s): /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d3b39/fast
+        gmake[1]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-qNqmwb'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d3b39.dir/build.make CMakeFiles/cmTC_d3b39.dir/build
+        gmake[2]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-qNqmwb'
+        Building C object CMakeFiles/cmTC_d3b39.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_d3b39.dir/test_mpi.c.o -c /home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-qNqmwb/test_mpi.c
+        Linking C executable cmTC_d3b39
+        /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b39.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed   -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_d3b39.dir/test_mpi.c.o -o cmTC_d3b39  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-qNqmwb'
+        gmake[1]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-qNqmwb'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "doc/examples/perception_pipeline/CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-KeHOJ6"
+      binary: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-KeHOJ6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed "
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-KeHOJ6'
+        
+        Run Build Command(s): /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32d42/fast
+        gmake[1]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-KeHOJ6'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_32d42.dir/build.make CMakeFiles/cmTC_32d42.dir/build
+        gmake[2]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-KeHOJ6'
+        Building C object CMakeFiles/cmTC_32d42.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_32d42.dir/test_mpi.c.o -c /home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-KeHOJ6/test_mpi.c
+        Linking C executable cmTC_32d42
+        /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32d42.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed   -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_32d42.dir/test_mpi.c.o -o cmTC_32d42  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-KeHOJ6'
+        gmake[1]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-KeHOJ6'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "doc/examples/perception_pipeline/CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-k8G5Bu"
+      binary: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-k8G5Bu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed "
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-k8G5Bu'
+        
+        Run Build Command(s): /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e22f/fast
+        gmake[1]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-k8G5Bu'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3e22f.dir/build.make CMakeFiles/cmTC_3e22f.dir/build
+        gmake[2]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-k8G5Bu'
+        Building C object CMakeFiles/cmTC_3e22f.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_3e22f.dir/test_mpi.c.o -c /home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-k8G5Bu/test_mpi.c
+        Linking C executable cmTC_3e22f
+        /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e22f.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed   -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_3e22f.dir/test_mpi.c.o -o cmTC_3e22f  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-k8G5Bu'
+        gmake[1]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-k8G5Bu'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "doc/examples/perception_pipeline/CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-Jj3SSb"
+      binary: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-Jj3SSb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed "
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-Jj3SSb'
+        
+        Run Build Command(s): /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b4cbf/fast
+        gmake[1]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-Jj3SSb'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b4cbf.dir/build.make CMakeFiles/cmTC_b4cbf.dir/build
+        gmake[2]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-Jj3SSb'
+        Building C object CMakeFiles/cmTC_b4cbf.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b4cbf.dir/test_mpi.c.o -c /home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-Jj3SSb/test_mpi.c
+        Linking C executable cmTC_b4cbf
+        /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4cbf.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed   -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_b4cbf.dir/test_mpi.c.o -o cmTC_b4cbf  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-Jj3SSb'
+        gmake[1]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-Jj3SSb'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "doc/examples/perception_pipeline/CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-rxhA6F"
+      binary: "/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-rxhA6F"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed "
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-rxhA6F'
+        
+        Run Build Command(s): /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_76350/fast
+        gmake[1]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-rxhA6F'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_76350.dir/build.make CMakeFiles/cmTC_76350.dir/build
+        gmake[2]: Entering directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-rxhA6F'
+        Building C object CMakeFiles/cmTC_76350.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_76350.dir/test_mpi.c.o -c /home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-rxhA6F/test_mpi.c
+        Linking C executable cmTC_76350
+        /home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76350.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so /usr/lib/x86_64-linux-gnu/libdw.so -Wl,--as-needed   -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_76350.dir/test_mpi.c.o -o cmTC_76350  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-rxhA6F'
+        gmake[1]: Leaving directory '/home/robot/ws_moveit2/build/moveit2_tutorials/CMakeFiles/CMakeScratch/TryCompile-rxhA6F'
+        
+      exitCode: 0
+...

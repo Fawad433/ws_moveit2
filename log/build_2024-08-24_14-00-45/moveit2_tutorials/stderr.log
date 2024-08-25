@@ -1,0 +1,18 @@
+[01m[K/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/perception_pipeline/src/cylinder_segment.cpp:38:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/point_cloud2.hpp: No such file or directory
+   38 | #include [01;31m[K<sensor_msgs/msg/point_cloud2.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/build.make:76: doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/src/cylinder_segment.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:480: doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/perception_pipeline/src/bag_publisher_maintain_time.cpp:37[m[K:
+/usr/include/c++/11/bits/shared_ptr.h: In instantiation of ‘[01m[Kstd::shared_ptr<_Tp> std::dynamic_pointer_cast(const std::shared_ptr<_Tp>&) [with _Tp = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; _Up = rosbag2_storage::SerializedBagMessage][m[K’:
+[01m[K/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/perception_pipeline/src/bag_publisher_maintain_time.cpp:78:84:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:603:23:[m[K [01;31m[Kerror: [m[Kcannot ‘[01m[Kdynamic_cast[m[K’ ‘[01m[K(& __r)->std::shared_ptr<rosbag2_storage::SerializedBagMessage>::<anonymous>.std::__shared_ptr<rosbag2_storage::SerializedBagMessage, __gnu_cxx::_S_atomic>::get()[m[K’ (of type ‘[01m[Kusing element_type = std::remove_extent<rosbag2_storage::SerializedBagMessage>::type*[m[K’ {aka ‘[01m[Kstruct rosbag2_storage::SerializedBagMessage*[m[K’}) to type ‘[01m[Kusing element_type = using element_type = std::remove_extent<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::type*[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::PointCloud2_<std::allocator<void> >*[m[K’} (source type is not polymorphic)
+  603 |       if (auto* __p = [01;31m[Kdynamic_cast<typename _Sp::element_type*>(__r.get())[m[K)
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/build.make:76: doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/src/bag_publisher_maintain_time.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:506: doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

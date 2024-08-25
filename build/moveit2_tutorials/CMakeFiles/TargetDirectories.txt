@@ -39,6 +39,15 @@
 /home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/move_group_interface/CMakeFiles/install.dir
 /home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/move_group_interface/CMakeFiles/install/local.dir
 /home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/move_group_interface/CMakeFiles/install/strip.dir
+/home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir
+/home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir
+/home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/perception_pipeline/CMakeFiles/test.dir
+/home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/perception_pipeline/CMakeFiles/edit_cache.dir
+/home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/perception_pipeline/CMakeFiles/rebuild_cache.dir
+/home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/perception_pipeline/CMakeFiles/list_install_components.dir
+/home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/perception_pipeline/CMakeFiles/install.dir
+/home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/perception_pipeline/CMakeFiles/install/local.dir
+/home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/perception_pipeline/CMakeFiles/install/strip.dir
 /home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_move_group.dir
 /home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_mtc.dir
 /home/robot/ws_moveit2/build/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/CMakeFiles/test.dir

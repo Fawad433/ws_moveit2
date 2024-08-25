@@ -1,0 +1,15 @@
+[  3%] [32mBuilding CXX object doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/src/cylinder_segment.cpp.o[0m
+[ 10%] Built target minimal_mtc_tutorial
+[ 13%] [32mBuilding CXX object doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/src/bag_publisher_maintain_time.cpp.o[0m
+[ 20%] Built target move_group_interface_tutorial
+[ 26%] Built target mtc_tutorial
+[ 33%] Built target motion_planning_api_tutorial
+[ 40%] Built target pilz_move_group
+[ 46%] Built target planning_scene_ros_api_tutorial
+[ 53%] Built target planning_scene_tutorial
+[ 60%] Built target pilz_mtc
+[ 66%] Built target moveit_cpp_tutorial
+[ 73%] Built target servo_keyboard_input
+[ 80%] Built target robot_model_and_robot_state_tutorial
+[ 86%] Built target servo_cpp_interface_demo
+[ 93%] Built target ompl_constrained_planning

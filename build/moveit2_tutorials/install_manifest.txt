@@ -31,6 +31,10 @@
 /home/robot/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py
 /home/robot/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz
 /home/robot/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py
+/home/robot/ws_moveit2/install/moveit2_tutorials/lib/your_project_name/cylinder_segment
+/home/robot/ws_moveit2/install/moveit2_tutorials/lib/your_project_name/bag_publisher_maintain_time
+/home/robot/ws_moveit2/install/moveit2_tutorials/share/your_project_name/launch/detect_and_add_cylinder_collision_object_demo.launch.py
+/home/robot/ws_moveit2/install/moveit2_tutorials/share/your_project_name/launch/obstacle_avoidance_demo.launch.py
 /home/robot/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_move_group
 /home/robot/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_mtc
 /home/robot/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/pilz_mtc.launch.py

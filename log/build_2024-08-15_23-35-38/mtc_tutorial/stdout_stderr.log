@@ -1,0 +1,170 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found moveit_task_constructor_core: 0.1.3 (/home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread
+-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[33mCMake Warning (dev) at /opt/ros/humble/share/geometric_shapes/cmake/ConfigExtras.cmake:31 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/geometric_shapes/cmake/geometric_shapesConfig.cmake:41 (include)
+  /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /home/robot/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono
+[33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread
+[33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /home/robot/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+  /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options
+[33mCMake Warning (dev) at /home/robot/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /home/robot/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+  /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/robot/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/robot/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robot/ws_moveit2/src/mtc_tutorial/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (8.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/robot/ws_moveit2/build/mtc_tutorial
+[ 16%] [32mBuilding CXX object CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o[0m
+[ 50%] Built target mtc_tutorial
+[ 83%] Built target myrobot_mtc_tutorial
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:114:51:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ does not name a type
+  114 |   moveit::planning_interface::MoveGroupInterface::[01;31m[KSharedPtr[m[K arm_group_;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:115:51:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ does not name a type
+  115 |   moveit::planning_interface::MoveGroupInterface::[01;31m[KSharedPtr[m[K gripper_group_;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:116:55:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ does not name a type
+  116 |   moveit::planning_interface::PlanningSceneInterface::[01;31m[KSharedPtr[m[K planning_scene_interface_;
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:[m[K In constructor ‘[01m[KSimplePickAndPlace::SimplePickAndPlace()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_group_[m[K’ was not declared in this scope
+   12 |     [01;31m[Karm_group_[m[K = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_from_this(), "myrobot_arm");
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group_[m[K’ was not declared in this scope
+   13 |     [01;31m[Kgripper_group_[m[K = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_from_this(), "myrobot_hand");
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+   16 |     [01;31m[Kplanning_scene_interface_[m[K = std::make_shared<moveit::planning_interface::PlanningSceneInterface>();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:[m[K In member function ‘[01m[Kvoid SimplePickAndPlace::addObject()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:42:40:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_group_[m[K’ was not declared in this scope
+   42 |     collision_object.header.frame_id = [01;31m[Karm_group_[m[K->getPlanningFrame();
+      |                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+   55 |     [01;31m[Kplanning_scene_interface_[m[K->applyCollisionObject(collision_object);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:[m[K In member function ‘[01m[Kvoid SimplePickAndPlace::executePickAndPlace()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group_[m[K’ was not declared in this scope
+   62 |     [01;31m[Kgripper_group_[m[K->setNamedTarget("open");
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:66:5:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_group_[m[K’ was not declared in this scope
+   66 |     [01;31m[Karm_group_[m[K->setPoseTarget(pick_pose_.pose);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+   74 |     [01;31m[Kplanning_scene_interface_[m[K->applyAttachedCollisionObject(createAttachedObject());
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:[m[K In member function ‘[01m[Kmoveit_msgs::msg::AttachedCollisionObject SimplePickAndPlace::createAttachedObject()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:96:33:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_group_[m[K’ was not declared in this scope
+   96 |     attached_object.link_name = [01;31m[Karm_group_[m[K->getEndEffectorLink();
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/AI_Code.dir/build.make:76: CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/AI_Code.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

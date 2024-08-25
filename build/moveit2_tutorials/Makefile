@@ -250,6 +250,32 @@ move_group_interface_tutorial/fast:
 .PHONY : move_group_interface_tutorial/fast
 
 #=============================================================================
+# Target rules for targets named cylinder_segment
+
+# Build rule for target.
+cylinder_segment: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cylinder_segment
+.PHONY : cylinder_segment
+
+# fast build rule for target.
+cylinder_segment/fast:
+	$(MAKE) $(MAKESILENT) -f doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/build.make doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/build
+.PHONY : cylinder_segment/fast
+
+#=============================================================================
+# Target rules for targets named bag_publisher_maintain_time
+
+# Build rule for target.
+bag_publisher_maintain_time: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bag_publisher_maintain_time
+.PHONY : bag_publisher_maintain_time
+
+# fast build rule for target.
+bag_publisher_maintain_time/fast:
+	$(MAKE) $(MAKESILENT) -f doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/build.make doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/build
+.PHONY : bag_publisher_maintain_time/fast
+
+#=============================================================================
 # Target rules for targets named pilz_move_group
 
 # Build rule for target.
@@ -381,6 +407,8 @@ help:
 	@echo "... test"
 	@echo "... moveit2_tutorials_uninstall"
 	@echo "... uninstall"
+	@echo "... bag_publisher_maintain_time"
+	@echo "... cylinder_segment"
 	@echo "... minimal_mtc_tutorial"
 	@echo "... motion_planning_api_tutorial"
 	@echo "... move_group_interface_tutorial"

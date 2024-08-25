@@ -223,6 +223,43 @@ myrobot_mtc_tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/build
 .PHONY : myrobot_mtc_tutorial/fast
 
+#=============================================================================
+# Target rules for targets named AI_Code
+
+# Build rule for target.
+AI_Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AI_Code
+.PHONY : AI_Code
+
+# fast build rule for target.
+AI_Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_Code.dir/build.make CMakeFiles/AI_Code.dir/build
+.PHONY : AI_Code/fast
+
+src/AI_Code.o: src/AI_Code.cpp.o
+.PHONY : src/AI_Code.o
+
+# target to build an object file
+src/AI_Code.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_Code.dir/build.make CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o
+.PHONY : src/AI_Code.cpp.o
+
+src/AI_Code.i: src/AI_Code.cpp.i
+.PHONY : src/AI_Code.i
+
+# target to preprocess a source file
+src/AI_Code.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_Code.dir/build.make CMakeFiles/AI_Code.dir/src/AI_Code.cpp.i
+.PHONY : src/AI_Code.cpp.i
+
+src/AI_Code.s: src/AI_Code.cpp.s
+.PHONY : src/AI_Code.s
+
+# target to generate assembly for a file
+src/AI_Code.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_Code.dir/build.make CMakeFiles/AI_Code.dir/src/AI_Code.cpp.s
+.PHONY : src/AI_Code.cpp.s
+
 src/mtc_tutorial.o: src/mtc_tutorial.cpp.o
 .PHONY : src/mtc_tutorial.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... mtc_tutorial_uninstall"
 	@echo "... uninstall"
+	@echo "... AI_Code"
 	@echo "... mtc_tutorial"
 	@echo "... myrobot_mtc_tutorial"
+	@echo "... src/AI_Code.o"
+	@echo "... src/AI_Code.i"
+	@echo "... src/AI_Code.s"
 	@echo "... src/mtc_tutorial.o"
 	@echo "... src/mtc_tutorial.i"
 	@echo "... src/mtc_tutorial.s"

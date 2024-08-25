@@ -1381,4 +1381,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mtc_tutorial_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/mtc_tutorial.dir/DependInfo.cmake"
   "CMakeFiles/myrobot_mtc_tutorial.dir/DependInfo.cmake"
+  "CMakeFiles/AI_Code.dir/DependInfo.cmake"
   )

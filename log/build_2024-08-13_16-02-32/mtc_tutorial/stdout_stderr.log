@@ -1,0 +1,12 @@
+[ 50%] Built target mtc_tutorial
+[ 75%] [32mBuilding CXX object CMakeFiles/myrobot_mtc_tutorial.dir/src/myrobot_mtc_tutorial.cpp.o[0m
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:192:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstage[m[K’
+  192 |     stage->setEndEffector("eef")
+      |                                 [01;31m[K^[m[K
+      |                                 [32m[K;[m[K
+  193 |     [32m[Kstage[m[K->setRotationAxis("z")
+      |     [32m[K~~~~~[m[K                        
+gmake[2]: *** [CMakeFiles/myrobot_mtc_tutorial.dir/build.make:76: CMakeFiles/myrobot_mtc_tutorial.dir/src/myrobot_mtc_tutorial.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/myrobot_mtc_tutorial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

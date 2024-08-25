@@ -1,0 +1,24 @@
+[ 33%] Built target myrobot_mtc_tutorial
+[ 66%] Built target mtc_tutorial
+[ 83%] [32mBuilding CXX object CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o[0m
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:[m[K In member function ‘[01m[Kvoid SimplePickAndPlace::executePickAndPlace()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:83:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[KisStateColliding[m[K’
+   83 |     if (!planning_scene_interface_.[01;31m[KisStateColliding[m[K(*arm_group_.getCurrentState()))
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:98:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   98 |     if (arm_group_.move() == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K)
+      |                                                                           [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:2[m[K:
+[01m[K/home/robot/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:131:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  131 |         if (arm_group_.move() != moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K)
+      |                                                                               [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:2[m[K:
+[01m[K/home/robot/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/AI_Code.dir/build.make:76: CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/AI_Code.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

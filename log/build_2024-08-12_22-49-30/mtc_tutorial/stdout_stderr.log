@@ -1,0 +1,18 @@
+[ 50%] Built target mtc_tutorial
+[ 75%] [32mBuilding CXX object CMakeFiles/myrobot_mtc_tutorial.dir/src/myrobot_mtc_tutorial.cpp.o[0m
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:161:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::task_constructor::ContainerBase[m[K’ has no member named ‘[01m[Kfind[m[K’
+  161 |     auto ready_stage_ptr = task.stages()->[01;31m[Kfind[m[K<mtc::stages::MoveTo>("move to ready");
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:161:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  161 |     auto ready_stage_ptr = task.stages()->find<mtc::stages::MoveTo[01;31m[K>[m[K("move to ready");
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:163:100:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  163 |         stage_move_to_pick->properties().set("group", ready_stage_ptr->properties().get<std::string[01;31m[K>[m[K("group"));
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/myrobot_mtc_tutorial.cpp:164:103:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  164 |         stage_move_to_pick->properties().set("ik_frame", ready_stage_ptr->properties().get<std::string[01;31m[K>[m[K("ik_frame"));
+      |                                                                                                       [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/myrobot_mtc_tutorial.dir/build.make:76: CMakeFiles/myrobot_mtc_tutorial.dir/src/myrobot_mtc_tutorial.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/myrobot_mtc_tutorial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -17,7 +17,8 @@ add_executable(mtc_tutorial src/mtc_tutorial.cpp)
 ament_target_dependencies(mtc_tutorial moveit_task_constructor_core rclcpp)
 add_executable(myrobot_mtc_tutorial src/myrobot_mtc_tutorial.cpp)
 ament_target_dependencies(myrobot_mtc_tutorial moveit_task_constructor_core rclcpp)
-
+add_executable(AI_Code src/AI_Code.cpp)
+ament_target_dependencies(AI_Code moveit_task_constructor_core rclcpp)
 
 
 
@@ -29,6 +30,7 @@ target_compile_features(mtc_tutorial PUBLIC c_std_99 cxx_std_17)  # Require C99 
 install(TARGETS 
 mtc_tutorial
 myrobot_mtc_tutorial
+AI_Code
 DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})

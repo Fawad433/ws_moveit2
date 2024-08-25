@@ -1,0 +1,14 @@
+[ 33%] Built target mtc_tutorial
+[ 66%] Built target myrobot_mtc_tutorial
+[ 83%] [32mBuilding CXX object CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o[0m
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:[m[K In constructor ‘[01m[KSimplePickAndPlace::SimplePickAndPlace()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+   19 |     [01;31m[Ktarget_pose[m[K.header.frame_id = "arm_base_link";
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:[m[K In member function ‘[01m[Kvoid SimplePickAndPlace::executePickAndPlace()[m[K’:
+[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:102:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+  102 |     arm_group_.setPoseTarget([01;31m[Ktarget_pose[m[K.pose);
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/AI_Code.dir/build.make:76: CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/AI_Code.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

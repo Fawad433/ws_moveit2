@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/robot/ws_moveit2/build/mtc_tutorial
 # The main recursive "all" target.
 all: CMakeFiles/mtc_tutorial.dir/all
 all: CMakeFiles/myrobot_mtc_tutorial.dir/all
+all: CMakeFiles/AI_Code.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/mtc_tutorial_uninstall.dir/clean
 clean: CMakeFiles/mtc_tutorial.dir/clean
 clean: CMakeFiles/myrobot_mtc_tutorial.dir/clean
+clean: CMakeFiles/AI_Code.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/mtc_tutorial_uninstall.dir/clean:
 CMakeFiles/mtc_tutorial.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mtc_tutorial.dir/build.make CMakeFiles/mtc_tutorial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mtc_tutorial.dir/build.make CMakeFiles/mtc_tutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles --progress-num=1,2 "Built target mtc_tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles --progress-num=3,4 "Built target mtc_tutorial"
 .PHONY : CMakeFiles/mtc_tutorial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +165,7 @@ CMakeFiles/mtc_tutorial.dir/clean:
 CMakeFiles/myrobot_mtc_tutorial.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles --progress-num=3,4 "Built target myrobot_mtc_tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles --progress-num=5,6 "Built target myrobot_mtc_tutorial"
 .PHONY : CMakeFiles/myrobot_mtc_tutorial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ myrobot_mtc_tutorial: CMakeFiles/myrobot_mtc_tutorial.dir/rule
 CMakeFiles/myrobot_mtc_tutorial.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myrobot_mtc_tutorial.dir/build.make CMakeFiles/myrobot_mtc_tutorial.dir/clean
 .PHONY : CMakeFiles/myrobot_mtc_tutorial.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AI_Code.dir
+
+# All Build rule for target.
+CMakeFiles/AI_Code.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_Code.dir/build.make CMakeFiles/AI_Code.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_Code.dir/build.make CMakeFiles/AI_Code.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles --progress-num=1,2 "Built target AI_Code"
+.PHONY : CMakeFiles/AI_Code.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AI_Code.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AI_Code.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/ws_moveit2/build/mtc_tutorial/CMakeFiles 0
+.PHONY : CMakeFiles/AI_Code.dir/rule
+
+# Convenience name for target.
+AI_Code: CMakeFiles/AI_Code.dir/rule
+.PHONY : AI_Code
+
+# clean rule for target.
+CMakeFiles/AI_Code.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_Code.dir/build.make CMakeFiles/AI_Code.dir/clean
+.PHONY : CMakeFiles/AI_Code.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

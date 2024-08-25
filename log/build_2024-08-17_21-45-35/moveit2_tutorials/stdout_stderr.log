@@ -1,0 +1,29 @@
+[  3%] [32mBuilding CXX object doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/src/cylinder_segment.cpp.o[0m
+[  6%] [32mBuilding CXX object doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/src/bag_publisher_maintain_time.cpp.o[0m
+[ 13%] Built target minimal_mtc_tutorial
+[ 20%] Built target mtc_tutorial
+[ 26%] Built target move_group_interface_tutorial
+[ 33%] Built target motion_planning_api_tutorial
+[ 40%] Built target planning_scene_tutorial
+[ 46%] Built target planning_scene_ros_api_tutorial
+[ 53%] Built target pilz_mtc
+[ 60%] Built target pilz_move_group
+[ 66%] Built target robot_model_and_robot_state_tutorial
+[ 73%] Built target servo_keyboard_input
+[ 80%] Built target moveit_cpp_tutorial
+[ 86%] Built target servo_cpp_interface_demo
+[ 93%] Built target ompl_constrained_planning
+[01m[K/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/perception_pipeline/src/cylinder_segment.cpp:38:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/point_cloud2.hpp: No such file or directory
+   38 | #include [01;31m[K<sensor_msgs/msg/point_cloud2.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/build.make:76: doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/src/cylinder_segment.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:480: doc/examples/perception_pipeline/CMakeFiles/cylinder_segment.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/perception_pipeline/src/bag_publisher_maintain_time.cpp:38:10:[m[K [01;31m[Kfatal error: [m[Krosbag2_cpp/reader.hpp: No such file or directory
+   38 | #include [01;31m[K<rosbag2_cpp/reader.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/build.make:76: doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/src/bag_publisher_maintain_time.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:506: doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

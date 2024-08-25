@@ -1,0 +1,18 @@
+[0.033s] Invoking command in '/home/robot/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --build /home/robot/ws_moveit2/build/moveit_common -- -j6 -l6
+[0.224s] Invoked command in '/home/robot/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --build /home/robot/ws_moveit2/build/moveit_common -- -j6 -l6
+[0.620s] Invoking command in '/home/robot/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --install /home/robot/ws_moveit2/build/moveit_common
+[0.707s] Traceback (most recent call last):
+[0.707s]   File "/home/robot/.local/bin/cmake", line 5, in <module>
+[0.708s]     from cmake import cmake
+[0.708s]   File "/home/robot/.local/lib/python3.10/site-packages/cmake/__init__.py", line 29, in <module>
+[0.708s]     cmake_files = distribution("cmake").files
+[0.708s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 644, in files
+[0.716s]     file_lines = self._read_files_distinfo() or self._read_files_egginfo()
+[0.716s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 659, in _read_files_distinfo
+[0.717s]     text = self.read_text('RECORD')
+[0.717s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text
+[0.718s]     return self._path.joinpath(filename).read_text(encoding='utf-8')
+[0.718s]   File "/usr/lib/python3.10/pathlib.py", line 1135, in read_text
+[0.719s]     return f.read()
+[0.719s] KeyboardInterrupt
+[0.739s] Invoked command in '/home/robot/ws_moveit2/build/moveit_common' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/lifecycle_py:/home/robot/ros2_ws/install/course3_project:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /home/robot/.local/bin/cmake --install /home/robot/ws_moveit2/build/moveit_common
