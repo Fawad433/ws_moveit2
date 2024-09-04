@@ -1,0 +1,50 @@
+[1.564s] Invoking command in '/home/robot/ws_moveit2/src/launch_param_builder': PYTHONPATH=/home/robot/ws_moveit2/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/robot/ws_moveit2/build/launch_param_builder/build install --record /home/robot/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data
+[1.963s] running egg_info
+[1.964s] creating ../../build/launch_param_builder/launch_param_builder.egg-info
+[1.964s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[1.965s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[1.965s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[1.965s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[1.965s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[1.966s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.970s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.971s] adding license file 'LICENSE'
+[1.972s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.973s] running build
+[1.973s] running build_py
+[1.973s] creating /home/robot/ws_moveit2/build/launch_param_builder/build
+[1.973s] creating /home/robot/ws_moveit2/build/launch_param_builder/build/lib
+[1.974s] creating /home/robot/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.974s] copying launch_param_builder/launch_param_builder.py -> /home/robot/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.974s] copying launch_param_builder/utils.py -> /home/robot/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.975s] copying launch_param_builder/__init__.py -> /home/robot/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.976s] running install
+[1.977s] running install_lib
+[1.978s] creating /home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.978s] copying /home/robot/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.979s] copying /home/robot/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.979s] copying /home/robot/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.981s] byte-compiling /home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-310.pyc
+[1.982s] byte-compiling /home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/utils.py to utils.cpython-310.pyc
+[1.983s] byte-compiling /home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/__init__.py to __init__.cpython-310.pyc
+[1.983s] running install_data
+[1.984s] creating /home/robot/ws_moveit2/install/launch_param_builder/share/ament_index
+[1.984s] creating /home/robot/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index
+[1.984s] creating /home/robot/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.985s] copying resource/launch_param_builder -> /home/robot/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.985s] creating /home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder/launch
+[1.985s] copying example/launch_param_builder_example.launch.py -> /home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder/launch
+[1.986s] creating /home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.986s] copying test/data/param_file_to_inject.yaml -> /home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.987s] copying test/data/parameter_file -> /home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.988s] copying test/data/parameters_injection.yaml -> /home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.988s] copying test/data/parameter.xacro -> /home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.988s] copying test/data/parameters.yaml -> /home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.989s] copying package.xml -> /home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder
+[1.989s] creating /home/robot/ws_moveit2/install/launch_param_builder/lib/launch_param_builder
+[1.990s] copying example/example_node.py -> /home/robot/ws_moveit2/install/launch_param_builder/lib/launch_param_builder
+[1.990s] running install_egg_info
+[1.993s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[1.994s] running install_scripts
+[2.030s] writing list of installed files to '/home/robot/ws_moveit2/build/launch_param_builder/install.log'
+[2.061s] Invoked command in '/home/robot/ws_moveit2/src/launch_param_builder' returned '0': PYTHONPATH=/home/robot/ws_moveit2/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/robot/ws_moveit2/build/launch_param_builder/build install --record /home/robot/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data

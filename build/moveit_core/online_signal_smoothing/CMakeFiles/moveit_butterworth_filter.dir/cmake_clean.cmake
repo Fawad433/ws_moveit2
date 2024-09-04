@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_butterworth_filter.dir/src/butterworth_filter.cpp.o"
   "CMakeFiles/moveit_butterworth_filter.dir/src/butterworth_filter.cpp.o.d"
   "libmoveit_butterworth_filter.pdb"

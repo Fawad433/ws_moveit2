@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/motion_planning_tasks_utils_autogen"
   "motion_planning_tasks_utils_autogen/mocs_compilation.cpp"
-  "motion_planning_tasks_utils_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

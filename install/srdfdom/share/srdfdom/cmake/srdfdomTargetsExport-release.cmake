@@ -12,8 +12,8 @@ set_target_properties(srdfdom::srdfdom PROPERTIES
   IMPORTED_SONAME_RELEASE "libsrdfdom.so.2.0.4"
   )
 
-list(APPEND _cmake_import_check_targets srdfdom::srdfdom )
-list(APPEND _cmake_import_check_files_for_srdfdom::srdfdom "${_IMPORT_PREFIX}/lib/libsrdfdom.so.2.0.4" )
+list(APPEND _IMPORT_CHECK_TARGETS srdfdom::srdfdom )
+list(APPEND _IMPORT_CHECK_FILES_FOR_srdfdom::srdfdom "${_IMPORT_PREFIX}/lib/libsrdfdom.so.2.0.4" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

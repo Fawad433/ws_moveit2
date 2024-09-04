@@ -1,0 +1,63 @@
+[0.020s] Invoking command in '/home/robot/ws_moveit2/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake /home/robot/ws_moveit2/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=--param ggc-min-expand=20 -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/moveit_resources_prbt_support
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.197s] -- The CXX compiler identification is GNU 11.4.0
+[0.209s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.330s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.450s] -- Detecting CXX compiler ABI info - done
+[0.470s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.471s] -- Detecting CXX compile features
+[0.472s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.749s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.014s] -- Configuring done
+[1.018s] -- Generating done
+[1.019s] -- Build files have been written to: /home/robot/ws_moveit2/build/moveit_resources_prbt_support
+[1.026s] Invoked command in '/home/robot/ws_moveit2/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake /home/robot/ws_moveit2/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=--param ggc-min-expand=20 -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/moveit_resources_prbt_support
+[1.028s] Invoking command in '/home/robot/ws_moveit2/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/ws_moveit2/build/moveit_resources_prbt_support -- -j4 -l4
+[1.079s] Invoked command in '/home/robot/ws_moveit2/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/ws_moveit2/build/moveit_resources_prbt_support -- -j4 -l4
+[1.110s] Invoking command in '/home/robot/ws_moveit2/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/robot/ws_moveit2/build/moveit_resources_prbt_support
+[1.120s] -- Install configuration: "Release"
+[1.121s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[1.121s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[1.122s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[1.122s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[1.123s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[1.123s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[1.124s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[1.124s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[1.124s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[1.125s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[1.125s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[1.125s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[1.126s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[1.126s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[1.127s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[1.127s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf
+[1.129s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[1.130s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[1.131s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[1.132s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[1.132s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes
+[1.133s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[1.136s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[1.137s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[1.140s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[1.141s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[1.141s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[1.144s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[1.144s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[1.145s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[1.147s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[1.147s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[1.149s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[1.153s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[1.153s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[1.157s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config
+[1.158s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[1.158s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[1.159s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[1.163s] Invoked command in '/home/robot/ws_moveit2/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/robot/ws_moveit2/build/moveit_resources_prbt_support

@@ -3,16 +3,15 @@
 	"CMAKE_BINARY_DIR" : "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/src",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/robot/ws_moveit2/src/moveit_task_constructor/visualization/motion_planning_tasks/src",
-	"CMAKE_EXECUTABLE" : "/home/robot/.local/lib/python3.10/site-packages/cmake/data/bin/cmake",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
 		"/home/robot/ws_moveit2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/CMakeLists.txt",
 		"/home/robot/ws_moveit2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/robot/ws_moveit2/src/moveit_task_constructor/visualization",
-	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "motion_planning_tasks_rviz_plugin_autogen/timestamp",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
@@ -87,7 +86,6 @@
 	"MOC_COMPILATION_FILE" : "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"BACKWARD_HAS_DW=1",
 		"BOOST_ALL_NO_LIB",
 		"BOOST_ATOMIC_DYN_LINK",
 		"BOOST_CHRONO_DYN_LINK",
@@ -229,11 +227,10 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"/usr/bin/c++",
-		"-std=c++17",
 		"-dM",
 		"-E",
 		"-c",
-		"/home/robot/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
 	],
 	"MOC_PREDEFS_FILE" : "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
@@ -244,7 +241,7 @@
 		"/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/ui_task_view.h"
 	],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
+	"PARALLEL" : 4,
 	"PARSE_CACHE_FILE" : "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
@@ -304,6 +301,5 @@
 			null
 		]
 	],
-	"USE_BETTER_GRAPH" : false,
 	"VERBOSITY" : 0
 }

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/replan_invalidated_trajectory_plugin.dir/src/replan_invalidated_trajectory.cpp.o"
   "CMakeFiles/replan_invalidated_trajectory_plugin.dir/src/replan_invalidated_trajectory.cpp.o.d"
   "libreplan_invalidated_trajectory_plugin.pdb"

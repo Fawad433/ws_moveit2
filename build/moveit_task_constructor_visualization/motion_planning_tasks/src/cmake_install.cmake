@@ -37,12 +37,12 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set path to fallback-tool for dependency-resolution.
+# Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3")
     file(RPATH_CHECK
@@ -54,7 +54,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3"
-         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/utils:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/properties:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/visualization_tools:/home/robot/ws_moveit2/install/moveit_task_constructor_core/lib:/home/robot/ws_moveit2/install/rviz_marker_tools/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/robot/ws_moveit2/install/moveit_ros_visualization/lib:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/robot/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/robot/ws_moveit2/install/moveit_ros_warehouse/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/robot/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/home/robot/ws_moveit2/install/moveit_ros_move_group/lib:/home/robot/ws_moveit2/install/moveit_ros_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:"
+         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/utils:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/properties:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/visualization_tools:/home/robot/ws_moveit2/install/moveit_task_constructor_core/lib:/home/robot/ws_moveit2/install/rviz_marker_tools/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/robot/ws_moveit2/install/moveit_ros_visualization/lib:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/robot/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/robot/ws_moveit2/install/moveit_ros_warehouse/lib:/home/robot/ws_moveit2/install/moveit_ros_move_group/lib:/home/robot/ws_moveit2/install/moveit_ros_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/robot/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3")
@@ -62,7 +62,23 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so"
+         RPATH "")
+  endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/libmotion_planning_tasks_rviz_plugin.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so"
+         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/utils:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/motion_planning_tasks/properties:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/visualization_tools:/home/robot/ws_moveit2/install/moveit_task_constructor_core/lib:/home/robot/ws_moveit2/install/rviz_marker_tools/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/robot/ws_moveit2/install/moveit_ros_visualization/lib:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/robot/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/robot/ws_moveit2/install/moveit_ros_warehouse/lib:/home/robot/ws_moveit2/install/moveit_ros_move_group/lib:/home/robot/ws_moveit2/install/moveit_ros_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/robot/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_tasks_rviz_plugin.so")
+    endif()
+  endif()
 endif()
 

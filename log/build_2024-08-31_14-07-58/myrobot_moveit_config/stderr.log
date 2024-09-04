@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:113 (file):
+  file INSTALL cannot find
+  "/home/robot/ws_moveit2/src/myrobot_moveit_config/.setup_assistant": No
+  such file or directory.
+
+[0m

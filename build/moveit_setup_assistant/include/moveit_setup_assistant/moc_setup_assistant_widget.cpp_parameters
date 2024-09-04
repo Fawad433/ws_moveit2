@@ -1,4 +1,3 @@
--DBACKWARD_HAS_DW=1
 -DQT_NO_KEYWORDS
 -o
 /home/robot/ws_moveit2/build/moveit_setup_assistant/include/moveit_setup_assistant/moc_setup_assistant_widget.cpp

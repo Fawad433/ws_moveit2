@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_exceptions.dir/src/exceptions.cpp.o"
   "CMakeFiles/moveit_exceptions.dir/src/exceptions.cpp.o.d"
   "libmoveit_exceptions.pdb"

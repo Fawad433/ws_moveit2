@@ -6,8 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   "CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d"
-  "gmock_main_autogen/mocs_compilation.cpp"
-  "gmock_main_autogen/timestamp"
   "libgmock_main.a"
   "libgmock_main.pdb"
 )

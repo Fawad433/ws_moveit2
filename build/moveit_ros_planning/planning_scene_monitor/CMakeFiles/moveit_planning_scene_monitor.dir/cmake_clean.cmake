@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor.cpp.o"
   "CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor.cpp.o.d"
   "CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor_middleware_handle.cpp.o"

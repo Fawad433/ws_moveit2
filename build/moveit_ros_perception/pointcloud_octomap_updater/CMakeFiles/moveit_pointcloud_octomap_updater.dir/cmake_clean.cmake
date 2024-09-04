@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_pointcloud_octomap_updater.dir/src/plugin_init.cpp.o"
   "CMakeFiles/moveit_pointcloud_octomap_updater.dir/src/plugin_init.cpp.o.d"
   "libmoveit_pointcloud_octomap_updater.pdb"

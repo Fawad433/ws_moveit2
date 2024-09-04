@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_rviz_plugin_render_tools_autogen"
   "moveit_rviz_plugin_render_tools_autogen/mocs_compilation.cpp"
-  "moveit_rviz_plugin_render_tools_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

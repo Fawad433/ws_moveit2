@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_hybrid_planning_manager.dir/src/hybrid_planning_manager.cpp.o"
   "CMakeFiles/moveit_hybrid_planning_manager.dir/src/hybrid_planning_manager.cpp.o.d"
   "libmoveit_hybrid_planning_manager.pdb"

@@ -1,0 +1,1 @@
+rclcpp;moveit_ros_planning_interface;moveit_visual_tools;rviz_visual_tools;std_msgs;moveit_msgs;geometry_msgs;shape_msgs;tf2_ros;robot_state_publisher;joint_state_publisher;joint_state_publisher_gui;rviz2;xacro

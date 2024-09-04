@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o"
   "CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o.d"
   "libmoveit_semantic_world.pdb"

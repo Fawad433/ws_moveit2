@@ -1,7 +1,0 @@
-[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:[m[K In member function ‘[01m[Kvoid SimplePickAndPlace::executePickAndPlace()[m[K’:
-[01m[K/home/robot/ws_moveit2/src/mtc_tutorial/src/AI_Code.cpp:82:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[KdetachObject[m[K’
-   82 |     planning_scene_interface_.[01;31m[KdetachObject[m[K("object");
-      |                               [01;31m[K^~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/AI_Code.dir/build.make:76: CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/AI_Code.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

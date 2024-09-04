@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_simple_controller_manager.dir/src/follow_joint_trajectory_controller_handle.cpp.o"
   "CMakeFiles/moveit_simple_controller_manager.dir/src/follow_joint_trajectory_controller_handle.cpp.o.d"
   "CMakeFiles/moveit_simple_controller_manager.dir/src/moveit_simple_controller_manager.cpp.o"

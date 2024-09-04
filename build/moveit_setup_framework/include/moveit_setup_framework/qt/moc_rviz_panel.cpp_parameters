@@ -1,6 +1,5 @@
 -I/home/robot/ws_moveit2/src/moveit2/moveit_setup_assistant/moveit_setup_framework
 -I/home/robot/ws_moveit2/build/moveit_setup_framework
--DBACKWARD_HAS_DW=1
 -DROS_PACKAGE_NAME="moveit_setup_framework"
 -o
 /home/robot/ws_moveit2/build/moveit_setup_framework/include/moveit_setup_framework/qt/moc_rviz_panel.cpp

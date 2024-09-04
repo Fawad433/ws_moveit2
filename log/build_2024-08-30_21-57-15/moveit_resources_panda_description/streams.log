@@ -1,0 +1,64 @@
+[0.017s] Invoking command in '/home/robot/ws_moveit2/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake /home/robot/ws_moveit2/src/moveit_resources/panda_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=--param ggc-min-expand=20 -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/moveit_resources_panda_description
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.233s] -- The CXX compiler identification is GNU 11.4.0
+[0.246s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.377s] -- Detecting C compile features
+[0.379s] -- Detecting C compile features - done
+[0.386s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.541s] -- Detecting CXX compile features
+[0.543s] -- Detecting CXX compile features - done
+[0.550s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.817s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.118s] -- Configuring done
+[1.122s] -- Generating done
+[1.123s] -- Build files have been written to: /home/robot/ws_moveit2/build/moveit_resources_panda_description
+[1.131s] Invoked command in '/home/robot/ws_moveit2/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake /home/robot/ws_moveit2/src/moveit_resources/panda_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=--param ggc-min-expand=20 -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/moveit_resources_panda_description
+[1.134s] Invoking command in '/home/robot/ws_moveit2/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/ws_moveit2/build/moveit_resources_panda_description -- -j4 -l4
+[1.203s] Invoked command in '/home/robot/ws_moveit2/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/ws_moveit2/build/moveit_resources_panda_description -- -j4 -l4
+[1.266s] Invoking command in '/home/robot/ws_moveit2/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/robot/ws_moveit2/build/moveit_resources_panda_description
+[1.277s] -- Install configuration: "Release"
+[1.277s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[1.277s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[1.278s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[1.278s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[1.279s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[1.279s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[1.280s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[1.280s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[1.281s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[1.281s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[1.281s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[1.282s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[1.282s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[1.282s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[1.283s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[1.283s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[1.283s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[1.284s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[1.285s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[1.286s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[1.287s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[1.288s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[1.288s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[1.289s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[1.290s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[1.291s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[1.291s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[1.292s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[1.292s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[1.299s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[1.303s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[1.307s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[1.311s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[1.315s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[1.316s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[1.318s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[1.321s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[1.324s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[1.329s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[1.329s] -- Installing: /home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[1.332s] Invoked command in '/home/robot/ws_moveit2/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/robot/ws_moveit2/build/moveit_resources_panda_description

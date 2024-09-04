@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/collision_detector_fcl_plugin.dir/src/collision_detector_fcl_plugin_loader.cpp.o"
   "CMakeFiles/collision_detector_fcl_plugin.dir/src/collision_detector_fcl_plugin_loader.cpp.o.d"
   "libcollision_detector_fcl_plugin.pdb"

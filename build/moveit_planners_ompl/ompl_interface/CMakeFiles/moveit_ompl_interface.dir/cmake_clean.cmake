@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_goal_sampler.cpp.o"
   "CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_goal_sampler.cpp.o.d"
   "CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_sampler.cpp.o"

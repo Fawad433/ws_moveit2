@@ -1,0 +1,25 @@
+In file included from [01m[K/home/robot/ws_moveit2/src/myrobot_hello_moveit/src/myrobot_hello_moveit.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/myrobot_hello_moveit/src/myrobot_hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/ws_moveit2/src/myrobot_hello_moveit/src/myrobot_hello_moveit.cpp:63:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishAxisLabeled(Eigen::Isometry3d&, const char [10], rviz_visual_tools::Colors)[m[K’
+   63 |   [01;31m[Kmoveit_visual_tools.publishAxisLabeled(target_pose_eigen, "Goal Pose", rviz_visual_tools::BLUE)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/robot/ws_moveit2/src/myrobot_hello_moveit/src/myrobot_hello_moveit.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:900:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishAxisLabeled(const Isometry3d&, const string&, rviz_visual_tools::Scales, rviz_visual_tools::Colors)[m[K’
+  900 |   bool [01;36m[KpublishAxisLabeled[m[K(const Eigen::Isometry3d& pose, const std::string& label,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:901:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krviz_visual_tools::Colors[m[K’ to ‘[01m[Krviz_visual_tools::Scales[m[K’
+  901 |                           [01;36m[KScales scale = MEDIUM[m[K, Colors color = WHITE);
+      |                           [01;36m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:902:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishAxisLabeled(const Pose&, const string&, rviz_visual_tools::Scales, rviz_visual_tools::Colors)[m[K’
+  902 |   bool [01;36m[KpublishAxisLabeled[m[K(const geometry_msgs::msg::Pose& pose, const std::string& label,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:902:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Isometry3d[m[K’ {aka ‘[01m[KEigen::Transform<double, 3, 1>[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+  902 |   bool publishAxisLabeled([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& label,
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/myrobot_hello_moveit.dir/build.make:76: CMakeFiles/myrobot_hello_moveit.dir/src/myrobot_hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/myrobot_hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

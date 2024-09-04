@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_planning_request_adapter.dir/src/planning_request_adapter.cpp.o"
   "CMakeFiles/moveit_planning_request_adapter.dir/src/planning_request_adapter.cpp.o.d"
   "libmoveit_planning_request_adapter.pdb"

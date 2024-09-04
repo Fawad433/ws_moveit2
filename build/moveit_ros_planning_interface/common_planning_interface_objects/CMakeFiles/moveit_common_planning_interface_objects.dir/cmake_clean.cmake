@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_common_planning_interface_objects.dir/src/common_objects.cpp.o"
   "CMakeFiles/moveit_common_planning_interface_objects.dir/src/common_objects.cpp.o.d"
   "libmoveit_common_planning_interface_objects.pdb"

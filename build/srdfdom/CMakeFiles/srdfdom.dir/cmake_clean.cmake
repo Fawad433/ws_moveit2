@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.0.4"
   "CMakeFiles/srdfdom.dir/src/model.cpp.o"
   "CMakeFiles/srdfdom.dir/src/model.cpp.o.d"
   "CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o"

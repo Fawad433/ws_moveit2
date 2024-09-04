@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_collision_detection.dir/src/allvalid/collision_env_allvalid.cpp.o"
   "CMakeFiles/moveit_collision_detection.dir/src/allvalid/collision_env_allvalid.cpp.o.d"
   "CMakeFiles/moveit_collision_detection.dir/src/collision_common.cpp.o"

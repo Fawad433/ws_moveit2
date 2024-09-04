@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_dynamics_solver.dir/src/dynamics_solver.cpp.o"
   "CMakeFiles/moveit_dynamics_solver.dir/src/dynamics_solver.cpp.o.d"
   "libmoveit_dynamics_solver.pdb"

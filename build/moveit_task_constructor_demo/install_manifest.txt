@@ -23,8 +23,8 @@
 /home/robot/ws_moveit2/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/properties.py
 /home/robot/ws_moveit2/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/demo.launch.py
 /home/robot/ws_moveit2/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/run.launch.py
-/home/robot/ws_moveit2/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/config/panda_config.yaml
 /home/robot/ws_moveit2/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/config/mtc.rviz
+/home/robot/ws_moveit2/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/config/panda_config.yaml
 /home/robot/ws_moveit2/install/moveit_task_constructor_demo/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_demo
 /home/robot/ws_moveit2/install/moveit_task_constructor_demo/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_demo
 /home/robot/ws_moveit2/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/environment/ament_prefix_path.sh

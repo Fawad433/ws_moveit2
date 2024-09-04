@@ -1,0 +1,3 @@
+[ 33%] Built target myrobot_planning_around_objects
+[ 66%] Built target get_eef_pose
+[ 83%] [32mBuilding CXX object CMakeFiles/myrobot_hello_moveit.dir/src/myrobot_hello_moveit.cpp.o[0m

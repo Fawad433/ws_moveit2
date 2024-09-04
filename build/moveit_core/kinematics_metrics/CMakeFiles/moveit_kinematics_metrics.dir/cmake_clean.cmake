@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_kinematics_metrics.dir/src/kinematics_metrics.cpp.o"
   "CMakeFiles/moveit_kinematics_metrics.dir/src/kinematics_metrics.cpp.o.d"
   "libmoveit_kinematics_metrics.pdb"

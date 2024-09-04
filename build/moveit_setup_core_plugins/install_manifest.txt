@@ -1,11 +1,11 @@
 /home/robot/ws_moveit2/install/moveit_setup_core_plugins/lib/libmoveit_setup_core_plugins.so
 /home/robot/ws_moveit2/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/moveit_setup_framework_plugins.xml
-/home/robot/ws_moveit2/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/configuration_files_widget.hpp
 /home/robot/ws_moveit2/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/configuration_files.hpp
-/home/robot/ws_moveit2/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/start_screen_widget.hpp
 /home/robot/ws_moveit2/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/author_information.hpp
+/home/robot/ws_moveit2/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/configuration_files_widget.hpp
 /home/robot/ws_moveit2/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/author_information_widget.hpp
 /home/robot/ws_moveit2/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/start_screen.hpp
+/home/robot/ws_moveit2/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/start_screen_widget.hpp
 /home/robot/ws_moveit2/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/environment/library_path.sh
 /home/robot/ws_moveit2/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/environment/library_path.dsv
 /home/robot/ws_moveit2/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/moveit_setup_framework_plugins.xml

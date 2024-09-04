@@ -11,12 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/src/pilz_move_group.cpp" "doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_move_group.dir/src/pilz_move_group.cpp.o" "gcc" "doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_move_group.dir/src/pilz_move_group.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

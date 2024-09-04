@@ -608,7 +608,7 @@ CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/robot/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h \
+ /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/class_forward.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
@@ -1234,8 +1234,8 @@ CMakeFiles/AI_Code.dir/src/AI_Code.cpp.o: \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
- /home/robot/ws_moveit2/install/moveit_ros_planning_interface/include/moveit_move_group_interface_export.h \
- /home/robot/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/planning_scene_interface/planning_scene_interface.h \
+ /opt/ros/humble/include/moveit_move_group_interface_export.h \
+ /opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/object_color.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/object_color__builder.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \

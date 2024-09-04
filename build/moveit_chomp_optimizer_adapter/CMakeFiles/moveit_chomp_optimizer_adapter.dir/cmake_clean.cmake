@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_chomp_optimizer_adapter.dir/src/chomp_optimizer_adapter.cpp.o"
   "CMakeFiles/moveit_chomp_optimizer_adapter.dir/src/chomp_optimizer_adapter.cpp.o.d"
   "libmoveit_chomp_optimizer_adapter.pdb"

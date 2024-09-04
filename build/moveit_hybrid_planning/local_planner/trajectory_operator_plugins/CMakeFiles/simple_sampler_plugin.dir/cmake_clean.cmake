@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/simple_sampler_plugin.dir/src/simple_sampler.cpp.o"
   "CMakeFiles/simple_sampler_plugin.dir/src/simple_sampler.cpp.o.d"
   "libsimple_sampler_plugin.pdb"

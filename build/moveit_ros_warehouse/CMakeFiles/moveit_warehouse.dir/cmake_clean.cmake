@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o"
   "CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o.d"
   "CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o"

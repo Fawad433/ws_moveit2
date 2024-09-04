@@ -1616,8 +1616,8 @@ CMakeFiles/moveit_setup_assistant_updater.dir/src/collisions_updater.cpp.o: \
  /usr/include/boost/thread/shared_mutex.hpp \
  /usr/include/boost/thread/pthread/shared_mutex.hpp \
  /home/robot/ws_moveit2/install/moveit_setup_framework/include/moveit_setup_framework/data/package_settings_config.hpp \
- /home/robot/ws_moveit2/install/moveit_ros_planning/include/moveit/rdf_loader/rdf_loader.h \
- /home/robot/ws_moveit2/install/moveit_ros_planning/include/moveit/rdf_loader/synchronized_string_parameter.h \
+ /opt/ros/humble/include/moveit/rdf_loader/rdf_loader.h \
+ /opt/ros/humble/include/moveit/rdf_loader/synchronized_string_parameter.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \

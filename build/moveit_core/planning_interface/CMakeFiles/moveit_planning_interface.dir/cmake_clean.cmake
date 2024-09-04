@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_planning_interface.dir/src/planning_interface.cpp.o"
   "CMakeFiles/moveit_planning_interface.dir/src/planning_interface.cpp.o.d"
   "CMakeFiles/moveit_planning_interface.dir/src/planning_response.cpp.o"

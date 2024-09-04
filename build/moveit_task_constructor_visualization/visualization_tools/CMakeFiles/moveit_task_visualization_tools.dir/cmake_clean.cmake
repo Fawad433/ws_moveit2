@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".0.1.3"
   "CMakeFiles/moveit_task_visualization_tools_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/moveit_task_visualization_tools_autogen.dir/ParseCache.txt"
   "moveit_task_visualization_tools_autogen"
@@ -16,8 +15,6 @@ file(REMOVE_RECURSE
   "libmoveit_task_visualization_tools.pdb"
   "libmoveit_task_visualization_tools.so"
   "libmoveit_task_visualization_tools.so.0.1.3"
-  "moveit_task_visualization_tools_autogen/mocs_compilation.cpp"
-  "moveit_task_visualization_tools_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

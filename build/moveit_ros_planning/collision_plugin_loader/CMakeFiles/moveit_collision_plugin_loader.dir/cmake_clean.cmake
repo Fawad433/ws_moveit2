@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o"
   "CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o.d"
   "libmoveit_collision_plugin_loader.pdb"

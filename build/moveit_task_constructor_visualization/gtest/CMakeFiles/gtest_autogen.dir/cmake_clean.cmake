@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gtest_autogen"
   "gtest_autogen/mocs_compilation.cpp"
-  "gtest_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

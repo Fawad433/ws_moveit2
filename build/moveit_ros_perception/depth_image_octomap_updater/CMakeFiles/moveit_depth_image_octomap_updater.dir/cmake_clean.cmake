@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_depth_image_octomap_updater.dir/src/updater_plugin.cpp.o"
   "CMakeFiles/moveit_depth_image_octomap_updater.dir/src/updater_plugin.cpp.o.d"
   "libmoveit_depth_image_octomap_updater.pdb"

@@ -1,4 +1,5 @@
 /home/robot/ws_moveit2/install/myrobot_hello_moveit/lib/myrobot_hello_moveit/myrobot_hello_moveit
+/home/robot/ws_moveit2/install/myrobot_hello_moveit/lib/myrobot_hello_moveit/myrobot_tryall_ompl
 /home/robot/ws_moveit2/install/myrobot_hello_moveit/lib/myrobot_hello_moveit/get_eef_pose
 /home/robot/ws_moveit2/install/myrobot_hello_moveit/lib/myrobot_hello_moveit/myrobot_planning_around_objects
 /home/robot/ws_moveit2/install/myrobot_hello_moveit/share/myrobot_hello_moveit/launch/hello_moveit_launch.py

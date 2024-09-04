@@ -1,0 +1,7 @@
+[01m[K/home/robot/ws_moveit2/src/myrobot_ompl_constraint_planning/src/ompl_constrained_planning_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/ws_moveit2/src/myrobot_ompl_constraint_planning/src/ompl_constrained_planning_tutorial.cpp:200:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kplan[m[K’ was not declared in this scope
+  200 |   auto success = (move_group_interface.plan([01;31m[Kplan[m[K) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                             [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/ompl_constrained_planning.dir/build.make:76: CMakeFiles/ompl_constrained_planning.dir/src/ompl_constrained_planning_tutorial.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ompl_constrained_planning.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_distance_field.dir/src/distance_field.cpp.o"
   "CMakeFiles/moveit_distance_field.dir/src/distance_field.cpp.o.d"
   "CMakeFiles/moveit_distance_field.dir/src/find_internal_points.cpp.o"

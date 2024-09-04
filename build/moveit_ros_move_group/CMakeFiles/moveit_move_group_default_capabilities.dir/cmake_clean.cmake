@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/apply_planning_scene_service_capability.cpp.o"
   "CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/apply_planning_scene_service_capability.cpp.o.d"
   "CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/cartesian_path_service_capability.cpp.o"

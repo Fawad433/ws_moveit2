@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_constraint_samplers.dir/src/constraint_sampler.cpp.o"
   "CMakeFiles/moveit_constraint_samplers.dir/src/constraint_sampler.cpp.o.d"
   "CMakeFiles/moveit_constraint_samplers.dir/src/constraint_sampler_manager.cpp.o"

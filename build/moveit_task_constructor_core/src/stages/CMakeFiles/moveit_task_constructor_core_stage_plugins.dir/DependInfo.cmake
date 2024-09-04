@@ -11,12 +11,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/robot/ws_moveit2/src/moveit_task_constructor/core/src/stages/plugins.cpp" "src/stages/CMakeFiles/moveit_task_constructor_core_stage_plugins.dir/plugins.cpp.o" "gcc" "src/stages/CMakeFiles/moveit_task_constructor_core_stage_plugins.dir/plugins.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/robot/ws_moveit2/build/moveit_task_constructor_core/src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/DependInfo.cmake"
+  "/home/robot/ws_moveit2/build/moveit_task_constructor_core/src/CMakeFiles/moveit_task_constructor_core.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

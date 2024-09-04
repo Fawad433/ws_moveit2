@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_chomp_interface.dir/src/chomp_interface.cpp.o"
   "CMakeFiles/moveit_chomp_interface.dir/src/chomp_interface.cpp.o.d"
   "CMakeFiles/moveit_chomp_interface.dir/src/chomp_planning_context.cpp.o"

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".0.1.3"
   "CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/ParseCache.txt"
   "motion_planning_tasks_rviz_plugin_autogen"
@@ -31,8 +30,6 @@ file(REMOVE_RECURSE
   "libmotion_planning_tasks_rviz_plugin.so"
   "libmotion_planning_tasks_rviz_plugin.so.0.1.3"
   "motion_planning_tasks_rviz_plugin_autogen/EWIEGA46WW/qrc_resources.cpp"
-  "motion_planning_tasks_rviz_plugin_autogen/mocs_compilation.cpp"
-  "motion_planning_tasks_rviz_plugin_autogen/timestamp"
   "ui_global_settings.h"
   "ui_task_panel.h"
   "ui_task_view.h"

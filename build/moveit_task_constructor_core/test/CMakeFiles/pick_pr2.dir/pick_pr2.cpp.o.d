@@ -1016,7 +1016,7 @@ test/CMakeFiles/pick_pr2.dir/pick_pr2.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/robot/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/planning_scene_interface/planning_scene_interface.h \
+ /opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \

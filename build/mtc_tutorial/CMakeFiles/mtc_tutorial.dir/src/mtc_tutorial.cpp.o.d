@@ -1134,7 +1134,7 @@ CMakeFiles/mtc_tutorial.dir/src/mtc_tutorial.cpp.o: \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit_planning_scene_export.h \
- /home/robot/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/planning_scene_interface/planning_scene_interface.h \
+ /opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/object_color.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/object_color__builder.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \

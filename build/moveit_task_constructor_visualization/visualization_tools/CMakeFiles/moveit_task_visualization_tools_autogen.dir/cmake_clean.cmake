@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_task_visualization_tools_autogen"
   "moveit_task_visualization_tools_autogen/mocs_compilation.cpp"
-  "moveit_task_visualization_tools_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

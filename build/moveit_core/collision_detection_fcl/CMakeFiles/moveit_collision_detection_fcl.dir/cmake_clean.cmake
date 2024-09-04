@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_common.cpp.o"
   "CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_common.cpp.o.d"
   "CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_env_fcl.cpp.o"

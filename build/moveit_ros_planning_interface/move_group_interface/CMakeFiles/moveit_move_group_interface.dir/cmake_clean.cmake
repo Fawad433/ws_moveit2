@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_move_group_interface.dir/src/move_group_interface.cpp.o"
   "CMakeFiles/moveit_move_group_interface.dir/src/move_group_interface.cpp.o.d"
   "libmoveit_move_group_interface.pdb"

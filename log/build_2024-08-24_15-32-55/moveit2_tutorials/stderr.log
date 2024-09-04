@@ -1,7 +1,0 @@
-[01m[K/home/robot/ws_moveit2/src/moveit2_tutorials/doc/examples/perception_pipeline/src/bag_publisher_maintain_time.cpp:39:10:[m[K [01;31m[Kfatal error: [m[Krosbag2_cpp/serialization_format_mappings.hpp: No such file or directory
-   39 | #include [01;31m[K<rosbag2_cpp/serialization_format_mappings.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/build.make:76: doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/src/bag_publisher_maintain_time.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:506: doc/examples/perception_pipeline/CMakeFiles/bag_publisher_maintain_time.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

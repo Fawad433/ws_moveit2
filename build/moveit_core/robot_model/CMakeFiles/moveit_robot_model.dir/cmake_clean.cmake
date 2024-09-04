@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_robot_model.dir/src/aabb.cpp.o"
   "CMakeFiles/moveit_robot_model.dir/src/aabb.cpp.o.d"
   "CMakeFiles/moveit_robot_model.dir/src/fixed_joint_model.cpp.o"

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/forward_trajectory_plugin.dir/src/forward_trajectory.cpp.o"
   "CMakeFiles/forward_trajectory_plugin.dir/src/forward_trajectory.cpp.o.d"
   "libforward_trajectory_plugin.pdb"

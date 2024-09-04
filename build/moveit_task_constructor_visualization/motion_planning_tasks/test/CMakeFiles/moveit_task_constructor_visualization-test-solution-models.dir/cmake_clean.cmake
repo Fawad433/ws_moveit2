@@ -8,8 +8,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/moveit_task_constructor_visualization-test-solution-models.dir/test_solution_models.cpp.o.d"
   "moveit_task_constructor_visualization-test-solution-models"
   "moveit_task_constructor_visualization-test-solution-models.pdb"
-  "moveit_task_constructor_visualization-test-solution-models_autogen/mocs_compilation.cpp"
-  "moveit_task_constructor_visualization-test-solution-models_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

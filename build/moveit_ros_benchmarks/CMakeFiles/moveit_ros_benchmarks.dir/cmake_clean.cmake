@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o"
   "CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o.d"
   "CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o"

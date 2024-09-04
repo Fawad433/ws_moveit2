@@ -11,12 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/robot/ws_moveit2/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/src/prbt_manipulator_ikfast_moveit_plugin.cpp" "CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast_moveit_plugin.cpp.o" "gcc" "CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast_moveit_plugin.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

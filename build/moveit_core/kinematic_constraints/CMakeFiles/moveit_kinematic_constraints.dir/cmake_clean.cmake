@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o"
   "CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o.d"
   "CMakeFiles/moveit_kinematic_constraints.dir/src/utils.cpp.o"

@@ -1,4 +1,3 @@
--DBACKWARD_HAS_DW=1
 -DROS_PACKAGE_NAME="moveit_setup_controllers"
 -DQT_NO_KEYWORDS
 -o

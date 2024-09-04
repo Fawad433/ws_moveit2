@@ -10,8 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/motion_planning_tasks_properties.dir/property_from_yaml.cpp.o.d"
   "libmotion_planning_tasks_properties.pdb"
   "libmotion_planning_tasks_properties.so"
-  "motion_planning_tasks_properties_autogen/mocs_compilation.cpp"
-  "motion_planning_tasks_properties_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

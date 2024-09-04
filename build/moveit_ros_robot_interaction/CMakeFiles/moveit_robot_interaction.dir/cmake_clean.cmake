@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o"
   "CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o.d"
   "CMakeFiles/moveit_robot_interaction.dir/src/interactive_marker_helpers.cpp.o"

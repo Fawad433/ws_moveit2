@@ -15,12 +15,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/robot/ws_moveit2/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils/src/xml_testdata_loader.cpp" "CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/xml_testdata_loader.cpp.o" "gcc" "CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/xml_testdata_loader.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

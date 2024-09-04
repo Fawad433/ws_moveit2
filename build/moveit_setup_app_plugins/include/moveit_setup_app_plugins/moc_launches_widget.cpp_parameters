@@ -1,4 +1,3 @@
--DBACKWARD_HAS_DW=1
 -DROS_PACKAGE_NAME="moveit_setup_app_plugins"
 -DQT_NO_KEYWORDS
 -o

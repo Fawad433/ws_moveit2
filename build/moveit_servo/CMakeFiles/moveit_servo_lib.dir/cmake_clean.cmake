@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_servo_lib.dir/src/collision_check.cpp.o"
   "CMakeFiles/moveit_servo_lib.dir/src/collision_check.cpp.o.d"
   "CMakeFiles/moveit_servo_lib.dir/src/enforce_limits.cpp.o"

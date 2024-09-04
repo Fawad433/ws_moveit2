@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_capability.cpp.o"
   "CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_capability.cpp.o.d"
   "CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_context.cpp.o"

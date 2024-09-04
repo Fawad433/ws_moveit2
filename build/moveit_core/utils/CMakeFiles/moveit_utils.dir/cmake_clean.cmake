@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_utils.dir/src/lexical_casts.cpp.o"
   "CMakeFiles/moveit_utils.dir/src/lexical_casts.cpp.o.d"
   "CMakeFiles/moveit_utils.dir/src/message_checks.cpp.o"

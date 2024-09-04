@@ -11,12 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/robot/ws_moveit2/src/moveit_task_constructor/capabilities/src/execute_task_solution_capability.cpp" "CMakeFiles/moveit_task_constructor_capabilities.dir/src/execute_task_solution_capability.cpp.o" "gcc" "CMakeFiles/moveit_task_constructor_capabilities.dir/src/execute_task_solution_capability.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

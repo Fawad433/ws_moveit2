@@ -1,0 +1,8 @@
+# Define the planner configuration for the "PTP" motion mode
+pilz_industrial_motion_planner:
+  ptp_planner:
+    # PTP mode settings
+    motion_mode: "ptp"
+    # Other PTP-specific settings
+    max_velocity: 0.5 # m/s
+    max_acceleration: 1.0 # m/s^2

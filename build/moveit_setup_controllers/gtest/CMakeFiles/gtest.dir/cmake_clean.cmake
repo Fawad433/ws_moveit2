@@ -6,8 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   "CMakeFiles/gtest.dir/src/gtest-all.cc.o.d"
-  "gtest_autogen/mocs_compilation.cpp"
-  "gtest_autogen/timestamp"
   "libgtest.a"
   "libgtest.pdb"
 )

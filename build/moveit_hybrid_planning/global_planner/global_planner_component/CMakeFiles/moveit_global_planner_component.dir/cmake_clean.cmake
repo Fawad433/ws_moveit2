@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_global_planner_component.dir/src/global_planner_component.cpp.o"
   "CMakeFiles/moveit_global_planner_component.dir/src/global_planner_component.cpp.o.d"
   "libmoveit_global_planner_component.pdb"

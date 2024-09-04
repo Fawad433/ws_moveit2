@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_trajectory_rviz_plugin_autogen"
   "moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cpp"
-  "moveit_trajectory_rviz_plugin_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

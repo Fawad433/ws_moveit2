@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_ros_control_interface_plugin.dir/src/controller_manager_plugin.cpp.o"
   "CMakeFiles/moveit_ros_control_interface_plugin.dir/src/controller_manager_plugin.cpp.o.d"
   "libmoveit_ros_control_interface_plugin.pdb"

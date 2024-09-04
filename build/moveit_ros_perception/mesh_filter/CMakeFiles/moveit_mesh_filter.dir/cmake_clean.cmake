@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_mesh_filter.dir/src/gl_mesh.cpp.o"
   "CMakeFiles/moveit_mesh_filter.dir/src/gl_mesh.cpp.o.d"
   "CMakeFiles/moveit_mesh_filter.dir/src/gl_renderer.cpp.o"

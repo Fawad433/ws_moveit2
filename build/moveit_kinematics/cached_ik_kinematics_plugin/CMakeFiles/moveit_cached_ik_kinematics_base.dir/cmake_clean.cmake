@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o"
   "CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o.d"
   "libmoveit_cached_ik_kinematics_base.pdb"

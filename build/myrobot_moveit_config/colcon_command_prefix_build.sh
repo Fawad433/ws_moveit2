@@ -2,7 +2,6 @@
 . "/home/robot/ws_moveit2/install/launch_param_builder/share/launch_param_builder/package.sh"
 . "/home/robot/ws_moveit2/install/moveit_common/share/moveit_common/package.sh"
 . "/home/robot/ws_moveit2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.sh"
-. "/home/robot/ws_moveit2/install/moveit_resources_myrobot_description/share/moveit_resources_myrobot_description/package.sh"
 . "/home/robot/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.sh"
 . "/home/robot/ws_moveit2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.sh"
 . "/home/robot/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.sh"

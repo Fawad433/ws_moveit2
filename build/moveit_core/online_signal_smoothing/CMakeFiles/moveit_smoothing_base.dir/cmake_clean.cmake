@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_smoothing_base.dir/src/smoothing_base_class.cpp.o"
   "CMakeFiles/moveit_smoothing_base.dir/src/smoothing_base_class.cpp.o.d"
   "libmoveit_smoothing_base.pdb"

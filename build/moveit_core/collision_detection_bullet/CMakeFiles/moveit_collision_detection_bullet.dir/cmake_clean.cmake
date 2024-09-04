@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_bvh_manager.cpp.o"
   "CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_bvh_manager.cpp.o.d"
   "CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_cast_bvh_manager.cpp.o"

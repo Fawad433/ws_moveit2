@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o"
   "CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o.d"
   "CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o"

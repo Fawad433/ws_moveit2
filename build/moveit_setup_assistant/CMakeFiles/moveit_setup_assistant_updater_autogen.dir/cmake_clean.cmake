@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_setup_assistant_updater_autogen"
   "moveit_setup_assistant_updater_autogen/mocs_compilation.cpp"
-  "moveit_setup_assistant_updater_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

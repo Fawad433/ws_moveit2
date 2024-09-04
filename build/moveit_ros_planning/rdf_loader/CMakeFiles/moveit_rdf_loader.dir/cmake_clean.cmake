@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_rdf_loader.dir/src/rdf_loader.cpp.o"
   "CMakeFiles/moveit_rdf_loader.dir/src/rdf_loader.cpp.o.d"
   "CMakeFiles/moveit_rdf_loader.dir/src/synchronized_string_parameter.cpp.o"

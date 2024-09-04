@@ -5,6 +5,7 @@
 /home/robot/ws_moveit2/src/moveit_task_constructor/visualization/visualization_tools/src/display_solution.cpp
 /home/robot/ws_moveit2/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_visualization.h
  mmc:Q_OBJECT
+ mdp:/home/robot/ws_moveit2/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_visualization.h
  mdp:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/moc_predefs.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/class_forward.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h
@@ -20,7 +21,6 @@
  mdp:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp
  mdp:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp
  mdp:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp
- mdp:/home/robot/ws_moveit2/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_visualization.h
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
@@ -454,8 +454,8 @@
  mdp:/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
 /home/robot/ws_moveit2/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_panel.h
  mmc:Q_OBJECT
- mdp:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/moc_predefs.h
  mdp:/home/robot/ws_moveit2/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_panel.h
+ mdp:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/moc_predefs.h
  mdp:/opt/ros/humble/include/rviz_common/rviz_common/config.hpp
  mdp:/opt/ros/humble/include/rviz_common/rviz_common/panel.hpp
  mdp:/opt/ros/humble/include/rviz_common/rviz_common/visibility_control.hpp
@@ -822,10 +822,10 @@
  mdp:/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
 /home/robot/ws_moveit2/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/marker_visualization.h
  mmc:Q_OBJECT
+ mdp:/home/robot/ws_moveit2/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/marker_visualization.h
  mdp:/home/robot/ws_moveit2/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/moc_predefs.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/class_forward.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h
- mdp:/home/robot/ws_moveit2/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/marker_visualization.h
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp

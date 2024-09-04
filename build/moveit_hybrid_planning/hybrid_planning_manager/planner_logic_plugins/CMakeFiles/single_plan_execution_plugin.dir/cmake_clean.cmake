@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/single_plan_execution_plugin.dir/src/single_plan_execution.cpp.o"
   "CMakeFiles/single_plan_execution_plugin.dir/src/single_plan_execution.cpp.o.d"
   "libsingle_plan_execution_plugin.pdb"

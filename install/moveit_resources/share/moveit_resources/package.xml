@@ -21,10 +21,7 @@
 
   <exec_depend>moveit_resources_panda_description</exec_depend>
   <exec_depend>moveit_resources_panda_moveit_config</exec_depend>
-  
-  <exec_depend>moveit_resources_myrobot_description</exec_depend>
-  <exec_depend>myrobot_moveit_config</exec_depend>
-  
+
   <exec_depend>moveit_resources_pr2_description</exec_depend>
 
   <exec_depend>joint_state_publisher</exec_depend>

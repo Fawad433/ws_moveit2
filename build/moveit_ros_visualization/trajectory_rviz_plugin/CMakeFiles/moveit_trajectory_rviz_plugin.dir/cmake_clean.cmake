@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_trajectory_rviz_plugin_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/moveit_trajectory_rviz_plugin_autogen.dir/ParseCache.txt"
   "moveit_trajectory_rviz_plugin_autogen"

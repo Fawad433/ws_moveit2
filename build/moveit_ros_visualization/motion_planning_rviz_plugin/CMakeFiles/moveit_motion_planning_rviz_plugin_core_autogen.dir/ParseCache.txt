@@ -3,8 +3,8 @@
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/src/motion_planning_frame_scenes.cpp
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/interactive_marker_display.h
  mmc:Q_OBJECT
- mdp:/home/robot/ws_moveit2/build/moveit_ros_visualization/motion_planning_rviz_plugin/moveit_motion_planning_rviz_plugin_core_autogen/moc_predefs.h
  mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/interactive_marker_display.h
+ mdp:/home/robot/ws_moveit2/build/moveit_ros_visualization/motion_planning_rviz_plugin/moveit_motion_planning_rviz_plugin_core_autogen/moc_predefs.h
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
@@ -933,8 +933,8 @@
  mdp:/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_frame.h
  mmc:Q_OBJECT
- mdp:/home/robot/ws_moveit2/build/moveit_ros_visualization/motion_planning_rviz_plugin/moveit_motion_planning_rviz_plugin_core_autogen/moc_predefs.h
  mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_frame.h
+ mdp:/home/robot/ws_moveit2/build/moveit_ros_visualization/motion_planning_rviz_plugin/moveit_motion_planning_rviz_plugin_core_autogen/moc_predefs.h
  mdp:/usr/include/alloca.h
  mdp:/usr/include/asm-generic/errno-base.h
  mdp:/usr/include/asm-generic/errno.h
@@ -1304,11 +1304,11 @@
  mdp:/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_display.h
  mmc:Q_OBJECT
+ mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_display.h
  mdp:/home/robot/ws_moveit2/build/moveit_ros_visualization/motion_planning_rviz_plugin/moveit_motion_planning_rviz_plugin_core_autogen/moc_predefs.h
  mdp:/home/robot/ws_moveit2/build/moveit_ros_visualization/planning_scene_rviz_plugin/moveit_planning_scene_rviz_plugin_core_export.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/class_forward.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h
- mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_display.h
  mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/planning_scene_rviz_plugin/include/moveit/planning_scene_rviz_plugin/planning_scene_display.h
  mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/trajectory_visualization.h
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
@@ -2147,10 +2147,10 @@
  mdp:/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_param_widget.h
  mmc:Q_OBJECT
+ mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_param_widget.h
  mdp:/home/robot/ws_moveit2/build/moveit_ros_visualization/motion_planning_rviz_plugin/moveit_motion_planning_rviz_plugin_core_autogen/moc_predefs.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/class_forward.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h
- mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_param_widget.h
  mdp:/opt/ros/humble/include/rviz_common/rviz_common/config.hpp
  mdp:/opt/ros/humble/include/rviz_common/rviz_common/properties/property_tree_model.hpp
  mdp:/opt/ros/humble/include/rviz_common/rviz_common/properties/property_tree_widget.hpp
@@ -2530,6 +2530,7 @@
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/src/motion_planning_display.cpp
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_frame_joints_widget.h
  mmc:Q_OBJECT
+ mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_frame_joints_widget.h
  mdp:/home/robot/ws_moveit2/build/moveit_ros_visualization/motion_planning_rviz_plugin/moveit_motion_planning_rviz_plugin_core_autogen/moc_predefs.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h
@@ -2548,7 +2549,6 @@
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit/transforms/transforms.h
  mdp:/home/robot/ws_moveit2/install/moveit_core/include/moveit_kinematics_base_export.h
- mdp:/home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_frame_joints_widget.h
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  mdp:/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp

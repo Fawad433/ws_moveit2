@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/robot/ws_moveit2/src/moveit_resources/myrobot_moveit_config
+# Source directory: /home/robot/ws_moveit2/src/myrobot_moveit_config
 # Build directory: /home/robot/ws_moveit2/build/myrobot_moveit_config
 # 
 # This file includes the relevant testing commands required for 

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o"
   "CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o.d"
   "libmoveit_transforms.pdb"

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_point_containment_filter.dir/src/shape_mask.cpp.o"
   "CMakeFiles/moveit_point_containment_filter.dir/src/shape_mask.cpp.o.d"
   "libmoveit_point_containment_filter.pdb"

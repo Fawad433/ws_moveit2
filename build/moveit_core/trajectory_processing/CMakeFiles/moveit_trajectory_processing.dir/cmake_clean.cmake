@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_trajectory_processing.dir/src/iterative_spline_parameterization.cpp.o"
   "CMakeFiles/moveit_trajectory_processing.dir/src/iterative_spline_parameterization.cpp.o.d"
   "CMakeFiles/moveit_trajectory_processing.dir/src/iterative_time_parameterization.cpp.o"

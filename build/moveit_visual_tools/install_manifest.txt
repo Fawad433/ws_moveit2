@@ -10,8 +10,8 @@
 /home/robot/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl
 /home/robot/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf
 /home/robot/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf
-/home/robot/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png
 /home/robot/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png
+/home/robot/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png
 /home/robot/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools
 /home/robot/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools
 /home/robot/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh

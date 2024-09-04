@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_servo_lib_parameters.dir/src/parameter_descriptor_builder.cpp.o"
   "CMakeFiles/moveit_servo_lib_parameters.dir/src/parameter_descriptor_builder.cpp.o.d"
   "CMakeFiles/moveit_servo_lib_parameters.dir/src/servo_parameters.cpp.o"

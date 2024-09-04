@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_robot_model_loader.dir/src/robot_model_loader.cpp.o"
   "CMakeFiles/moveit_robot_model_loader.dir/src/robot_model_loader.cpp.o.d"
   "libmoveit_robot_model_loader.pdb"

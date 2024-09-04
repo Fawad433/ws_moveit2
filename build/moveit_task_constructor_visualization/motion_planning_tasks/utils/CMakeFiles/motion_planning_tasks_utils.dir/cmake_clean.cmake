@@ -12,8 +12,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/motion_planning_tasks_utils.dir/tree_merge_proxy_model.cpp.o.d"
   "libmotion_planning_tasks_utils.pdb"
   "libmotion_planning_tasks_utils.so"
-  "motion_planning_tasks_utils_autogen/mocs_compilation.cpp"
-  "motion_planning_tasks_utils_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

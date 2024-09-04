@@ -1,9 +1,0 @@
-/home/robot/ws_moveit2/build/my_6DOF_roboticarm/CMakeFiles/uninstall.dir
-/home/robot/ws_moveit2/build/my_6DOF_roboticarm/CMakeFiles/my_6DOF_roboticarm_uninstall.dir
-/home/robot/ws_moveit2/build/my_6DOF_roboticarm/CMakeFiles/test.dir
-/home/robot/ws_moveit2/build/my_6DOF_roboticarm/CMakeFiles/edit_cache.dir
-/home/robot/ws_moveit2/build/my_6DOF_roboticarm/CMakeFiles/rebuild_cache.dir
-/home/robot/ws_moveit2/build/my_6DOF_roboticarm/CMakeFiles/list_install_components.dir
-/home/robot/ws_moveit2/build/my_6DOF_roboticarm/CMakeFiles/install.dir
-/home/robot/ws_moveit2/build/my_6DOF_roboticarm/CMakeFiles/install/local.dir
-/home/robot/ws_moveit2/build/my_6DOF_roboticarm/CMakeFiles/install/strip.dir

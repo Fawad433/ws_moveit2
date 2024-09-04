@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target myrobot_hello_moveit[0m
+[ 25%] Built target get_eef_pose
+[ 50%] Built target myrobot_planning_around_objects
+[ 75%] Built target myrobot_tryall_ompl
+[ 87%] [32mBuilding CXX object CMakeFiles/myrobot_hello_moveit.dir/src/myrobot_hello_moveit.cpp.o[0m

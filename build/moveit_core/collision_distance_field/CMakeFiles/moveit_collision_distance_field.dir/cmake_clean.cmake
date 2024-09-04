@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_collision_distance_field.dir/src/collision_common_distance_field.cpp.o"
   "CMakeFiles/moveit_collision_distance_field.dir/src/collision_common_distance_field.cpp.o.d"
   "CMakeFiles/moveit_collision_distance_field.dir/src/collision_distance_field_types.cpp.o"

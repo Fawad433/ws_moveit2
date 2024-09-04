@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_lazy_free_space_updater.dir/src/lazy_free_space_updater.cpp.o"
   "CMakeFiles/moveit_lazy_free_space_updater.dir/src/lazy_free_space_updater.cpp.o.d"
   "libmoveit_lazy_free_space_updater.pdb"

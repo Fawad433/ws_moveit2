@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_robot_state.dir/src/attached_body.cpp.o"
   "CMakeFiles/moveit_robot_state.dir/src/attached_body.cpp.o.d"
   "CMakeFiles/moveit_robot_state.dir/src/cartesian_interpolator.cpp.o"

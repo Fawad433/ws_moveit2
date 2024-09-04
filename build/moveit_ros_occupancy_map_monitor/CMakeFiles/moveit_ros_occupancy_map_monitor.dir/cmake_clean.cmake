@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".2.5.5"
   "CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_monitor.cpp.o"
   "CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_monitor.cpp.o.d"
   "CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_monitor_middleware_handle.cpp.o"

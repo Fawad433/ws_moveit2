@@ -4,10 +4,10 @@
 /home/robot/ws_moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so
 /home/robot/ws_moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.2.5.5
 /home/robot/ws_moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so
-/home/robot/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/node_name.h
-/home/robot/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/move_group_capability.h
-/home/robot/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/capability_names.h
 /home/robot/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/move_group_context.h
+/home/robot/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/move_group_capability.h
+/home/robot/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/node_name.h
+/home/robot/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/capability_names.h
 /home/robot/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/library_path.sh
 /home/robot/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/library_path.dsv
 /home/robot/ws_moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/load_map
