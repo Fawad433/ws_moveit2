@@ -1,0 +1,3 @@
+[console_scripts]
+pybullet_node = my_pybullet_package.pybullet_node:main
+

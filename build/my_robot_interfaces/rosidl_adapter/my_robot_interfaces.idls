@@ -1,0 +1,6 @@
+/home/robot/ws_moveit2/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/robot/ws_moveit2/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedPanelState.idl
+/home/robot/ws_moveit2/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/robot/ws_moveit2/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl
+/home/robot/ws_moveit2/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl
+/home/robot/ws_moveit2/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/OneServo.idl

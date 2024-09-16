@@ -1,0 +1,11 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/robot/ws_moveit2/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/robot/ws_moveit2/src/my_robot_interfaces:msg/LedPanelState.msg",
+    "/home/robot/ws_moveit2/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/robot/ws_moveit2/src/my_robot_interfaces:srv/SetLed.srv",
+    "/home/robot/ws_moveit2/src/my_robot_interfaces:action/CountUntil.action",
+    "/home/robot/ws_moveit2/src/my_robot_interfaces:action/OneServo.action"
+  ]
+}

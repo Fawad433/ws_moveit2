@@ -62,15 +62,19 @@ int main(int argc, char *argv[]) {
 
   // List of planners to try
   std::vector<std::string> planners = {
-      "SBLkConfigDefault", "ESTkConfigDefault", "LBKPIECEkConfigDefault",
+      "SBLkConfigDefault"};
+
+      /* "ESTkConfigDefault", "LBKPIECEkConfigDefault",
       "BKPIECEkConfigDefault", "KPIECEkConfigDefault", "RRTkConfigDefault",
       "RRTConnectkConfigDefault", "RRTstarkConfigDefault", "TRRTkConfigDefault",
       "PRMkConfigDefault", "PRMstarkConfigDefault", "FMTkConfigDefault",
       "BFMTkConfigDefault", "PDSTkConfigDefault", "STRIDEkConfigDefault",
       "BiTRRTkConfigDefault", "LBTRRTkConfigDefault", "BiESTkConfigDefault",
       "ProjESTkConfigDefault", "LazyPRMkConfigDefault", "LazyPRMstarkConfigDefault",
-      "SPARSkConfigDefault", "SPARStwokConfigDefault", "TrajOptDefault"};
+      "SPARSkConfigDefault", "SPARStwokConfigDefault", "TrajOptDefault"
+      */
 
+     
   for (const auto &planner : planners) {
     RCLCPP_INFO(logger, "Trying planner: %s", planner.c_str());
     move_group_interface.setPlannerId(planner);

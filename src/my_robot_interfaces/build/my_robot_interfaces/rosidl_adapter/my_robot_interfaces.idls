@@ -1,0 +1,2 @@
+/home/robot/ros2_ws/src/my_robot_interfaces/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/robot/ros2_ws/src/my_robot_interfaces/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl

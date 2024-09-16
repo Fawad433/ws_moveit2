@@ -1,0 +1,20 @@
+[1.395s] Invoking command in '/home/robot/ws_moveit2/src/my_pybullet_package': PYTHONPATH=/home/robot/ws_moveit2/build/my_pybullet_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ws_moveit2/install/my_pybullet_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pybullet_package build --build-base /home/robot/ws_moveit2/build/my_pybullet_package/build install --record /home/robot/ws_moveit2/build/my_pybullet_package/install.log --single-version-externally-managed
+[1.880s] running egg_info
+[1.881s] writing ../../build/my_pybullet_package/my_pybullet_package.egg-info/PKG-INFO
+[1.882s] writing dependency_links to ../../build/my_pybullet_package/my_pybullet_package.egg-info/dependency_links.txt
+[1.882s] writing entry points to ../../build/my_pybullet_package/my_pybullet_package.egg-info/entry_points.txt
+[1.882s] writing requirements to ../../build/my_pybullet_package/my_pybullet_package.egg-info/requires.txt
+[1.883s] writing top-level names to ../../build/my_pybullet_package/my_pybullet_package.egg-info/top_level.txt
+[1.886s] reading manifest file '../../build/my_pybullet_package/my_pybullet_package.egg-info/SOURCES.txt'
+[1.890s] writing manifest file '../../build/my_pybullet_package/my_pybullet_package.egg-info/SOURCES.txt'
+[1.890s] running build
+[1.891s] running build_py
+[1.891s] running install
+[1.892s] running install_lib
+[1.894s] running install_egg_info
+[1.897s] removing '/home/robot/ws_moveit2/install/my_pybullet_package/lib/python3.10/site-packages/my_pybullet_package-0.0.1-py3.10.egg-info' (and everything under it)
+[1.897s] Copying ../../build/my_pybullet_package/my_pybullet_package.egg-info to /home/robot/ws_moveit2/install/my_pybullet_package/lib/python3.10/site-packages/my_pybullet_package-0.0.1-py3.10.egg-info
+[1.899s] running install_scripts
+[1.937s] Installing pybullet_node script to /home/robot/ws_moveit2/install/my_pybullet_package/lib/my_pybullet_package
+[1.938s] writing list of installed files to '/home/robot/ws_moveit2/build/my_pybullet_package/install.log'
+[1.980s] Invoked command in '/home/robot/ws_moveit2/src/my_pybullet_package' returned '0': PYTHONPATH=/home/robot/ws_moveit2/build/my_pybullet_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ws_moveit2/install/my_pybullet_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pybullet_package build --build-base /home/robot/ws_moveit2/build/my_pybullet_package/build install --record /home/robot/ws_moveit2/build/my_pybullet_package/install.log --single-version-externally-managed

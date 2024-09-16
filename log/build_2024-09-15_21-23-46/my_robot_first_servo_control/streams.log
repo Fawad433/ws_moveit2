@@ -1,0 +1,22 @@
+[1.578s] Invoking command in '/home/robot/ws_moveit2/src/my_robot_first_servo_control': AMENT_PREFIX_PATH=/home/robot/ws_moveit2/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/ws_moveit2/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/ws_moveit2/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/ws_moveit2/build/my_robot_first_servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ws_moveit2/install/my_robot_first_servo_control/lib/python3.10/site-packages:/home/robot/ws_moveit2/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_first_servo_control build --build-base /home/robot/ws_moveit2/build/my_robot_first_servo_control/build install --record /home/robot/ws_moveit2/build/my_robot_first_servo_control/install.log --single-version-externally-managed install_data
+[2.185s] running egg_info
+[2.187s] writing ../../build/my_robot_first_servo_control/my_robot_first_servo_control.egg-info/PKG-INFO
+[2.187s] writing dependency_links to ../../build/my_robot_first_servo_control/my_robot_first_servo_control.egg-info/dependency_links.txt
+[2.188s] writing entry points to ../../build/my_robot_first_servo_control/my_robot_first_servo_control.egg-info/entry_points.txt
+[2.188s] writing requirements to ../../build/my_robot_first_servo_control/my_robot_first_servo_control.egg-info/requires.txt
+[2.188s] writing top-level names to ../../build/my_robot_first_servo_control/my_robot_first_servo_control.egg-info/top_level.txt
+[2.192s] reading manifest file '../../build/my_robot_first_servo_control/my_robot_first_servo_control.egg-info/SOURCES.txt'
+[2.195s] writing manifest file '../../build/my_robot_first_servo_control/my_robot_first_servo_control.egg-info/SOURCES.txt'
+[2.195s] running build
+[2.195s] running build_py
+[2.196s] running install
+[2.196s] running install_lib
+[2.199s] running install_data
+[2.199s] running install_egg_info
+[2.203s] removing '/home/robot/ws_moveit2/install/my_robot_first_servo_control/lib/python3.10/site-packages/my_robot_first_servo_control-0.0.0-py3.10.egg-info' (and everything under it)
+[2.203s] Copying ../../build/my_robot_first_servo_control/my_robot_first_servo_control.egg-info to /home/robot/ws_moveit2/install/my_robot_first_servo_control/lib/python3.10/site-packages/my_robot_first_servo_control-0.0.0-py3.10.egg-info
+[2.205s] running install_scripts
+[2.255s] Installing servo_client script to /home/robot/ws_moveit2/install/my_robot_first_servo_control/lib/my_robot_first_servo_control
+[2.255s] Installing servo_client_client script to /home/robot/ws_moveit2/install/my_robot_first_servo_control/lib/my_robot_first_servo_control
+[2.256s] writing list of installed files to '/home/robot/ws_moveit2/build/my_robot_first_servo_control/install.log'
+[2.303s] Invoked command in '/home/robot/ws_moveit2/src/my_robot_first_servo_control' returned '0': AMENT_PREFIX_PATH=/home/robot/ws_moveit2/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/ws_moveit2/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/ws_moveit2/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/ws_moveit2/build/my_robot_first_servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ws_moveit2/install/my_robot_first_servo_control/lib/python3.10/site-packages:/home/robot/ws_moveit2/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_first_servo_control build --build-base /home/robot/ws_moveit2/build/my_robot_first_servo_control/build install --record /home/robot/ws_moveit2/build/my_robot_first_servo_control/install.log --single-version-externally-managed install_data

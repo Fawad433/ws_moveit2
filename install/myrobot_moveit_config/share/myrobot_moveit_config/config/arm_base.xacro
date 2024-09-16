@@ -140,9 +140,9 @@
 
         <collision>
             <geometry>
-                <box size="${link4_length} ${link4_width} ${link4_height}" />
+                <box size="${link4_length} ${link4_width} ${link4_height*0.8}" />
             </geometry>
-            <origin xyz="${link4_width/2.0} ${link4_height/2.0} 0" rpy="1.5708 0 0" />
+            <origin xyz="${link4_width/2.0} ${link4_height/1.6} 0" rpy="1.5708 0 0" />
         </collision>
 
         <xacro:box_inertia m="0.5" l="${2*link4_length}" w="${2*link4_width}" h="${2*link4_height}"

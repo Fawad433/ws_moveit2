@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_robot_interfaces/msg/LedPanelState.msg
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module msg {
+    struct LedPanelState {
+      @default (value="(0, 0, 0)")
+      sequence<uint8> led_panel_state;
+    };
+  };
+};
