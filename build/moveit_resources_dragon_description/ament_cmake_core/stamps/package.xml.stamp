@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>moveit_resources_dragon_description</name>
+  <version>2.0.7</version>
+  <description>dragon Resources used for MoveIt project</description>
+  
+  <author email="fawadahmed433@gmail.com">Fawad Ahmad</author>
+
+  <maintainer email="fawadahmed433@gmail.com">Fawad Ahmad</maintainer>
+
+  <license> None </license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+</package>

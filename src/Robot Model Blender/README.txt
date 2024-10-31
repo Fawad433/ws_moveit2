@@ -1,0 +1,1 @@
+3D printable robotic arm claw gripper by Juergenlessner on Thingiverse: https://www.thingiverse.com/thing:969447

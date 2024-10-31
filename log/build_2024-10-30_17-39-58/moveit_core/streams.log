@@ -1,0 +1,317 @@
+[0.064s] Invoking command in '/home/robot/ws_moveit2/build/moveit_core': CMAKE_PREFIX_PATH=/home/robot/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/robot/ws_moveit2/install/srdfdom:/home/robot/ws_moveit2/install/moveit_resources_pr2_description:/home/robot/ws_moveit2/install/moveit_resources_panda_description:/home/robot/ws_moveit2/install/moveit_common:/home/robot/ws_moveit2/install/dragon_hello_moveit:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robot/ws_moveit2/install/myrobot_moveit_config:/home/robot/ws_moveit2/install/moveit_runtime:/home/robot/ws_moveit2/install/moveit2_tutorials:/home/robot/ws_moveit2/install/moveit:/home/robot/ws_moveit2/install/dragon_moveit_config:/home/robot/ws_moveit2/install/moveit_planners:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner:/home/robot/ws_moveit2/install/ompl_constrained_planning:/home/robot/ws_moveit2/install/myrobot_ompl_constrained_planning:/home/robot/ws_moveit2/install/myrobot_hello_moveit:/home/robot/ws_moveit2/install/mtc_tutorial:/home/robot/ws_moveit2/install/moveit_visual_tools:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization:/home/robot/ws_moveit2/install/moveit_task_constructor_demo:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities:/home/robot/ws_moveit2/install/moveit_task_constructor_core:/home/robot/ws_moveit2/install/moveit_ros_control_interface:/home/robot/ws_moveit2/install/moveit_plugins:/home/robot/ws_moveit2/install/moveit_simple_controller_manager:/home/robot/ws_moveit2/install/moveit_setup_assistant:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robot/ws_moveit2/install/moveit_setup_core_plugins:/home/robot/ws_moveit2/install/moveit_setup_controllers:/home/robot/ws_moveit2/install/moveit_setup_app_plugins:/home/robot/ws_moveit2/install/moveit_setup_framework:/home/robot/ws_moveit2/install/moveit_servo:/home/robot/ws_moveit2/install/moveit_ros:/home/robot/ws_moveit2/install/moveit_ros_visualization:/home/robot/ws_moveit2/install/moveit_hybrid_planning:/home/robot/ws_moveit2/install/moveit_ros_planning_interface:/home/robot/ws_moveit2/install/moveit_ros_benchmarks:/home/robot/ws_moveit2/install/moveit_ros_warehouse:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction:/home/robot/ws_moveit2/install/moveit_ros_perception:/home/robot/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robot/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robot/ws_moveit2/install/moveit_ros_move_group:/home/robot/ws_moveit2/install/moveit_planners_ompl:/home/robot/ws_moveit2/install/moveit_ros_planning:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robot/ws_moveit2/install/moveit_planners_chomp:/home/robot/ws_moveit2/install/moveit_kinematics:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robot/ws_moveit2/install/chomp_motion_planner:/home/robot/ws_moveit2/install/moveit_core:/home/robot/ws_moveit2/install/rviz_marker_tools:/home/robot/ws_moveit2/install/rosparam_shortcuts:/home/robot/ws_moveit2/install/my_robot_interfaces:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs:/home/robot/ws_moveit2/install/moveit_resources_prbt_support:/home/robot/ws_moveit2/install/moveit_resources:/home/robot/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_fanuc_description:/home/robot/ws_moveit2/install/moveit_resources_dragon_description:/home/robot/ros2_ws/install/my_robot_bringup:/home/robot/ros2_ws/install/my_robot_interfaces:/home/robot/ros2_ws/install/my_robot_firstrobot:/home/robot/ros2_ws/install/my_robot_first_roboticarm:/home/robot/ros2_ws/install/my_cpp_pkg:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/myrobot_3D_movit_config:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/ws_moveit2/install/srdfdom/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_visual_tools/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_core/lib:/home/robot/ws_moveit2/install/moveit_ros_control_interface/lib:/home/robot/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robot/ws_moveit2/install/moveit_setup_assistant/lib:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_controllers/lib:/home/robot/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_framework/lib:/home/robot/ws_moveit2/install/moveit_servo/lib:/home/robot/ws_moveit2/install/moveit_ros_visualization/lib:/home/robot/ws_moveit2/install/moveit_hybrid_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/robot/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/robot/ws_moveit2/install/moveit_ros_warehouse/lib:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/robot/ws_moveit2/install/moveit_ros_perception/lib:/home/robot/ws_moveit2/install/moveit_ros_move_group/lib:/home/robot/ws_moveit2/install/moveit_planners_ompl/lib:/home/robot/ws_moveit2/install/moveit_ros_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/robot/ws_moveit2/install/moveit_planners_chomp/lib:/home/robot/ws_moveit2/install/moveit_kinematics/lib:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/robot/ws_moveit2/install/chomp_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/rviz_marker_tools/lib:/home/robot/ws_moveit2/install/rosparam_shortcuts/lib:/home/robot/ws_moveit2/install/my_robot_interfaces/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/robot/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robot/ws_moveit2/build/moveit_core -- -j4 -l4
+[0.270s] [  1%] Built target moveit_transforms
+[0.388s] [  3%] Built target moveit_distance_field
+[0.488s] [  5%] Built target moveit_utils
+[0.555s] [  6%] Built target gtest
+[0.626s] [  7%] Built target gtest_main
+[0.709s] [  9%] Built target gmock
+[0.805s] [ 10%] Built target gmock_main
+[0.890s] [ 11%] Built target test_voxel_grid
+[0.976s] [ 12%] Built target test_distance_field
+[1.067s] [ 13%] Built target moveit_smoothing_base
+[1.134s] [ 14%] Built target moveit_butterworth_parameters
+[1.217s] [ 15%] Built target test_transforms
+[1.285s] [ 17%] Built target moveit_version
+[1.372s] [ 18%] Built target moveit_kinematics_base
+[1.440s] [ 19%] Built target moveit_exceptions
+[1.567s] [ 26%] Built target moveit_robot_model
+[1.688s] [ 29%] Built target moveit_robot_state
+[1.806s] [ 30%] Built target moveit_butterworth_filter
+[1.879s] [ 31%] Built target moveit_robot_trajectory
+[1.974s] [ 33%] Built target moveit_dynamics_solver
+[2.075s] [ 34%] Built target moveit_kinematics_metrics
+[2.181s] [ 35%] Built target test_butterworth_filter
+[2.281s] [ 37%] Built target moveit_planning_interface
+[2.389s] [ 41%] Built target moveit_trajectory_processing
+[2.519s] [ 47%] Built target moveit_collision_detection
+[2.646s] [ 48%] Built target moveit_test_utils
+[2.724s] [ 50%] Built target test_world_diff
+[2.827s] [ 51%] Built target test_all_valid
+[2.973s] [ 56%] Built target moveit_collision_detection_bullet
+[3.073s] [ 57%] Built target test_robot_model
+[3.173s] [ 59%] Built target test_robot_state
+[3.270s] [ 60%] Built target test_robot_state_benchmark
+[3.371s] [ 61%] Built target test_robot_state_complex
+[3.485s] [ 62%] Built target test_aabb
+[3.573s] [ 63%] Built target test_cartesian_interpolator
+[3.670s] [ 64%] Built target test_robot_trajectory
+[3.761s] [ 65%] Built target test_time_parameterization
+[3.862s] [ 67%] Built target test_time_optimal_trajectory_generation
+[3.965s] [ 68%] Built target test_ruckig_traj_smoothing
+[4.061s] [ 69%] Built target test_bullet_collision_detection
+[4.170s] [ 70%] Built target test_bullet_collision_detection_panda
+[4.278s] [ 72%] Built target test_bullet_continuous_collision_checking
+[4.375s] [ 73%] Built target test_world
+[4.491s] [ 75%] Built target moveit_collision_detection_fcl
+[4.606s] [ 77%] Built target moveit_kinematic_constraints
+[4.738s] [ 78%] Built target test_fcl_collision_detection_panda
+[4.830s] [ 79%] Built target moveit_planning_scene
+[4.917s] [ 80%] Built target test_constraints
+[5.016s] [ 81%] Built target test_orientation_constraints
+[5.108s] [ 82%] Built target moveit_planning_request_adapter
+[5.209s] [ 83%] Built target test_planning_scene
+[5.304s] [ 84%] Built target test_collision_objects
+[5.394s] [ 85%] Built target test_multi_threaded
+[5.476s] [ 86%] Built target collision_detector_bullet_plugin
+[5.560s] [ 87%] Built target collision_detector_fcl_plugin
+[5.688s] [ 90%] Built target moveit_collision_distance_field
+[5.783s] [ 93%] Built target moveit_constraint_samplers
+[5.896s] [ 94%] Built target test_collision_distance_field
+[6.015s] [ 97%] Built target test_constraint_samplers
+[6.113s] [ 98%] Built target test_fcl_collision_detection
+[6.217s] [100%] Built target test_fcl_collision_env
+[6.249s] Invoked command in '/home/robot/ws_moveit2/build/moveit_core' returned '0': CMAKE_PREFIX_PATH=/home/robot/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/robot/ws_moveit2/install/srdfdom:/home/robot/ws_moveit2/install/moveit_resources_pr2_description:/home/robot/ws_moveit2/install/moveit_resources_panda_description:/home/robot/ws_moveit2/install/moveit_common:/home/robot/ws_moveit2/install/dragon_hello_moveit:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robot/ws_moveit2/install/myrobot_moveit_config:/home/robot/ws_moveit2/install/moveit_runtime:/home/robot/ws_moveit2/install/moveit2_tutorials:/home/robot/ws_moveit2/install/moveit:/home/robot/ws_moveit2/install/dragon_moveit_config:/home/robot/ws_moveit2/install/moveit_planners:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner:/home/robot/ws_moveit2/install/ompl_constrained_planning:/home/robot/ws_moveit2/install/myrobot_ompl_constrained_planning:/home/robot/ws_moveit2/install/myrobot_hello_moveit:/home/robot/ws_moveit2/install/mtc_tutorial:/home/robot/ws_moveit2/install/moveit_visual_tools:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization:/home/robot/ws_moveit2/install/moveit_task_constructor_demo:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities:/home/robot/ws_moveit2/install/moveit_task_constructor_core:/home/robot/ws_moveit2/install/moveit_ros_control_interface:/home/robot/ws_moveit2/install/moveit_plugins:/home/robot/ws_moveit2/install/moveit_simple_controller_manager:/home/robot/ws_moveit2/install/moveit_setup_assistant:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robot/ws_moveit2/install/moveit_setup_core_plugins:/home/robot/ws_moveit2/install/moveit_setup_controllers:/home/robot/ws_moveit2/install/moveit_setup_app_plugins:/home/robot/ws_moveit2/install/moveit_setup_framework:/home/robot/ws_moveit2/install/moveit_servo:/home/robot/ws_moveit2/install/moveit_ros:/home/robot/ws_moveit2/install/moveit_ros_visualization:/home/robot/ws_moveit2/install/moveit_hybrid_planning:/home/robot/ws_moveit2/install/moveit_ros_planning_interface:/home/robot/ws_moveit2/install/moveit_ros_benchmarks:/home/robot/ws_moveit2/install/moveit_ros_warehouse:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction:/home/robot/ws_moveit2/install/moveit_ros_perception:/home/robot/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robot/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robot/ws_moveit2/install/moveit_ros_move_group:/home/robot/ws_moveit2/install/moveit_planners_ompl:/home/robot/ws_moveit2/install/moveit_ros_planning:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robot/ws_moveit2/install/moveit_planners_chomp:/home/robot/ws_moveit2/install/moveit_kinematics:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robot/ws_moveit2/install/chomp_motion_planner:/home/robot/ws_moveit2/install/moveit_core:/home/robot/ws_moveit2/install/rviz_marker_tools:/home/robot/ws_moveit2/install/rosparam_shortcuts:/home/robot/ws_moveit2/install/my_robot_interfaces:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs:/home/robot/ws_moveit2/install/moveit_resources_prbt_support:/home/robot/ws_moveit2/install/moveit_resources:/home/robot/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_fanuc_description:/home/robot/ws_moveit2/install/moveit_resources_dragon_description:/home/robot/ros2_ws/install/my_robot_bringup:/home/robot/ros2_ws/install/my_robot_interfaces:/home/robot/ros2_ws/install/my_robot_firstrobot:/home/robot/ros2_ws/install/my_robot_first_roboticarm:/home/robot/ros2_ws/install/my_cpp_pkg:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/myrobot_3D_movit_config:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/ws_moveit2/install/srdfdom/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_visual_tools/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_core/lib:/home/robot/ws_moveit2/install/moveit_ros_control_interface/lib:/home/robot/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robot/ws_moveit2/install/moveit_setup_assistant/lib:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_controllers/lib:/home/robot/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_framework/lib:/home/robot/ws_moveit2/install/moveit_servo/lib:/home/robot/ws_moveit2/install/moveit_ros_visualization/lib:/home/robot/ws_moveit2/install/moveit_hybrid_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/robot/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/robot/ws_moveit2/install/moveit_ros_warehouse/lib:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/robot/ws_moveit2/install/moveit_ros_perception/lib:/home/robot/ws_moveit2/install/moveit_ros_move_group/lib:/home/robot/ws_moveit2/install/moveit_planners_ompl/lib:/home/robot/ws_moveit2/install/moveit_ros_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/robot/ws_moveit2/install/moveit_planners_chomp/lib:/home/robot/ws_moveit2/install/moveit_kinematics/lib:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/robot/ws_moveit2/install/chomp_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/rviz_marker_tools/lib:/home/robot/ws_moveit2/install/rosparam_shortcuts/lib:/home/robot/ws_moveit2/install/my_robot_interfaces/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/robot/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robot/ws_moveit2/build/moveit_core -- -j4 -l4
+[6.494s] Invoking command in '/home/robot/ws_moveit2/build/moveit_core': CMAKE_PREFIX_PATH=/home/robot/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/robot/ws_moveit2/install/srdfdom:/home/robot/ws_moveit2/install/moveit_resources_pr2_description:/home/robot/ws_moveit2/install/moveit_resources_panda_description:/home/robot/ws_moveit2/install/moveit_common:/home/robot/ws_moveit2/install/dragon_hello_moveit:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robot/ws_moveit2/install/myrobot_moveit_config:/home/robot/ws_moveit2/install/moveit_runtime:/home/robot/ws_moveit2/install/moveit2_tutorials:/home/robot/ws_moveit2/install/moveit:/home/robot/ws_moveit2/install/dragon_moveit_config:/home/robot/ws_moveit2/install/moveit_planners:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner:/home/robot/ws_moveit2/install/ompl_constrained_planning:/home/robot/ws_moveit2/install/myrobot_ompl_constrained_planning:/home/robot/ws_moveit2/install/myrobot_hello_moveit:/home/robot/ws_moveit2/install/mtc_tutorial:/home/robot/ws_moveit2/install/moveit_visual_tools:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization:/home/robot/ws_moveit2/install/moveit_task_constructor_demo:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities:/home/robot/ws_moveit2/install/moveit_task_constructor_core:/home/robot/ws_moveit2/install/moveit_ros_control_interface:/home/robot/ws_moveit2/install/moveit_plugins:/home/robot/ws_moveit2/install/moveit_simple_controller_manager:/home/robot/ws_moveit2/install/moveit_setup_assistant:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robot/ws_moveit2/install/moveit_setup_core_plugins:/home/robot/ws_moveit2/install/moveit_setup_controllers:/home/robot/ws_moveit2/install/moveit_setup_app_plugins:/home/robot/ws_moveit2/install/moveit_setup_framework:/home/robot/ws_moveit2/install/moveit_servo:/home/robot/ws_moveit2/install/moveit_ros:/home/robot/ws_moveit2/install/moveit_ros_visualization:/home/robot/ws_moveit2/install/moveit_hybrid_planning:/home/robot/ws_moveit2/install/moveit_ros_planning_interface:/home/robot/ws_moveit2/install/moveit_ros_benchmarks:/home/robot/ws_moveit2/install/moveit_ros_warehouse:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction:/home/robot/ws_moveit2/install/moveit_ros_perception:/home/robot/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robot/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robot/ws_moveit2/install/moveit_ros_move_group:/home/robot/ws_moveit2/install/moveit_planners_ompl:/home/robot/ws_moveit2/install/moveit_ros_planning:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robot/ws_moveit2/install/moveit_planners_chomp:/home/robot/ws_moveit2/install/moveit_kinematics:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robot/ws_moveit2/install/chomp_motion_planner:/home/robot/ws_moveit2/install/moveit_core:/home/robot/ws_moveit2/install/rviz_marker_tools:/home/robot/ws_moveit2/install/rosparam_shortcuts:/home/robot/ws_moveit2/install/my_robot_interfaces:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs:/home/robot/ws_moveit2/install/moveit_resources_prbt_support:/home/robot/ws_moveit2/install/moveit_resources:/home/robot/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_fanuc_description:/home/robot/ws_moveit2/install/moveit_resources_dragon_description:/home/robot/ros2_ws/install/my_robot_bringup:/home/robot/ros2_ws/install/my_robot_interfaces:/home/robot/ros2_ws/install/my_robot_firstrobot:/home/robot/ros2_ws/install/my_robot_first_roboticarm:/home/robot/ros2_ws/install/my_cpp_pkg:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/myrobot_3D_movit_config:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/ws_moveit2/install/srdfdom/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_visual_tools/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_core/lib:/home/robot/ws_moveit2/install/moveit_ros_control_interface/lib:/home/robot/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robot/ws_moveit2/install/moveit_setup_assistant/lib:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_controllers/lib:/home/robot/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_framework/lib:/home/robot/ws_moveit2/install/moveit_servo/lib:/home/robot/ws_moveit2/install/moveit_ros_visualization/lib:/home/robot/ws_moveit2/install/moveit_hybrid_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/robot/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/robot/ws_moveit2/install/moveit_ros_warehouse/lib:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/robot/ws_moveit2/install/moveit_ros_perception/lib:/home/robot/ws_moveit2/install/moveit_ros_move_group/lib:/home/robot/ws_moveit2/install/moveit_planners_ompl/lib:/home/robot/ws_moveit2/install/moveit_ros_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/robot/ws_moveit2/install/moveit_planners_chomp/lib:/home/robot/ws_moveit2/install/moveit_kinematics/lib:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/robot/ws_moveit2/install/chomp_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/rviz_marker_tools/lib:/home/robot/ws_moveit2/install/rosparam_shortcuts/lib:/home/robot/ws_moveit2/install/my_robot_interfaces/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/robot/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robot/ws_moveit2/build/moveit_core
+[6.515s] -- Install configuration: "Release"
+[6.515s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/version.h
+[6.516s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.516s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.516s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field
+[6.516s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_distance_field.h
+[6.519s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_env_hybrid.h
+[6.519s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_env_distance_field.h
+[6.519s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_common_distance_field.h
+[6.519s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_distance_field_types.h
+[6.519s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_hybrid.h
+[6.519s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_collision_distance_field_export.h
+[6.519s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.520s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.522s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers
+[6.523s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/union_constraint_sampler.h
+[6.523s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_manager.h
+[6.523s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_tools.h
+[6.523s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/default_constraint_samplers.h
+[6.523s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_allocator.h
+[6.523s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler.h
+[6.523s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.526s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.526s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/controller_manager
+[6.526s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/controller_manager/controller_manager.h
+[6.526s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.526s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.527s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/distance_field
+[6.527s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/distance_field/propagation_distance_field.h
+[6.527s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/distance_field/distance_field.h
+[6.527s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/distance_field/voxel_grid.h
+[6.527s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/distance_field/find_internal_points.h
+[6.527s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.528s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.529s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/dynamics_solver
+[6.529s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/dynamics_solver/dynamics_solver.h
+[6.529s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.529s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.532s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions
+[6.533s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h
+[6.533s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.533s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.533s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/kinematics_base
+[6.534s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h
+[6.534s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_kinematics_base_export.h
+[6.534s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.534s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.534s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/kinematic_constraints
+[6.535s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/kinematic_constraints/utils.h
+[6.535s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h
+[6.535s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.535s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.535s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/kinematics_metrics
+[6.535s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/kinematics_metrics/kinematics_metrics.h
+[6.535s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.536s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.536s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros
+[6.536s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/deprecation.h
+[6.536s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/console_colors.h
+[6.538s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h
+[6.539s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/class_forward.h
+[6.539s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_butterworth_parameters
+[6.539s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_butterworth_parameters/moveit_butterworth_parameters.hpp
+[6.539s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.539s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.541s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/online_signal_smoothing
+[6.541s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/online_signal_smoothing/smoothing_base_class.h
+[6.541s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/online_signal_smoothing/butterworth_filter.h
+[6.542s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_smoothing_base_export.h
+[6.542s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_butterworth_filter_export.h
+[6.542s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.543s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.546s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_interface
+[6.547s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_interface/planning_interface.h
+[6.547s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_interface/planning_response.h
+[6.547s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_interface/planning_request.h
+[6.547s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.547s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.547s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_request_adapter
+[6.547s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h
+[6.547s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.548s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.548s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_scene
+[6.548s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_scene/planning_scene.h
+[6.548s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_planning_scene_export.h
+[6.548s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.548s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.548s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model
+[6.548s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/fixed_joint_model.h
+[6.548s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h
+[6.549s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/planar_joint_model.h
+[6.549s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h
+[6.549s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/aabb.h
+[6.549s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/revolute_joint_model.h
+[6.549s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/link_model.h
+[6.549s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h
+[6.555s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/prismatic_joint_model.h
+[6.556s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/floating_joint_model.h
+[6.556s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.558s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.559s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state
+[6.559s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/attached_body.h
+[6.559s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/cartesian_interpolator.h
+[6.559s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h
+[6.559s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/conversions.h
+[6.559s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.560s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.563s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_trajectory
+[6.564s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_trajectory/robot_trajectory.h
+[6.564s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.564s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.564s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/sensor_manager
+[6.564s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/sensor_manager/sensor_manager.h
+[6.564s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.564s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.564s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing
+[6.565s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/iterative_spline_parameterization.h
+[6.565s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/iterative_time_parameterization.h
+[6.565s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/time_optimal_trajectory_generation.h
+[6.565s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/ruckig_traj_smoothing.h
+[6.565s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/time_parameterization.h
+[6.565s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/trajectory_tools.h
+[6.565s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.565s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.566s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/transforms
+[6.566s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/transforms/transforms.h
+[6.566s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.566s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.566s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/utils
+[6.573s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/utils/message_checks.h
+[6.573s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/utils/rclcpp_utils.h
+[6.574s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/utils/moveit_error_code.h
+[6.574s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/utils/lexical_casts.h
+[6.575s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/utils/robot_model_test_utils.h
+[6.575s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/bin/moveit_version
+[6.575s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.577s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.577s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection
+[6.577s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/test_collision_common_panda.h
+[6.578s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_plugin_cache.h
+[6.578s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_matrix.h
+[6.578s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/allvalid
+[6.578s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/allvalid/collision_env_allvalid.h
+[6.578s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/allvalid/collision_detector_allocator_allvalid.h
+[6.578s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h
+[6.579s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_octomap_filter.h
+[6.579s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/test_collision_common_pr2.h
+[6.579s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/world.h
+[6.579s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_tools.h
+[6.579s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_env.h
+[6.583s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_common.h
+[6.584s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/world_diff.h
+[6.584s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/occupancy_map.h
+[6.584s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_plugin.h
+[6.584s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_collision_detection_export.h
+[6.584s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.584s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.585s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet
+[6.585s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_bullet_plugin_loader.h
+[6.585s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/collision_env_bullet.h
+[6.585s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration
+[6.585s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_discrete_bvh_manager.h
+[6.586s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_bvh_manager.h
+[6.586s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h
+[6.586s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/ros_bullet_utils.h
+[6.587s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/basic_types.h
+[6.587s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/contact_checker_common.h
+[6.587s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_cast_bvh_manager.h
+[6.587s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_allocator_bullet.h
+[6.587s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_collision_detection_bullet_export.h
+[6.587s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include
+[6.588s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit
+[6.588s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl
+[6.588s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_fcl_plugin_loader.h
+[6.588s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_env_fcl.h
+[6.588s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/fcl_compat.h
+[6.588s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_common.h
+[6.588s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_allocator_fcl.h
+[6.588s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/include/moveit_collision_detection_fcl_export.h
+[6.589s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5
+[6.589s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libcollision_detector_bullet_plugin.so
+[6.589s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5
+[6.589s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_butterworth_filter.so
+[6.589s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5
+[6.590s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_collision_distance_field.so
+[6.590s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5
+[6.590s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection.so
+[6.590s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5
+[6.590s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_fcl.so
+[6.591s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5
+[6.591s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_bullet.so
+[6.591s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5
+[6.591s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_dynamics_solver.so
+[6.591s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5
+[6.591s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_constraint_samplers.so
+[6.592s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5
+[6.592s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_distance_field.so
+[6.592s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5
+[6.592s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_exceptions.so
+[6.592s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_base.so
+[6.592s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5
+[6.592s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_kinematic_constraints.so
+[6.593s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5
+[6.593s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_metrics.so
+[6.593s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5
+[6.593s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_planning_interface.so
+[6.593s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5
+[6.593s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_planning_scene.so
+[6.593s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5
+[6.593s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_planning_request_adapter.so
+[6.593s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5
+[6.594s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_robot_model.so
+[6.594s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5
+[6.594s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_robot_state.so
+[6.594s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5
+[6.594s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_robot_trajectory.so
+[6.594s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5
+[6.594s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_smoothing_base.so
+[6.594s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5
+[6.595s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_test_utils.so
+[6.595s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5
+[6.595s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_trajectory_processing.so
+[6.595s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
+[6.597s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so
+[6.599s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
+[6.599s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so
+[6.599s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/environment/library_path.sh
+[6.600s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/environment/library_path.dsv
+[6.600s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/collision_detector_fcl_description.xml
+[6.600s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/collision_detector_bullet_description.xml
+[6.600s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/filter_plugin_butterworth.xml
+[6.600s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/ament_index/resource_index/package_run_dependencies/moveit_core
+[6.601s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/ament_index/resource_index/parent_prefix_path/moveit_core
+[6.601s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/environment/ament_prefix_path.sh
+[6.601s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/environment/ament_prefix_path.dsv
+[6.601s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/environment/path.sh
+[6.601s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/environment/path.dsv
+[6.602s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.bash
+[6.602s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.sh
+[6.602s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.zsh
+[6.602s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.dsv
+[6.602s] -- Installing: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/package.dsv
+[6.602s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/ament_index/resource_index/packages/moveit_core
+[6.603s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_core
+[6.603s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport.cmake
+[6.603s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport-release.cmake
+[6.603s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake
+[6.603s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_targets-extras.cmake
+[6.603s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.604s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake
+[6.604s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig-version.cmake
+[6.604s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_core/share/moveit_core/package.xml
+[6.604s] Invoked command in '/home/robot/ws_moveit2/build/moveit_core' returned '0': CMAKE_PREFIX_PATH=/home/robot/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/robot/ws_moveit2/install/srdfdom:/home/robot/ws_moveit2/install/moveit_resources_pr2_description:/home/robot/ws_moveit2/install/moveit_resources_panda_description:/home/robot/ws_moveit2/install/moveit_common:/home/robot/ws_moveit2/install/dragon_hello_moveit:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robot/ws_moveit2/install/myrobot_moveit_config:/home/robot/ws_moveit2/install/moveit_runtime:/home/robot/ws_moveit2/install/moveit2_tutorials:/home/robot/ws_moveit2/install/moveit:/home/robot/ws_moveit2/install/dragon_moveit_config:/home/robot/ws_moveit2/install/moveit_planners:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner:/home/robot/ws_moveit2/install/ompl_constrained_planning:/home/robot/ws_moveit2/install/myrobot_ompl_constrained_planning:/home/robot/ws_moveit2/install/myrobot_hello_moveit:/home/robot/ws_moveit2/install/mtc_tutorial:/home/robot/ws_moveit2/install/moveit_visual_tools:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization:/home/robot/ws_moveit2/install/moveit_task_constructor_demo:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities:/home/robot/ws_moveit2/install/moveit_task_constructor_core:/home/robot/ws_moveit2/install/moveit_ros_control_interface:/home/robot/ws_moveit2/install/moveit_plugins:/home/robot/ws_moveit2/install/moveit_simple_controller_manager:/home/robot/ws_moveit2/install/moveit_setup_assistant:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robot/ws_moveit2/install/moveit_setup_core_plugins:/home/robot/ws_moveit2/install/moveit_setup_controllers:/home/robot/ws_moveit2/install/moveit_setup_app_plugins:/home/robot/ws_moveit2/install/moveit_setup_framework:/home/robot/ws_moveit2/install/moveit_servo:/home/robot/ws_moveit2/install/moveit_ros:/home/robot/ws_moveit2/install/moveit_ros_visualization:/home/robot/ws_moveit2/install/moveit_hybrid_planning:/home/robot/ws_moveit2/install/moveit_ros_planning_interface:/home/robot/ws_moveit2/install/moveit_ros_benchmarks:/home/robot/ws_moveit2/install/moveit_ros_warehouse:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction:/home/robot/ws_moveit2/install/moveit_ros_perception:/home/robot/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robot/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robot/ws_moveit2/install/moveit_ros_move_group:/home/robot/ws_moveit2/install/moveit_planners_ompl:/home/robot/ws_moveit2/install/moveit_ros_planning:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robot/ws_moveit2/install/moveit_planners_chomp:/home/robot/ws_moveit2/install/moveit_kinematics:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robot/ws_moveit2/install/chomp_motion_planner:/home/robot/ws_moveit2/install/moveit_core:/home/robot/ws_moveit2/install/rviz_marker_tools:/home/robot/ws_moveit2/install/rosparam_shortcuts:/home/robot/ws_moveit2/install/my_robot_interfaces:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs:/home/robot/ws_moveit2/install/moveit_resources_prbt_support:/home/robot/ws_moveit2/install/moveit_resources:/home/robot/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/robot/ws_moveit2/install/moveit_resources_fanuc_description:/home/robot/ws_moveit2/install/moveit_resources_dragon_description:/home/robot/ros2_ws/install/my_robot_bringup:/home/robot/ros2_ws/install/my_robot_interfaces:/home/robot/ros2_ws/install/my_robot_firstrobot:/home/robot/ros2_ws/install/my_robot_first_roboticarm:/home/robot/ros2_ws/install/my_cpp_pkg:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/myrobot_3D_movit_config:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/ws_moveit2/install/srdfdom/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/robot/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_visual_tools/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_core/lib:/home/robot/ws_moveit2/install/moveit_ros_control_interface/lib:/home/robot/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robot/ws_moveit2/install/moveit_setup_assistant/lib:/home/robot/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_controllers/lib:/home/robot/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/robot/ws_moveit2/install/moveit_setup_framework/lib:/home/robot/ws_moveit2/install/moveit_servo/lib:/home/robot/ws_moveit2/install/moveit_ros_visualization/lib:/home/robot/ws_moveit2/install/moveit_hybrid_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/robot/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/robot/ws_moveit2/install/moveit_ros_warehouse/lib:/home/robot/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/robot/ws_moveit2/install/moveit_ros_perception/lib:/home/robot/ws_moveit2/install/moveit_ros_move_group/lib:/home/robot/ws_moveit2/install/moveit_planners_ompl/lib:/home/robot/ws_moveit2/install/moveit_ros_planning/lib:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/robot/ws_moveit2/install/moveit_planners_chomp/lib:/home/robot/ws_moveit2/install/moveit_kinematics/lib:/home/robot/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/robot/ws_moveit2/install/chomp_motion_planner/lib:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/rviz_marker_tools/lib:/home/robot/ws_moveit2/install/rosparam_shortcuts/lib:/home/robot/ws_moveit2/install/my_robot_interfaces/lib:/home/robot/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/robot/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robot/ws_moveit2/build/moveit_core

@@ -1,0 +1,200 @@
+<robot name="dragon_model" version="1.0">
+  
+  <joint name="left_hand_finger_joint" type="prismatic">
+        <parent link="servo5_servo6_link" />
+        <child link="Left_finger_link" />
+        <origin rpy="-1.57080 0.00000 0.00000" xyz="0.00121974 0.02889340 -0.00150631" />
+        <axis xyz="0 -1 0" />
+        <limit effort="20" lower="0.0" upper="0.014" velocity="0.2" />
+  </joint>
+  <joint name="right_hand_finger_joint" type="prismatic">
+        <parent link="servo5_servo6_link" />
+        <child link="Right_finger_link" />
+        <origin rpy="-1.57080 0.00000 0.00000" xyz="0.00121974 0.02889340 -0.00150631" />
+        <axis xyz="0 1 0" />
+        <limit effort="20" lower="0.0" upper="0.014" velocity="0.2" />
+        <mimic joint="left_hand_finger_joint" />
+  </joint>
+    
+  <joint name="wrist_link_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14200" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="-1.57080 0.00000 0.00000" xyz="0.02635443 0.01175584 -0.05258687"/>
+    <parent link="servo4_servo5_link"/>
+    <child link="servo5_servo6_link"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="servo1_servo2_link_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14000" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="0.00000 0.00000 -1.57080" xyz="0.03520297 -0.02811148 0.12893631"/>
+    <parent link="base_link"/>
+    <child link="servo1_servo2_link"/>
+    <axis xyz="0.00000 0.00000 1.00000"/>
+  </joint>
+  <joint name="servo2_servo3_link.000_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14200" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="-1.57080 3.14159 1.57080" xyz="-0.02486075 -0.00188139 0.01544978"/>
+    <parent link="servo1_servo2_link"/>
+    <child link="servo2_servo3_link.000"/>
+    <axis xyz="0.00000 0.00000 1.00000"/>
+  </joint>
+  <joint name="servo3_servo4_link_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14200" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="-1.57080 0.00000 3.14159" xyz="0.10273750 -0.00041143 -0.00050667"/>
+    <parent link="servo2_servo3_link.000"/>
+    <child link="servo3_servo4_link"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="servo4_servo5_link_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14200" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="-0.00000 0.00000 -0.00000" xyz="0.00858899 0.00200931 -0.10183699"/>
+    <parent link="servo3_servo4_link"/>
+    <child link="servo4_servo5_link"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  
+  
+  <link name="Left_finger_link">
+    <collision name="left_finger_collision">
+      <origin rpy="0.00000 0.00000 1.57080" xyz="0.00452769 -0.00841628 0.02220276"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/left_finger.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    
+    <visual name="left_finger">
+      <origin rpy="0.00000 0.00000 1.57080" xyz="0.00452769 -0.00841628 0.02220276"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/left_finger.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    
+  </link>
+  
+  <link name="Right_finger_link">
+    <collision name="right_finger_collision">
+      <origin rpy="0.00000 0.00000 1.57080" xyz="0.00452769 0.00554310 0.02219476"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/right_finger.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    
+    <visual name="right_finger">
+      <origin rpy="0.00000 0.00000 1.57080" xyz="0.00452769 0.00554310 0.02219476"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/right_finger.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  
+  <link name="base_link">
+    <collision name="base_collision">
+      <origin rpy="1.57080 0.0 -1.57080" xyz="0.00000 0.00000 0.06715160"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/base.stl" scale="0.00100 0.00100 -0.00100"/>
+      </geometry>
+    </collision>
+    <visual name="base">
+      <origin rpy="1.57080 0.0 -1.57080" xyz="0.00000 0.00000 0.06715160"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/base.stl" scale="0.00100 0.00100 -0.00100"/>
+      </geometry>
+      <material name="Magenta">
+        <color rgba="1.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+  <link name="servo1_servo2_link">
+    <collision name="Joint1_collision">
+      <origin rpy="0.00000 0.00000 -0.00000" xyz="0.00036541 0.00745386 0.00306137"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/joint1.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <visual name="Joint1">
+      <origin rpy="0.00000 0.00000 -0.00000" xyz="0.00036541 0.00745386 0.00306137"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/joint1.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+      <material name="Blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+  <link name="servo2_servo3_link.000">
+    <collision name="joint2_collision">
+      <origin rpy="1.57080 -0.00000 1.57080" xyz="0.00000935 0.00002258 -0.00463633"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/joint2.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <visual name="joint2">
+      <origin rpy="1.57080 -0.00000 1.57080" xyz="0.00000935 0.00002258 -0.00463633"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/joint2.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+  </link>
+  <link name="servo3_servo4_link">
+    <collision name="Joint3_collision">
+      <origin rpy="1.57080 -1.57080 0.00000" xyz="0.00001077 0.00020426 0.00000900"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/joint3.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <visual name="Joint3">
+      <origin rpy="1.57080 -1.57080 0.00000" xyz="0.00001077 0.00020426 0.00000900"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/joint3.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+      <material name="Green">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+  <link name="servo4_servo5_link">
+    <collision name="Joint4_collision">
+      <origin rpy="1.57080 0.00000 0.00000" xyz="-0.00058125 0.04363523 -0.00975798"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/joint4.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <visual name="Joint4">
+      <origin rpy="1.57080 0.00000 0.00000" xyz="-0.00058125 0.04363523 -0.00975798"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/joint4.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+      <material name="Cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+  <link name="servo5_servo6_link">
+    <collision name="Gripper_palm_collision">
+      <origin rpy="-0.00000 0.00000 -0.00000" xyz="-0.00006979 -0.00434283 0.00002739"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/gripper_palm.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <visual name="Gripper_palm">
+      <origin rpy="0.00000 0.00000 -0.00000" xyz="-0.00006979 -0.00434283 0.00002739"/>
+      <geometry>
+        <mesh filename="package://moveit_resources_dragon_description/meshes/stl/gripper_palm.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+      
+      <material name="Yellow">
+        <color rgba="1 1 0 1"/>
+      </material>
+
+    </visual>
+  </link>
+</robot>

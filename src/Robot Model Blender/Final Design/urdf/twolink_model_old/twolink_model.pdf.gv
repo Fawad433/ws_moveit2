@@ -1,0 +1,18 @@
+digraph G {
+esep=10;
+sep=10;
+nodesep=0.5;
+node [shape=box];
+"base_link.000" [label="base_link.000"];
+"servo1_servo2_link" [label="servo1_servo2_link"];
+"servo2_servo3_link.000" [label="servo2_servo3_link.000"];
+"servo3_servo4_link" [label="servo3_servo4_link"];
+"servo4_servo5_link" [label="servo4_servo5_link"];
+"servo5_servo6_link" [label="servo5_servo6_link"];
+node [shape=ellipse, color=orange, fontcolor=black];
+"base_link.000" -> "servo1_servo2_link_joint" [label="xyz: -7.470512390136719 -9.336027145385742 88.850341796875 \nrpy: 0.0 0.0 -1.570796370506284 \naxis: 0.0 0.0 1.0 \ntype: revolute "] "servo1_servo2_link_joint" -> "servo1_servo2_link"
+"servo1_servo2_link" -> "servo2_servo3_link.000_joint" [label="xyz: -24.86074820877755 -1.8813878435947906 15.449783325195312 \nrpy: 1.5707962830835058 -8.742277635143125e-08 -1.5707962830835036 \naxis: 0.0 1.0 0.0 \ntype: revolute "] "servo2_servo3_link.000_joint" -> "servo2_servo3_link.000"
+"servo2_servo3_link.000" -> "servo3_servo4_link_joint" [label="xyz: 102.73749443272047 -0.411431688941974 -0.5066700161531976 \nrpy: -1.570796283083511 0.0 3.141592566167013 \naxis: 0.0 1.0 0.0 \ntype: revolute "] "servo3_servo4_link_joint" -> "servo3_servo4_link"
+"servo3_servo4_link" -> "servo4_servo5_link_joint" [label="xyz: 8.589004516601562 2.009312309894028 -101.83700579089404 \nrpy: -1.4210854720946975e-14 0.0 0.0 \naxis: 0.0 1.0 0.0 \ntype: revolute "] "servo4_servo5_link_joint" -> "servo4_servo5_link"
+"servo4_servo5_link" -> "new_link_joint" [label="xyz: 26.35443115234375 11.755844287298103 -52.58680827870484 \nrpy: -1.5707963705062733 0.0 0.0 \naxis: 0.0 1.0 0.0 \ntype: revolute "] "new_link_joint" -> "servo5_servo6_link"
+}

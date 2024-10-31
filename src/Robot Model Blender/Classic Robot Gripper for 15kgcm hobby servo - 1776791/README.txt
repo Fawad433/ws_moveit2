@@ -1,0 +1,1 @@
+Classic Robot Gripper for 15kgcm hobby servo by ATC on Thingiverse: https://www.thingiverse.com/thing:1776791

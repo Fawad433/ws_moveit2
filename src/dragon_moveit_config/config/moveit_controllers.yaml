@@ -1,0 +1,32 @@
+# MoveIt uses this configuration for controller management
+trajectory_execution:
+  allowed_execution_duration_scaling: 1.2
+  allowed_goal_duration_margin: 0.5
+  allowed_start_tolerance: 0.01
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - dragon_arm_controller
+    - hand_controller
+
+  dragon_arm_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - servo1_servo2_link_joint
+      - servo2_servo3_link.000_joint
+      - servo3_servo4_link_joint
+      - servo4_servo5_link_joint
+      - wrist_link_joint
+    
+  hand_controller:
+    action_ns: gripper_cmd
+    type: GripperCommand
+    default: true
+    joints:
+      - left_hand_finger_joint
+    
+    

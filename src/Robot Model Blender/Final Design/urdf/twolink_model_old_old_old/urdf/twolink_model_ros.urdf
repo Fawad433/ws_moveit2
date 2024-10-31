@@ -1,0 +1,152 @@
+<robot name="twolink_model" version="1.0">
+  <joint name="Fingers_link_joint" type="fixed">
+    <origin rpy="-1.57080 0.00000 0.00000" xyz="1.21974 28.89340 -1.50631"/>
+    <parent link="servo5_servo6_link"/>
+    <child link="Fingers_link"/>
+  </joint>
+  <joint name="new_link_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14200" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="-1.57080 0.00000 0.00000" xyz="26.35443 11.75584 -52.58687"/>
+    <parent link="servo4_servo5_link"/>
+    <child link="servo5_servo6_link"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="servo1_servo2_link_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14000" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="0.00000 0.00000 -1.57080" xyz="35.20297 -28.11148 128.93631"/>
+    <parent link="base_link"/>
+    <child link="servo1_servo2_link"/>
+    <axis xyz="0.00000 0.00000 1.00000"/>
+  </joint>
+  <joint name="servo2_servo3_link.000_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14200" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="1.57080 -0.00000 -1.57080" xyz="-24.86075 -1.88139 15.44978"/>
+    <parent link="servo1_servo2_link"/>
+    <child link="servo2_servo3_link.000"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="servo3_servo4_link_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14200" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="-1.57080 0.00000 3.14159" xyz="102.73750 -0.41143 -0.50667"/>
+    <parent link="servo2_servo3_link.000"/>
+    <child link="servo3_servo4_link"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="servo4_servo5_link_joint" type="revolute">
+    <limit lower="0.00000" upper="3.14200" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="-0.00000 0.00000 -0.00000" xyz="8.58899 2.00931 -101.83699"/>
+    <parent link="servo3_servo4_link"/>
+    <child link="servo4_servo5_link"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <link name="Fingers_link">
+    <collision name="left_finger_collision">
+      <origin rpy="0.00000 0.00000 1.57080" xyz="4.52769 -8.41628 22.20276"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/left_finger.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <collision name="right_finger_collision">
+      <origin rpy="0.00000 0.00000 1.57080" xyz="4.52769 5.54310 22.19476"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/right_finger.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <visual name="left_finger">
+      <origin rpy="0.00000 0.00000 1.57080" xyz="4.52769 -8.41628 22.20276"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/left_finger.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+    <visual name="right_finger">
+      <origin rpy="0.00000 0.00000 1.57080" xyz="4.52769 5.54310 22.19476"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/right_finger.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="base_link">
+    <collision name="base_collision">
+      <origin rpy="-1.57080 1.57080 0.00000" xyz="0.00000 0.00000 67.15160"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/base.stl" scale="-1.00000 -1.00000 -1.00000"/>
+      </geometry>
+    </collision>
+    <visual name="base">
+      <origin rpy="1.57080 1.57080 0.00000" xyz="0.00000 0.00000 67.15160"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/base.stl" scale="-1.00000 -1.00000 -1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="servo1_servo2_link">
+    <collision name="Joint1_collision">
+      <origin rpy="0.00000 0.00000 -0.00000" xyz="0.36541 7.45386 3.06137"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/joint1.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <visual name="Joint1">
+      <origin rpy="0.00000 0.00000 -0.00000" xyz="0.36541 7.45386 3.06137"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/joint1.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="servo2_servo3_link.000">
+    <collision name="joint2_collision">
+      <origin rpy="1.57080 -0.00000 1.57080" xyz="0.00935 0.02258 -4.63633"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/joint2.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <visual name="joint2">
+      <origin rpy="1.57080 -0.00000 1.57080" xyz="0.00935 0.02258 -4.63633"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/joint2.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="servo3_servo4_link">
+    <collision name="Joint3_collision">
+      <origin rpy="1.57080 -1.57080 0.00000" xyz="0.01077 0.20426 0.00900"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/joint3.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <visual name="Joint3">
+      <origin rpy="1.57080 -1.57080 0.00000" xyz="0.01076 0.20425 0.00902"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/joint3.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="servo4_servo5_link">
+    <collision name="Joint4_collision">
+      <origin rpy="1.57080 -0.00000 0.00000" xyz="-0.58125 43.63523 -9.75798"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/joint4.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <visual name="Joint4">
+      <origin rpy="1.57080 0.00000 0.00000" xyz="-0.58126 43.63524 -9.75808"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/joint4.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="servo5_servo6_link">
+    <collision name="Gripper_palm_collision">
+      <origin rpy="-0.00000 0.00000 -0.00000" xyz="-0.06979 -4.34283 0.02739"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/gripper_palm.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <visual name="Gripper_palm">
+      <origin rpy="0.00000 0.00000 -0.00000" xyz="-0.06978 -4.34277 0.02740"/>
+      <geometry>
+        <mesh filename="package://meshes/stl/gripper_palm.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: moveit_resources_dragon_description
+    relative_path: urdf/dragon.urdf
+  srdf:
+    relative_path: config/dragon_model.srdf
+  package_settings:
+    author_name: Fawad
+    author_email: fawadahmed433@gmail.com
+    generated_timestamp: 1729898736
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
