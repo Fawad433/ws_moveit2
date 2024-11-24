@@ -1,0 +1,40 @@
+[0.023s] Invoking command in '/home/robot/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/motion_planning_python_api:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake /home/robot/ws_moveit2/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=--param ggc-min-expand=20 -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/moveit_common
+[0.077s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.750s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.955s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.137s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.141s] -- Added test 'lint_cmake' to check CMake code style
+[2.145s] -- Added test 'xmllint' to check XML markup files
+[2.151s] -- Configuring done
+[2.155s] -- Generating done
+[2.156s] [33mCMake Warning:
+[2.156s]   Manually-specified variables were not used by the project:
+[2.156s] 
+[2.157s]     CMAKE_CXX_FLAGS
+[2.157s] 
+[2.157s] [0m
+[2.157s] -- Build files have been written to: /home/robot/ws_moveit2/build/moveit_common
+[2.163s] Invoked command in '/home/robot/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/motion_planning_python_api:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake /home/robot/ws_moveit2/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=--param ggc-min-expand=20 -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/moveit_common
+[2.164s] Invoking command in '/home/robot/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/motion_planning_python_api:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/ws_moveit2/build/moveit_common -- -j4 -l4
+[2.237s] Invoked command in '/home/robot/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/motion_planning_python_api:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/robot/ws_moveit2/build/moveit_common -- -j4 -l4
+[2.290s] Invoking command in '/home/robot/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/motion_planning_python_api:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/robot/ws_moveit2/build/moveit_common
+[2.307s] -- Install configuration: "Release"
+[2.307s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[2.307s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[2.308s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[2.308s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[2.308s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/environment/path.sh
+[2.308s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/environment/path.dsv
+[2.308s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.bash
+[2.309s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.sh
+[2.309s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.zsh
+[2.310s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.dsv
+[2.310s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/package.dsv
+[2.310s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[2.310s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[2.311s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[2.311s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[2.311s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/package.xml
+[2.311s] -- Up-to-date: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/cmake
+[2.311s] -- Installing: /home/robot/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[2.317s] Invoked command in '/home/robot/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ws_moveit2/install/motion_planning_python_api:/home/robot/ws_moveit2/install/moveit_configs_utils:/home/robot/ws_moveit2/install/my_robot_first_servo_control:/home/robot/ws_moveit2/install/my_pybullet_package:/home/robot/ws_moveit2/install/launch_param_builder:/home/robot/ros2_ws/install/my_turtlesim_project:/home/robot/ros2_ws/install/my_robot_first_servo_control:/home/robot/ros2_ws/install/my_py_pkg:/home/robot/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/robot/ws_moveit2/build/moveit_common

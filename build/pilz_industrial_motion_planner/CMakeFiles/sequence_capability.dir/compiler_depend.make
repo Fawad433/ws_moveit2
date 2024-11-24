@@ -764,6 +764,12 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_action.cpp.o: /home/r
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -789,6 +795,7 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_action.cpp.o: /home/r
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -802,7 +809,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_action.cpp.o: /home/r
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -1202,9 +1208,7 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_action.cpp.o: /home/r
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_env.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_matrix.h \
@@ -2752,6 +2756,12 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -2777,6 +2787,17 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -2790,17 +2811,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -3200,9 +3210,7 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_env.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_matrix.h \
@@ -5164,6 +5172,16 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
+/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
+
+/usr/include/boost/mpl/distance.hpp:
+
+/usr/include/eigen3/Eigen/src/QR/HouseholderQR.h:
+
+/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
+
 /usr/include/c++/11/cstring:
 
 /usr/include/c++/11/bits/atomic_futex.h:
@@ -5470,10 +5488,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
-
-/opt/ros/humble/include/rcl/rcl/timer.h:
-
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
 
 /usr/include/boost/mpl/aux_/config/static_constant.hpp:
@@ -5664,10 +5678,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /usr/include/eigen3/Eigen/src/Core/Stride.h:
 
-/usr/include/boost/mpl/distance.hpp:
-
-/usr/include/eigen3/Eigen/src/QR/HouseholderQR.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
 /usr/include/c++/11/regex:
@@ -5718,10 +5728,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
 
-/usr/include/kdl/velocityprofile.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/macros.h:
-
 /usr/include/boost/mpl/less.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
@@ -5763,6 +5769,8 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
 
@@ -5811,6 +5819,12 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 /usr/include/boost/mp11/version.hpp:
 
 /usr/include/boost/mpl/aux_/config/lambda.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
+
+/opt/ros/humble/include/rcl/rcl/timer.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /usr/include/boost/parameter/required.hpp:
 
@@ -5975,14 +5989,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 /usr/include/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
 
 /usr/include/boost/type_traits/is_member_function_pointer.hpp:
 
@@ -6212,6 +6218,12 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /usr/include/limits.h:
 
+/usr/include/kdl/velocityprofile.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/macros.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp:
@@ -6256,6 +6268,10 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h:
 
+/usr/include/eigen3/Eigen/src/Householder/Householder.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
+
 /usr/include/c++/11/bits/stl_set.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
@@ -6288,6 +6304,14 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
 
 /usr/include/c++/11/ctime:
@@ -6315,10 +6339,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 /usr/include/boost/signals2/expired_slot.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp:
-
-/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
 
 /usr/include/c++/11/debug/debug.h:
 
@@ -7002,6 +7022,12 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
+/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
+
 /usr/include/boost/type_traits/remove_reference.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
@@ -7139,10 +7165,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 /usr/include/c++/11/array:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
@@ -7448,12 +7470,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
-
-/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
@@ -7465,6 +7481,14 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+
+/usr/include/boost/random/detail/const_mod.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
 /opt/ros/humble/include/tf2/tf2/time.h:
 
@@ -7688,8 +7712,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 
 /usr/include/boost/type_traits/remove_cv.hpp:
 
-/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
-
 /usr/include/boost/random/detail/int_float_pair.hpp:
 
 /usr/include/boost/type_traits/detail/config.hpp:
@@ -7837,8 +7859,6 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 /usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
 
 /usr/include/boost/mpl/aux_/lambda_support.hpp:
-
-/usr/include/boost/random/detail/const_mod.hpp:
 
 /usr/include/boost/type_index.hpp:
 
@@ -8091,7 +8111,3 @@ CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o: /home/
 /usr/include/eigen3/Eigen/Jacobi:
 
 /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
-
-/usr/include/eigen3/Eigen/src/Householder/Householder.h:

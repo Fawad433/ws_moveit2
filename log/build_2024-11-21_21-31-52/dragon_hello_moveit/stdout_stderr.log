@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target dragon_hello_moveit[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/dragon_hello_moveit.dir/src/dragon_hello_moveit.cpp.o[0m
+[01m[K/home/robot/ws_moveit2/src/dragon_hello_moveit/src/dragon_hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/ws_moveit2/src/dragon_hello_moveit/src/dragon_hello_moveit.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ does not name a type
+   25 |   const [01;31m[Krobot_state[m[K::RobotStatePtr current_state = move_group_interface.getCurrentState(10.0);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/dragon_hello_moveit/src/dragon_hello_moveit.cpp:26:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+   26 |   if (![01;31m[Kcurrent_state[m[K) {
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/dragon_hello_moveit/src/dragon_hello_moveit.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ does not name a type
+   31 |   const [01;31m[Krobot_model[m[K::JointModelGroup* joint_model_group =
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/dragon_hello_moveit/src/dragon_hello_moveit.cpp:44:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+   44 |   bool found_ik = [01;31m[Kcurrent_state[m[K->setFromIK(joint_model_group, target_pose, 10, 0.1);
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ws_moveit2/src/dragon_hello_moveit/src/dragon_hello_moveit.cpp:44:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_model_group[m[K’ was not declared in this scope
+   44 |   bool found_ik = current_state->setFromIK([01;31m[Kjoint_model_group[m[K, target_pose, 10, 0.1);
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dragon_hello_moveit.dir/build.make:76: CMakeFiles/dragon_hello_moveit.dir/src/dragon_hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dragon_hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

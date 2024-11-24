@@ -807,6 +807,12 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
  /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
  /opt/ros/humble/include/tf2/tf2/time.h \
  /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -949,7 +955,7 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
  /opt/ros/humble/include/rviz_common/rviz_common/properties/property.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/view_controller.hpp \
- /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
+ /opt/ros/humble/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
  /opt/ros/humble/include/rviz_common/rviz_common/display.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSet \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
@@ -976,7 +982,7 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o: \
  /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
  /opt/ros/humble/include/srdfdom/model.h \
  /opt/ros/humble/include/srdfdom/visibility_control.h \
- /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
+ /opt/ros/humble/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
@@ -1358,10 +1364,8 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
- /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
+ /opt/ros/humble/include/moveit/rviz_plugin_render_tools/octomap_render.h \
  /opt/ros/humble/include/octomap/octomap.h \
  /opt/ros/humble/include/octomap/octomap_types.h /usr/include/inttypes.h \
  /opt/ros/humble/include/octomap/math/Vector3.h \

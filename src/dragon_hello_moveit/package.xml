@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>myrobot_hello_moveit</name>
+  <name>dragon_hello_moveit</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="fawadahmed433@gmail.com">robot</maintainer>
@@ -12,7 +12,6 @@
   
   <depend>moveit_ros_planning</depend>
   <depend>geometry_msgs</depend>
-  <depend>moveit_visual_tools</depend>
 
   <depend>moveit_ros_planning_interface</depend>
   <depend>rclcpp</depend>

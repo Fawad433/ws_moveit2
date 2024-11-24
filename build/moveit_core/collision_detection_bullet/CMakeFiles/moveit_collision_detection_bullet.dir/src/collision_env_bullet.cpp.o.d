@@ -371,7 +371,7 @@ collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /home/robot/ws_moveit2/src/moveit2/moveit_core/exceptions/include/moveit/exceptions/exceptions.h \
- /opt/ros/humble/include/srdfdom/model.h \
+ /opt/ros/humble/include/srdfdom/model.h /usr/include/tinyxml2.h \
  /opt/ros/humble/include/urdf/urdf/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -393,7 +393,6 @@ collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/
  /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
  /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
- /usr/include/tinyxml2.h \
  /opt/ros/humble/include/srdfdom/visibility_control.h \
  /home/robot/ws_moveit2/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h \
  /home/robot/ws_moveit2/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/joint_model.h \

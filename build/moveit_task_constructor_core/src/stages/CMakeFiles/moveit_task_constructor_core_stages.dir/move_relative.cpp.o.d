@@ -692,7 +692,7 @@ src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/move_relative.cpp.
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_scene/planning_scene.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
- /opt/ros/humble/include/srdfdom/model.h \
+ /opt/ros/humble/include/srdfdom/model.h /usr/include/tinyxml2.h \
  /opt/ros/humble/include/urdf/urdf/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -707,7 +707,6 @@ src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/move_relative.cpp.
  /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
  /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
- /usr/include/tinyxml2.h \
  /opt/ros/humble/include/srdfdom/visibility_control.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -1250,6 +1249,10 @@ src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/move_relative.cpp.
  /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
  /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
  /opt/ros/humble/include/tf2/tf2/transform_storage.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \

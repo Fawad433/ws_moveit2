@@ -228,10 +228,10 @@ moveit_run_benchmark: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport
 moveit_run_benchmark: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_c.so
 moveit_run_benchmark: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0
 moveit_run_benchmark: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0
-moveit_run_benchmark: /opt/ros/humble/lib/libwarehouse_ros.so
 moveit_run_benchmark: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
 moveit_run_benchmark: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
 moveit_run_benchmark: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
+moveit_run_benchmark: /opt/ros/humble/lib/libwarehouse_ros.so
 moveit_run_benchmark: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 moveit_run_benchmark: /usr/lib/x86_64-linux-gnu/libcrypto.so
 moveit_run_benchmark: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so

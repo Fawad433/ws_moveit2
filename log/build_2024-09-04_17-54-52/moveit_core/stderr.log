@@ -1,6 +1,0 @@
-gmake[2]: *** [robot_trajectory/CMakeFiles/test_robot_trajectory.dir/build.make:301: robot_trajectory/CMakeFiles/test_robot_trajectory.dir/depend] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:1790: robot_state/CMakeFiles/test_aabb.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:1885: robot_trajectory/CMakeFiles/test_robot_trajectory.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:1822: robot_state/CMakeFiles/test_cartesian_interpolator.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:2218: collision_detection/CMakeFiles/test_world.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

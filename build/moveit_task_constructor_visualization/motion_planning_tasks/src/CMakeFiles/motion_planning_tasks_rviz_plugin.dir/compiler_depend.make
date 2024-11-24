@@ -11136,6 +11136,10 @@ motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
@@ -14172,6 +14176,10 @@ motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -14473,6 +14481,8 @@ motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/include/moc_
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
 
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h:
 
@@ -16107,6 +16117,8 @@ motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/EWIEGA46WW/q
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
 
 /usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /usr/include/boost/date_time/time.hpp:
 
@@ -18172,6 +18184,8 @@ motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/include/moc_
 
 /usr/include/boost/smart_ptr/enable_shared_from_this.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /usr/include/boost/predef/compiler/intel.h:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
@@ -18313,6 +18327,8 @@ motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/include/moc_
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointer:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
 

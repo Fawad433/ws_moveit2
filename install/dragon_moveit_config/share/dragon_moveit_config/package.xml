@@ -4,9 +4,9 @@
   <name>dragon_moveit_config</name>
   <version>0.3.0</version>
   <description>
-     An automatically generated package with all the configuration and launch files for using the dragon_model with the MoveIt Motion Planning Framework
+     An automatically generated package with all the configuration and launch files for using the dragon with the MoveIt Motion Planning Framework
   </description>
-  <maintainer email="fawadahmed433@gmail.com">Fawad</maintainer>
+  <maintainer email="fawadahmed433@gmail.com">Fawad Ahmad</maintainer>
 
   <license>BSD</license>
 
@@ -14,7 +14,7 @@
   <url type="bugtracker">https://github.com/ros-planning/moveit2/issues</url>
   <url type="repository">https://github.com/ros-planning/moveit2</url>
 
-  <author email="fawadahmed433@gmail.com">Fawad</author>
+  <author email="fawadahmed433@gmail.com">Fawad Ahmad</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

@@ -836,6 +836,10 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
@@ -962,6 +966,7 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -975,7 +980,6 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -1285,6 +1289,14 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
 
 /usr/include/boost/random/detail/const_mod.hpp:
 
+/usr/include/boost/mpl/aux_/lambda_support.hpp:
+
+/usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/usr/include/boost/preprocessor/variadic/elem.hpp:
+
 /usr/include/boost/preprocessor/config/config.hpp:
 
 /opt/ros/humble/include/rmw/rmw/event_callback_type.h:
@@ -1361,6 +1373,8 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
@@ -1368,8 +1382,6 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
 /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/opt/ros/humble/include/rcutils/rcutils/macros.h:
 
 /opt/ros/humble/include/rcl/rcl/node.h:
 
@@ -2523,6 +2535,10 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
 
 /usr/include/limits.h:
 
+/opt/ros/humble/include/rcutils/rcutils/macros.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /usr/include/eigen3/Eigen/Cholesky:
 
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
@@ -2690,6 +2706,8 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 
@@ -3163,6 +3181,8 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
 
 /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:
@@ -3552,11 +3572,3 @@ CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast
 /usr/include/boost/preprocessor/facilities/expand.hpp:
 
 /usr/include/boost/preprocessor/facilities/overload.hpp:
-
-/usr/include/boost/preprocessor/variadic/elem.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/sub.hpp:
-
-/usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
-
-/usr/include/boost/mpl/aux_/lambda_support.hpp:

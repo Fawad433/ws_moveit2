@@ -2085,8 +2085,6 @@ CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o: /home/robot/ws
   /usr/include/openssl/e_os2.h \
   /opt/ros/humble/include/warehouse_ros/impl/database_connection_impl.hpp \
   /opt/ros/humble/include/warehouse_ros/database_loader.h \
-  /usr/include/boost/scoped_ptr.hpp \
-  /usr/include/boost/smart_ptr/scoped_ptr.hpp \
   /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
   /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp \
   /usr/include/console_bridge/console.h \
@@ -6953,8 +6951,6 @@ CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o: /home/robot/ws_mo
 
 /usr/include/c++/11/bits/regex_executor.h:
 
-/usr/include/c++/11/bits/regex.tcc:
-
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
 /usr/include/c++/11/tr1/ell_integral.tcc:
@@ -7164,6 +7160,8 @@ CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o: /home/robot/ws_mo
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
+
+/usr/include/c++/11/bits/regex.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
 
@@ -7689,6 +7687,8 @@ CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o: /home/robot/ws_mo
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
 /usr/include/c++/11/pstl/pstl_config.h:
 
 /usr/include/c++/11/cmath:
@@ -7915,8 +7915,6 @@ CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o: /home/robot/ws_mo
 
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
-/usr/include/boost/scoped_ptr.hpp:
-
 /usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
@@ -8052,10 +8050,6 @@ CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o: /home/robot/ws_mo
 /usr/include/time.h:
 
 /usr/include/boost/mpl/bool.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
-
-/usr/include/boost/smart_ptr/scoped_ptr.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 

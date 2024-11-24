@@ -1598,6 +1598,10 @@ CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o: /home/robot/ws_m
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
@@ -1615,6 +1619,8 @@ CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o: /home/robot/ws_m
 /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:
 
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:
 
@@ -1924,6 +1930,8 @@ CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o: /home/robot/ws_m
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /usr/include/limits.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
@@ -2225,6 +2233,8 @@ CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o: /home/robot/ws_m
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/ext/concurrence.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
@@ -3005,6 +3015,8 @@ CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o: /home/robot/ws_m
 /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
 /opt/ros/humble/include/rmw/rmw/types.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 

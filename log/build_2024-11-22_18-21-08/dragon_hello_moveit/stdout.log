@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target dragon_get_max_range[0m
+[ 33%] Built target dragon_hello_moveit
+[ 66%] Built target dragon_get_pose
+[ 83%] [32mBuilding CXX object CMakeFiles/dragon_get_max_range.dir/src/dragon_get_max_range.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dragon_get_max_range[0m
+[100%] Built target dragon_get_max_range
+-- Install configuration: "Release"
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/lib/dragon_hello_moveit/dragon_hello_moveit
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/lib/dragon_hello_moveit/dragon_get_pose
+-- Installing: /home/robot/ws_moveit2/install/dragon_hello_moveit/lib/dragon_hello_moveit/dragon_get_max_range
+-- Set runtime path of "/home/robot/ws_moveit2/install/dragon_hello_moveit/lib/dragon_hello_moveit/dragon_get_max_range" to ""
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/ament_index/resource_index/package_run_dependencies/dragon_hello_moveit
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/ament_index/resource_index/parent_prefix_path/dragon_hello_moveit
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/environment/path.sh
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/environment/path.dsv
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/local_setup.bash
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/local_setup.sh
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/local_setup.zsh
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/local_setup.dsv
+-- Installing: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/package.dsv
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/ament_index/resource_index/packages/dragon_hello_moveit
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/cmake/dragon_hello_moveitConfig.cmake
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/cmake/dragon_hello_moveitConfig-version.cmake
+-- Up-to-date: /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/package.xml

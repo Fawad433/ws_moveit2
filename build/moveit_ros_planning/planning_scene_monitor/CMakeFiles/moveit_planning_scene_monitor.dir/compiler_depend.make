@@ -1372,6 +1372,12 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -1393,6 +1399,7 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_
   /opt/ros/humble/include/moveit/macros/declare_ptr.h \
   /opt/ros/humble/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -1406,7 +1413,6 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model_group.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model.h \
@@ -1676,9 +1682,7 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /home/robot/ws_moveit2/src/moveit2/moveit_ros/planning/planning_scene_monitor/include/moveit/planning_scene_monitor/current_state_monitor_middleware_handle.hpp \
   /opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
@@ -3112,6 +3116,12 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -3133,6 +3143,7 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_
   /opt/ros/humble/include/moveit/macros/declare_ptr.h \
   /opt/ros/humble/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -3146,7 +3157,6 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model_group.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model.h \
@@ -3416,9 +3426,7 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp
 
 planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning_scene_monitor.cpp.o: /home/robot/ws_moveit2/src/moveit2/moveit_ros/planning/planning_scene_monitor/src/planning_scene_monitor.cpp \
   /usr/include/stdc-predef.h \
@@ -4121,6 +4129,12 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -4148,6 +4162,17 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning
   /opt/ros/humble/include/moveit/robot_model/robot_model.h \
   /opt/ros/humble/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -4161,17 +4186,6 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model_group.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model.h \
@@ -4571,9 +4585,7 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/moveit/collision_detection/collision_detector_allocator.h \
   /opt/ros/humble/include/moveit/collision_detection/collision_env.h \
   /opt/ros/humble/include/moveit/collision_detection/collision_matrix.h \
@@ -5603,6 +5615,22 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajecto
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -5675,22 +5703,6 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajecto
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model_group.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model.h \
@@ -7062,6 +7074,10 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajecto
   /opt/ros/humble/include/tf2/tf2/visibility_control.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -7324,6 +7340,22 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajecto
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -7396,22 +7428,6 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajecto
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model_group.h \
   /opt/ros/humble/include/moveit/robot_model/joint_model.h \
@@ -8783,6 +8799,10 @@ planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajecto
   /opt/ros/humble/include/tf2/tf2/visibility_control.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -9480,10 +9500,6 @@ planning_scene_monitor/moveit_planning_scene_monitor_export.h:
 
 /opt/ros/humble/include/srdfdom/visibility_control.h:
 
-/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
-
-/usr/include/tinyxml2.h:
-
 /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp:
 
 /opt/ros/humble/include/urdf/urdf/visibility_control.hpp:
@@ -9503,6 +9519,10 @@ planning_scene_monitor/moveit_planning_scene_monitor_export.h:
 /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h:
 
 /opt/ros/humble/include/urdf/urdf/model.h:
+
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
+
+/usr/include/tinyxml2.h:
 
 /opt/ros/humble/include/moveit/robot_state/robot_state.h:
 
@@ -9533,6 +9553,10 @@ planning_scene_monitor/moveit_planning_scene_monitor_export.h:
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/planning/planning_scene_monitor/src/trajectory_monitor.cpp:
 
 /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
 
@@ -10401,6 +10425,8 @@ planning_scene_monitor/moveit_planning_scene_monitor_export.h:
 /usr/include/boost/mpl/bind.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
@@ -12489,6 +12515,8 @@ planning_scene_monitor/moveit_planning_scene_monitor_export.h:
 /usr/include/boost/mpl/less.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 

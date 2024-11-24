@@ -1155,7 +1155,7 @@ python/bindings/CMakeFiles/pymoveit_mtc.dir/src/stages.cpp.o: \
  /usr/include/eigen3/Eigen/Core \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
- /opt/ros/humble/include/srdfdom/model.h \
+ /opt/ros/humble/include/srdfdom/model.h /usr/include/tinyxml2.h \
  /opt/ros/humble/include/urdf/urdf/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -1169,7 +1169,6 @@ python/bindings/CMakeFiles/pymoveit_mtc.dir/src/stages.cpp.o: \
  /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
  /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
- /usr/include/tinyxml2.h \
  /opt/ros/humble/include/srdfdom/visibility_control.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \

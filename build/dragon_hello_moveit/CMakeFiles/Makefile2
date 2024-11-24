@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/robot/ws_moveit2/build/dragon_hello_moveit
 # The main recursive "all" target.
 all: CMakeFiles/dragon_hello_moveit.dir/all
 all: CMakeFiles/dragon_get_pose.dir/all
+all: CMakeFiles/dragon_get_max_range.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/dragon_hello_moveit_uninstall.dir/clean
 clean: CMakeFiles/dragon_hello_moveit.dir/clean
 clean: CMakeFiles/dragon_get_pose.dir/clean
+clean: CMakeFiles/dragon_get_max_range.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/dragon_hello_moveit_uninstall.dir/clean:
 CMakeFiles/dragon_hello_moveit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_hello_moveit.dir/build.make CMakeFiles/dragon_hello_moveit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_hello_moveit.dir/build.make CMakeFiles/dragon_hello_moveit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles --progress-num=3,4 "Built target dragon_hello_moveit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles --progress-num=5,6 "Built target dragon_hello_moveit"
 .PHONY : CMakeFiles/dragon_hello_moveit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +165,7 @@ CMakeFiles/dragon_hello_moveit.dir/clean:
 CMakeFiles/dragon_get_pose.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_pose.dir/build.make CMakeFiles/dragon_get_pose.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_pose.dir/build.make CMakeFiles/dragon_get_pose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles --progress-num=1,2 "Built target dragon_get_pose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles --progress-num=3,4 "Built target dragon_get_pose"
 .PHONY : CMakeFiles/dragon_get_pose.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ dragon_get_pose: CMakeFiles/dragon_get_pose.dir/rule
 CMakeFiles/dragon_get_pose.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_pose.dir/build.make CMakeFiles/dragon_get_pose.dir/clean
 .PHONY : CMakeFiles/dragon_get_pose.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dragon_get_max_range.dir
+
+# All Build rule for target.
+CMakeFiles/dragon_get_max_range.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_max_range.dir/build.make CMakeFiles/dragon_get_max_range.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_max_range.dir/build.make CMakeFiles/dragon_get_max_range.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles --progress-num=1,2 "Built target dragon_get_max_range"
+.PHONY : CMakeFiles/dragon_get_max_range.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dragon_get_max_range.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dragon_get_max_range.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles 0
+.PHONY : CMakeFiles/dragon_get_max_range.dir/rule
+
+# Convenience name for target.
+dragon_get_max_range: CMakeFiles/dragon_get_max_range.dir/rule
+.PHONY : dragon_get_max_range
+
+# clean rule for target.
+CMakeFiles/dragon_get_max_range.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_max_range.dir/build.make CMakeFiles/dragon_get_max_range.dir/clean
+.PHONY : CMakeFiles/dragon_get_max_range.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

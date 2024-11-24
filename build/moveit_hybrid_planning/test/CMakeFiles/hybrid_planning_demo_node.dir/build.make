@@ -231,13 +231,13 @@ test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libqhull_r.so
 test/hybrid_planning_demo_node: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so
 test/hybrid_planning_demo_node: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so
 test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
+test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0
 test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0
-test/hybrid_planning_demo_node: /opt/ros/humble/lib/libwarehouse_ros.so
-test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
 test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
 test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
+test/hybrid_planning_demo_node: /opt/ros/humble/lib/libwarehouse_ros.so
 test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libcrypto.so
 test/hybrid_planning_demo_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so

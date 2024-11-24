@@ -1001,6 +1001,10 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
@@ -1639,6 +1643,12 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 
 /usr/include/boost/mpl/aux_/config/eti.hpp:
 
+/usr/include/boost/mpl/aux_/value_wknd.hpp:
+
+/usr/include/kdl/frameacc.inl:
+
+/usr/include/boost/mpl/if.hpp:
+
 /opt/ros/humble/include/rmw/rmw/error_handling.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:
@@ -1845,6 +1855,8 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
+
 /usr/include/c++/11/list:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
@@ -1874,8 +1886,6 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
-
-/opt/ros/humble/include/rcutils/rcutils/macros.h:
 
 /usr/include/linux/types.h:
 
@@ -2321,6 +2331,10 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 
 /usr/include/c++/11/bits/regex_compiler.tcc:
 
+/opt/ros/humble/include/rcutils/rcutils/macros.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp:
 
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
@@ -2354,8 +2368,6 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 /usr/include/boost/mpl/limits/arity.hpp:
 
 /usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/boost/mpl/aux_/value_wknd.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp:
 
@@ -2532,6 +2544,10 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 /opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:
+
+/usr/include/boost/mpl/aux_/config/integral.hpp:
+
+/usr/include/c++/11/bits/align.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
 
@@ -2955,6 +2971,8 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 
 /usr/include/boost/exception/exception.hpp:
@@ -3100,10 +3118,6 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
 
@@ -3897,6 +3911,8 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
 
 /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:
@@ -4014,7 +4030,3 @@ test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o: /home/r
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
 
 /usr/include/boost/type_traits/add_volatile.hpp:
-
-/usr/include/kdl/frameacc.inl:
-
-/usr/include/boost/mpl/if.hpp:

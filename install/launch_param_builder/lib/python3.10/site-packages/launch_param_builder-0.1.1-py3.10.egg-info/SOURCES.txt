@@ -5,7 +5,6 @@ setup.py
 ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
 ../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt
 ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
-../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
 ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
 ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
 ../../build/launch_param_builder/launch_param_builder.egg-info/zip-safe

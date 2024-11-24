@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_print_planning_model_info")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_print_planning_model_info"
-         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/robot/ws_moveit2/install/srdfdom/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_print_planning_model_info")
@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_print_planning_scene_info")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_print_planning_scene_info"
-         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/robot/ws_moveit2/install/srdfdom/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_print_planning_scene_info")
@@ -94,7 +94,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_display_random_state")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_display_random_state"
-         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/robot/ws_moveit2/install/srdfdom/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_display_random_state")
@@ -114,7 +114,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume"
-         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/robot/ws_moveit2/install/srdfdom/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume")
@@ -134,7 +134,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed"
-         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/robot/ws_moveit2/install/srdfdom/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed")
@@ -154,7 +154,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_publish_scene_from_text")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_publish_scene_from_text"
-         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/home/robot/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/robot/ws_moveit2/build/moveit_ros_planning/planning_scene_monitor:/home/robot/ws_moveit2/build/moveit_ros_planning/robot_model_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/kinematics_plugin_loader:/home/robot/ws_moveit2/build/moveit_ros_planning/rdf_loader:/home/robot/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robot/ws_moveit2/build/moveit_ros_planning/collision_plugin_loader:/home/robot/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/robot/ws_moveit2/install/srdfdom/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_planning/moveit_publish_scene_from_text")

@@ -1300,6 +1300,10 @@ CMakeFiles/dragon_hello_moveit.dir/src/dragon_hello_moveit.cpp.o: /home/robot/ws
   /opt/ros/humble/include/tf2/tf2/visibility_control.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -1341,6 +1345,10 @@ CMakeFiles/dragon_hello_moveit.dir/src/dragon_hello_moveit.cpp.o: /home/robot/ws
 /opt/ros/humble/include/tf2/tf2/time.h:
 
 /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h:
 
@@ -1806,6 +1814,8 @@ CMakeFiles/dragon_hello_moveit.dir/src/dragon_hello_moveit.cpp.o: /home/robot/ws
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
@@ -1971,6 +1981,8 @@ CMakeFiles/dragon_hello_moveit.dir/src/dragon_hello_moveit.cpp.o: /home/robot/ws
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 

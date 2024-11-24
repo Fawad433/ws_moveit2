@@ -585,7 +585,7 @@ test/unit_tests/CMakeFiles/unittest_trajectory_generator.dir/src/unittest_trajec
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
- /opt/ros/humble/include/srdfdom/model.h \
+ /opt/ros/humble/include/srdfdom/model.h /usr/include/tinyxml2.h \
  /opt/ros/humble/include/urdf/urdf/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -600,7 +600,6 @@ test/unit_tests/CMakeFiles/unittest_trajectory_generator.dir/src/unittest_trajec
  /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
  /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
- /usr/include/tinyxml2.h \
  /opt/ros/humble/include/srdfdom/visibility_control.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \

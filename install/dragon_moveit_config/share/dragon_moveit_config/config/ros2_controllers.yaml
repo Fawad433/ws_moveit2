@@ -17,11 +17,11 @@ controller_manager:
 dragon_arm_controller:
   ros__parameters:
     joints:
-      - servo1_servo2_link_joint
-      - servo2_servo3_link.000_joint
-      - servo3_servo4_link_joint
-      - servo4_servo5_link_joint
-      - wrist_link_joint
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
     command_interfaces:
       - position
     state_interfaces:

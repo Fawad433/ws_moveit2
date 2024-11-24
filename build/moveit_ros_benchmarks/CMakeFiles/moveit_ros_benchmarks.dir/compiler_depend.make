@@ -708,6 +708,12 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o: /home/robot/ws
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -735,6 +741,17 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o: /home/robot/ws
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -748,17 +765,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o: /home/robot/ws
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -1158,9 +1164,7 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o: /home/robot/ws
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_env.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_matrix.h \
@@ -3200,8 +3204,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
-
 /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h:
 
 /usr/include/boost/mpl/min_max.hpp:
@@ -3504,18 +3506,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/mpl/push_back_fwd.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:
-
 /usr/include/boost/mpl/aux_/nttp_decl.hpp:
 
 /usr/include/boost/type_traits/is_convertible.hpp:
@@ -3662,28 +3652,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /opt/ros/humble/include/rcl/rcl/event_callback.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
-
-/opt/ros/humble/include/rcl/rcl/error_handling.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/boost/parameter/deduced.hpp:
-
-/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/usr/include/c++/11/climits:
-
-/usr/include/boost/token_functions.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp:
-
 /opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h:
 
 /opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h:
@@ -3705,6 +3673,28 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/boost/mpl/insert_range_fwd.hpp:
 
 /usr/include/boost/regex/pattern_except.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
+
+/opt/ros/humble/include/rcl/rcl/error_handling.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/boost/parameter/deduced.hpp:
+
+/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/c++/11/climits:
+
+/usr/include/boost/token_functions.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp:
 
 /usr/include/eigen3/Eigen/src/StlSupport/details.h:
 
@@ -3765,6 +3755,10 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/eigen3/Eigen/src/Core/Map.h:
 
 /usr/include/boost/utility.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
 
@@ -3836,6 +3830,14 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/macros.h:
+
+/home/robot/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h:
+
+/usr/include/boost/predef/compiler/intel.h:
+
 /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
@@ -3861,6 +3863,18 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/boost/config.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
 
@@ -4047,10 +4061,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
-
-/usr/include/boost/config/detail/select_stdlib_config.hpp:
-
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp:
 
 /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
 
@@ -4668,10 +4678,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/date_time/parse_format_base.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
 
 /usr/include/c++/11/bitset:
@@ -4696,6 +4702,10 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/eigen3/Eigen/SVD:
 
+/usr/include/boost/numeric/conversion/detail/bounds.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
+
 /usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/boost/mpl/minus.hpp:
@@ -4703,6 +4713,8 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/boost/random/detail/large_arithmetic.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
 /usr/include/boost/predef/compiler/sgi_mipspro.h:
 
@@ -4829,6 +4841,8 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/boost/preprocessor/arithmetic/add.hpp:
 
 /usr/include/boost/config/detail/posix_features.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
@@ -5134,12 +5148,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/mpl/less.hpp:
 
-/opt/ros/humble/include/rcutils/rcutils/macros.h:
-
-/home/robot/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h:
-
-/usr/include/boost/predef/compiler/intel.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp:
 
 /usr/include/c++/11/atomic:
@@ -5310,11 +5318,13 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/mp11/detail/mp_map_find.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
+/opt/ros/humble/include/rcl/rcl/timer.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
+
 /usr/include/boost/date_time/period.hpp:
-
-/home/robot/ws_moveit2/install/moveit_core/include/moveit_planning_scene_export.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
 /usr/include/boost/predef/compiler/comeau.h:
 
@@ -5498,10 +5508,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
-
-/usr/include/boost/type_traits/type_with_alignment.hpp:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
 
 /usr/include/c++/11/bits/istream.tcc:
@@ -5513,10 +5519,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
-
-/opt/ros/humble/include/rcl/rcl/timer.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
@@ -5710,11 +5712,11 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp:
 
+/usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/NumTraits.h:
 
 /usr/include/c++/11/bits/stl_multimap.h:
-
-/usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
 
 /usr/include/boost/random/mersenne_twister.hpp:
 
@@ -5916,6 +5918,10 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
+/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp:
+
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
 /usr/include/boost/mpl/limits/vector.hpp:
@@ -5941,6 +5947,20 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/boost/mpl/advance.hpp:
 
 /usr/include/linux/close_range.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
+/usr/include/boost/type_traits/type_with_alignment.hpp:
+
+/home/robot/ws_moveit2/install/moveit_core/include/moveit_planning_scene_export.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/usr/include/boost/config/detail/select_stdlib_config.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp:
 
@@ -6644,11 +6664,11 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/core/demangle.hpp:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp:
-
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp:
 
 /usr/include/boost/type_traits/is_copy_constructible.hpp:
 
@@ -6822,6 +6842,10 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/swap.hpp:
 
+/usr/include/boost/date_time/time.hpp:
+
+/usr/include/boost/type_traits/has_trivial_constructor.hpp:
+
 /usr/include/boost/signals2/detail/null_output_iterator.hpp:
 
 /usr/include/boost/variant/detail/substitute_fwd.hpp:
@@ -6882,9 +6906,9 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp:
 
-/usr/include/boost/mpl/aux_/config/adl.hpp:
-
 /usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
+
+/usr/include/boost/mpl/aux_/config/adl.hpp:
 
 /usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
 
@@ -7033,10 +7057,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/boost/mpl/empty.hpp:
 
 /usr/include/boost/mpl/aux_/empty_impl.hpp:
-
-/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
-
-/usr/include/boost/numeric/conversion/detail/bounds.hpp:
 
 /usr/include/boost/type_traits/make_unsigned.hpp:
 
@@ -7790,10 +7810,6 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 
 /usr/include/boost/date_time/time_system_counted.hpp:
 
-/usr/include/boost/type_traits/has_trivial_constructor.hpp:
-
-/usr/include/boost/date_time/time.hpp:
-
 /usr/include/boost/date_time/posix_time/date_duration_operators.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
@@ -7979,7 +7995,3 @@ CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o: /home/robot/ws_
 /usr/include/c++/11/ratio:
 
 /usr/include/boost/mpl/multiplies.hpp:
-
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp:
-
-/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:

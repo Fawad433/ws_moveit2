@@ -636,6 +636,10 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
@@ -1386,6 +1390,12 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 
 /usr/include/boost/type_traits/is_pointer.hpp:
 
+/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+
+/usr/include/boost/mpl/and.hpp:
+
+/usr/include/boost/iterator/detail/facade_iterator_category.hpp:
+
 /usr/include/boost/preprocessor/seq/enum.hpp:
 
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h:
@@ -1430,6 +1440,8 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
@@ -1437,8 +1449,6 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/opt/ros/humble/include/rcutils/rcutils/macros.h:
 
 /opt/ros/humble/include/rcl/rcl/node.h:
 
@@ -2170,6 +2180,10 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 
 /usr/include/limits.h:
 
+/opt/ros/humble/include/rcutils/rcutils/macros.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /usr/include/boost/preprocessor/detail/is_binary.hpp:
 
 /usr/include/c++/11/bits/stl_relops.h:
@@ -2411,6 +2425,12 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/boost/core/use_default.hpp:
+
+/usr/include/c++/11/memory:
+
+/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
 
 /usr/include/c++/11/ostream:
 
@@ -2860,6 +2880,8 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 
 /usr/include/unistd.h:
@@ -2943,6 +2965,8 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
 
@@ -3300,8 +3324,6 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
@@ -3465,12 +3487,6 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
 /usr/include/boost/config.hpp:
-
-/usr/include/c++/11/memory:
-
-/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
-
-/usr/include/boost/core/use_default.hpp:
 
 /usr/include/c++/11/bits/hash_bytes.h:
 
@@ -3638,8 +3654,6 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 
 /usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
 
-/usr/include/boost/mpl/and.hpp:
-
 /usr/include/boost/mpl/aux_/config/arrays.hpp:
 
 /usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
@@ -3709,5 +3723,3 @@ transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o: /home/robot/ws
 /usr/include/boost/mpl/aux_/na_assert.hpp:
 
 /usr/include/boost/mpl/aux_/config/gpu.hpp:
-
-/usr/include/boost/iterator/detail/facade_iterator_category.hpp:

@@ -8,6 +8,31 @@ default_acceleration_scaling_factor: 0.1
 # Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
 # Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
 joint_limits:
+  joint1:
+    has_velocity_limits: true
+    max_velocity: 2.3925000000000001
+    has_acceleration_limits: false
+    max_acceleration: 0
+  joint2:
+    has_velocity_limits: true
+    max_velocity: 2.3925000000000001
+    has_acceleration_limits: false
+    max_acceleration: 0
+  joint3:
+    has_velocity_limits: true
+    max_velocity: 2.3925000000000001
+    has_acceleration_limits: false
+    max_acceleration: 0
+  joint4:
+    has_velocity_limits: true
+    max_velocity: 2.3925000000000001
+    has_acceleration_limits: false
+    max_acceleration: 0
+  joint5:
+    has_velocity_limits: true
+    max_velocity: 2.3925000000000001
+    has_acceleration_limits: false
+    max_acceleration: 0
   left_hand_finger_joint:
     has_velocity_limits: true
     max_velocity: 0.20000000000000001
@@ -18,28 +43,3 @@ joint_limits:
     max_velocity: 0.20000000000000001
     has_acceleration_limits: false
     max_acceleration: 0
-  servo1_servo2_link_joint:
-    has_velocity_limits: true
-    max_velocity: 2.1750
-    has_acceleration_limits: true
-    max_acceleration: 3.75
-  servo2_servo3_link.000_joint:
-    has_velocity_limits: true
-    max_velocity: 2.1750
-    has_acceleration_limits: true
-    max_acceleration: 1.875
-  servo3_servo4_link_joint:
-    has_velocity_limits: true
-    max_velocity: 2.1750
-    has_acceleration_limits: true
-    max_acceleration: 2.5
-  servo4_servo5_link_joint:
-    has_velocity_limits: true
-    max_velocity: 2.6100
-    has_acceleration_limits: true
-    max_acceleration: 3.75
-  wrist_link_joint:
-    has_velocity_limits: true
-    max_velocity: 2.6100
-    has_acceleration_limits: true
-    max_acceleration: 5.0

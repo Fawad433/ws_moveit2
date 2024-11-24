@@ -1442,6 +1442,10 @@ test/unit_tests/CMakeFiles/unittest_planning_context_loaders.dir/src/unittest_pl
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp \
@@ -1467,6 +1471,10 @@ test/unit_tests/CMakeFiles/unittest_planning_context_loaders.dir/src/unittest_pl
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp:
 
@@ -2112,6 +2120,8 @@ test/unit_tests/CMakeFiles/unittest_planning_context_loaders.dir/src/unittest_pl
 
 /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /usr/include/kdl/velocityprofile.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
@@ -2243,6 +2253,8 @@ test/unit_tests/CMakeFiles/unittest_planning_context_loaders.dir/src/unittest_pl
 /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 

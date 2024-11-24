@@ -1545,6 +1545,10 @@ motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin.dir/sr
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
@@ -3209,6 +3213,10 @@ planning_scene_rviz_plugin/moveit_planning_scene_rviz_plugin_core_export.h:
 
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
+
 /usr/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:
@@ -4384,6 +4392,8 @@ planning_scene_rviz_plugin/moveit_planning_scene_rviz_plugin_core_export.h:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
 
 /usr/include/linux/types.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 
@@ -5674,6 +5684,8 @@ motion_planning_rviz_plugin/moveit_motion_planning_rviz_plugin_autogen/mocs_comp
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp:
 
 /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
 

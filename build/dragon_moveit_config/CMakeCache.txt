@@ -271,6 +271,15 @@ ament_cmake_gen_version_h_DIR:PATH=/opt/ros/humble/share/ament_cmake_gen_version
 //The directory containing a CMake configuration file for ament_cmake_include_directories.
 ament_cmake_include_directories_DIR:PATH=/opt/ros/humble/share/ament_cmake_include_directories/cmake
 
+//Value Computed by CMake
+ament_cmake_internal_BINARY_DIR:STATIC=/home/robot/ws_moveit2/build/dragon_moveit_config
+
+//Value Computed by CMake
+ament_cmake_internal_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+ament_cmake_internal_SOURCE_DIR:STATIC=/home/robot/ws_moveit2/src/dragon_moveit_config
+
 //The directory containing a CMake configuration file for ament_cmake_libraries.
 ament_cmake_libraries_DIR:PATH=/opt/ros/humble/share/ament_cmake_libraries/cmake
 

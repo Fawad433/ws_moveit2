@@ -235,8 +235,8 @@ CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/clean:
 # Target rules for target CMakeFiles/test_cpp_C.dir
 
 # All Build rule for target.
-CMakeFiles/test_cpp_C.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/test_cpp_C.dir/all: gtest/CMakeFiles/gtest.dir/all
+CMakeFiles/test_cpp_C.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/test_cpp_C.dir/all: CMakeFiles/srdfdom.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cpp_C.dir/build.make CMakeFiles/test_cpp_C.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cpp_C.dir/build.make CMakeFiles/test_cpp_C.dir/build
@@ -263,8 +263,8 @@ CMakeFiles/test_cpp_C.dir/clean:
 # Target rules for target CMakeFiles/test_cpp_nl_NL.UTF-8.dir
 
 # All Build rule for target.
-CMakeFiles/test_cpp_nl_NL.UTF-8.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/test_cpp_nl_NL.UTF-8.dir/all: gtest/CMakeFiles/gtest.dir/all
+CMakeFiles/test_cpp_nl_NL.UTF-8.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/test_cpp_nl_NL.UTF-8.dir/all: CMakeFiles/srdfdom.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cpp_nl_NL.UTF-8.dir/build.make CMakeFiles/test_cpp_nl_NL.UTF-8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cpp_nl_NL.UTF-8.dir/build.make CMakeFiles/test_cpp_nl_NL.UTF-8.dir/build

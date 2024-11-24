@@ -2087,8 +2087,6 @@ CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o
  /usr/include/openssl/e_os2.h
  /opt/ros/humble/include/warehouse_ros/impl/database_connection_impl.hpp
  /opt/ros/humble/include/warehouse_ros/database_loader.h
- /usr/include/boost/scoped_ptr.hpp
- /usr/include/boost/smart_ptr/scoped_ptr.hpp
  /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp
  /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp
  /usr/include/console_bridge/console.h

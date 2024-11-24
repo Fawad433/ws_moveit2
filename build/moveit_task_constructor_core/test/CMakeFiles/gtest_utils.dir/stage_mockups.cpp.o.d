@@ -981,7 +981,7 @@ test/CMakeFiles/gtest_utils.dir/stage_mockups.cpp.o: \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/planning_scene/planning_scene.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
- /opt/ros/humble/include/srdfdom/model.h \
+ /opt/ros/humble/include/srdfdom/model.h /usr/include/tinyxml2.h \
  /opt/ros/humble/include/urdf/urdf/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -996,7 +996,6 @@ test/CMakeFiles/gtest_utils.dir/stage_mockups.cpp.o: \
  /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
  /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
- /usr/include/tinyxml2.h \
  /opt/ros/humble/include/srdfdom/visibility_control.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \

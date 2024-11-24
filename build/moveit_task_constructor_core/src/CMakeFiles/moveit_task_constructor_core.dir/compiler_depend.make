@@ -1697,6 +1697,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/container.cpp.o: /home/robot/ws_
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -1711,7 +1712,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/container.cpp.o: /home/robot/ws_
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -2630,6 +2630,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/cost_terms.cpp.o: /home/robot/ws
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -2644,7 +2645,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/cost_terms.cpp.o: /home/robot/ws
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -4888,6 +4888,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/introspection.cpp.o: /home/robot
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -4902,7 +4903,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/introspection.cpp.o: /home/robot
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -5534,6 +5534,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/marker_tools.cpp.o: /home/robot/
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -5548,7 +5549,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/marker_tools.cpp.o: /home/robot/
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -6947,6 +6947,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/merge.cpp.o: /home/robot/ws_move
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -6961,7 +6962,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/merge.cpp.o: /home/robot/ws_move
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -8787,6 +8787,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/cartesian_path.cpp.o: /h
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -8801,7 +8802,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/cartesian_path.cpp.o: /h
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -9431,6 +9431,10 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/cartesian_path.cpp.o: /h
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
@@ -10072,6 +10076,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/joint_interpolation.cpp.
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -10086,7 +10091,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/joint_interpolation.cpp.
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -11313,6 +11317,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/multi_planner.cpp.o: /ho
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -11327,7 +11332,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/multi_planner.cpp.o: /ho
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -12886,6 +12890,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/pipeline_planner.cpp.o: 
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -12900,7 +12905,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/pipeline_planner.cpp.o: 
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -13266,6 +13270,10 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/pipeline_planner.cpp.o: 
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
@@ -13912,6 +13920,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/planner_interface.cpp.o:
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -13926,7 +13935,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/solvers/planner_interface.cpp.o:
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -16169,6 +16177,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/stage.cpp.o: /home/robot/ws_move
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -16183,7 +16192,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/stage.cpp.o: /home/robot/ws_move
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -17386,6 +17394,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/storage.cpp.o: /home/robot/ws_mo
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -17400,7 +17409,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/storage.cpp.o: /home/robot/ws_mo
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -19380,6 +19388,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/task.cpp.o: /home/robot/ws_movei
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -19394,7 +19403,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/task.cpp.o: /home/robot/ws_movei
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -20136,6 +20144,10 @@ src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o: /home/robot/ws_move
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
@@ -20528,6 +20540,7 @@ src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o: /home/robot/ws_move
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -20541,7 +20554,6 @@ src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o: /home/robot/ws_move
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -21006,6 +21018,10 @@ src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o: /home/robot/ws_move
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
 
 /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
@@ -22451,6 +22467,8 @@ src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o: /home/robot/ws_move
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
@@ -23596,6 +23614,8 @@ src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o: /home/robot/ws_move
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 

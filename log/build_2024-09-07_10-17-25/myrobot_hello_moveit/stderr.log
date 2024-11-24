@@ -1,8 +1,0 @@
-[01m[K/home/robot/ws_moveit2/src/myrobot_hello_moveit/src/myrobot_hello_moveit.cpp:[m[K In lambda function:
-[01m[K/home/robot/ws_moveit2/src/myrobot_hello_moveit/src/myrobot_hello_moveit.cpp:66:105:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
-   66 |     bool success = (move_group_interface.plan(plan_msg) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
-      |                                                                                                         [01;35m[K^~~~~~~[m[K
-In file included from [01m[K/home/robot/ws_moveit2/src/myrobot_hello_moveit/src/myrobot_hello_moveit.cpp:5[m[K:
-[01m[K/home/robot/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
-   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
-      |       [01;36m[K^~~~~~~~~~~~~~~[m[K

@@ -948,6 +948,12 @@ CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o: /
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -998,6 +1004,8 @@ CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o: /
 /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:
 
 /opt/ros/humble/include/tf2/tf2/transform_datatypes.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
 
@@ -1272,6 +1280,8 @@ CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o: /
 /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /usr/include/limits.h:
 
@@ -2005,6 +2015,8 @@ CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o: /
 
 /usr/include/c++/11/iosfwd:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
@@ -2315,6 +2327,8 @@ CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o: /
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
 /usr/include/pthread.h:
@@ -2527,6 +2541,8 @@ CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o: /
 
 /usr/include/c++/11/mutex:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h:
 
 /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h:
@@ -2652,6 +2668,8 @@ CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o: /
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 

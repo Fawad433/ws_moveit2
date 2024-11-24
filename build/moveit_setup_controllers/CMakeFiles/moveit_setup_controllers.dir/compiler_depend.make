@@ -2308,6 +2308,12 @@ CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_con
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -2451,7 +2457,7 @@ CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_con
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /opt/ros/humble/include/rviz_common/rviz_common/properties/property.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/view_controller.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
+  /opt/ros/humble/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
   /opt/ros/humble/include/rviz_common/rviz_common/display.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QSet \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
@@ -2478,7 +2484,7 @@ CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_con
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
   /opt/ros/humble/include/srdfdom/model.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
@@ -2872,10 +2878,8 @@ CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_con
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
   /usr/include/inttypes.h \
@@ -3983,6 +3987,12 @@ CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_urd
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -4127,7 +4137,7 @@ CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_urd
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /opt/ros/humble/include/rviz_common/rviz_common/properties/property.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/view_controller.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
+  /opt/ros/humble/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
   /opt/ros/humble/include/rviz_common/rviz_common/display.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QSet \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
@@ -4154,7 +4164,7 @@ CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_urd
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
   /opt/ros/humble/include/srdfdom/model.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
@@ -4548,10 +4558,8 @@ CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_urd
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
   /usr/include/inttypes.h \
@@ -11057,6 +11065,12 @@ CMakeFiles/moveit_setup_controllers.dir/src/controllers_widget.cpp.o: /home/robo
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -11200,7 +11214,7 @@ CMakeFiles/moveit_setup_controllers.dir/src/controllers_widget.cpp.o: /home/robo
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /opt/ros/humble/include/rviz_common/rviz_common/properties/property.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/view_controller.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
+  /opt/ros/humble/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
   /opt/ros/humble/include/rviz_common/rviz_common/display.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QSet \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
@@ -11227,7 +11241,7 @@ CMakeFiles/moveit_setup_controllers.dir/src/controllers_widget.cpp.o: /home/robo
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
   /opt/ros/humble/include/srdfdom/model.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
@@ -11621,10 +11635,8 @@ CMakeFiles/moveit_setup_controllers.dir/src/controllers_widget.cpp.o: /home/robo
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
   /usr/include/inttypes.h \
@@ -14803,6 +14815,12 @@ CMakeFiles/moveit_setup_controllers.dir/src/moveit_controllers_widget.cpp.o: /ho
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -14946,7 +14964,7 @@ CMakeFiles/moveit_setup_controllers.dir/src/moveit_controllers_widget.cpp.o: /ho
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /opt/ros/humble/include/rviz_common/rviz_common/properties/property.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/view_controller.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
+  /opt/ros/humble/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
   /opt/ros/humble/include/rviz_common/rviz_common/display.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QSet \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
@@ -14973,7 +14991,7 @@ CMakeFiles/moveit_setup_controllers.dir/src/moveit_controllers_widget.cpp.o: /ho
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
   /opt/ros/humble/include/srdfdom/model.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
@@ -15367,10 +15385,8 @@ CMakeFiles/moveit_setup_controllers.dir/src/moveit_controllers_widget.cpp.o: /ho
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
   /usr/include/inttypes.h \
@@ -17827,6 +17843,12 @@ CMakeFiles/moveit_setup_controllers.dir/src/ros2_controllers_widget.cpp.o: /home
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -17970,7 +17992,7 @@ CMakeFiles/moveit_setup_controllers.dir/src/ros2_controllers_widget.cpp.o: /home
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /opt/ros/humble/include/rviz_common/rviz_common/properties/property.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/view_controller.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
+  /opt/ros/humble/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
   /opt/ros/humble/include/rviz_common/rviz_common/display.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QSet \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
@@ -17997,7 +18019,7 @@ CMakeFiles/moveit_setup_controllers.dir/src/ros2_controllers_widget.cpp.o: /home
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
   /opt/ros/humble/include/srdfdom/model.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
@@ -18391,10 +18413,8 @@ CMakeFiles/moveit_setup_controllers.dir/src/ros2_controllers_widget.cpp.o: /home
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
   /usr/include/inttypes.h \
@@ -20815,6 +20835,12 @@ CMakeFiles/moveit_setup_controllers.dir/src/urdf_modifications_widget.cpp.o: /ho
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -20959,7 +20985,7 @@ CMakeFiles/moveit_setup_controllers.dir/src/urdf_modifications_widget.cpp.o: /ho
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /opt/ros/humble/include/rviz_common/rviz_common/properties/property.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/view_controller.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
+  /opt/ros/humble/include/moveit/robot_state_rviz_plugin/robot_state_display.h \
   /opt/ros/humble/include/rviz_common/rviz_common/display.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QSet \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
@@ -20986,7 +21012,7 @@ CMakeFiles/moveit_setup_controllers.dir/src/urdf_modifications_widget.cpp.o: /ho
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
   /opt/ros/humble/include/srdfdom/model.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
@@ -21380,10 +21406,8 @@ CMakeFiles/moveit_setup_controllers.dir/src/urdf_modifications_widget.cpp.o: /ho
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
-  /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
+  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
   /usr/include/inttypes.h \
@@ -21834,9 +21858,7 @@ include/moveit_setup_controllers/moc_urdf_modifications_widget.cpp:
 
 /opt/ros/humble/include/octomap/octomap.h:
 
-/home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h:
-
-/home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h:
+/opt/ros/humble/include/moveit/rviz_plugin_render_tools/octomap_render.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
 
@@ -21846,7 +21868,7 @@ include/moveit_setup_controllers/moc_urdf_modifications_widget.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QSet:
 
-/home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h:
+/opt/ros/humble/include/moveit/robot_state_rviz_plugin/robot_state_display.h:
 
 /opt/ros/humble/include/rviz_common/rviz_common/view_manager.hpp:
 
@@ -21911,6 +21933,10 @@ include/moveit_setup_controllers/moc_urdf_modifications_widget.cpp:
 /opt/ros/humble/include/tf2/tf2/exceptions.h:
 
 /opt/ros/humble/include/tf2/tf2/time.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAutoParamDataSource.h:
 
@@ -22812,6 +22838,8 @@ include/moveit_setup_controllers/moc_controllers_widget.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp:
@@ -23257,6 +23285,8 @@ include/moveit_setup_controllers/moc_controller_edit_widget.cpp:
 /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/revolute_joint_model.h:
 
 /usr/include/c++/11/bits/regex_error.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 
@@ -23707,6 +23737,8 @@ include/moveit_setup_controllers/moc_controller_edit_widget.cpp:
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreCommon.h:
+
+/opt/ros/humble/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h:
 
 /usr/include/c++/11/string:
 

@@ -1,4 +1,3 @@
 [console_scripts]
 servo_client = my_robot_first_servo_control.servo_client_node:main
 servo_client_client = my_robot_first_servo_control.servo_client_node_client:main
-

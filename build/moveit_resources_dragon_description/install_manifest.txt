@@ -15,13 +15,9 @@
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/package.xml
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/base.stl
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/right_finger.stl
-/home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/spacer_short.stl_history.log
-/home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/spacer_short.001.stl_history.log
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/joint2.stl_history.log
-/home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/spacer_short.001.stl
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/joint1.stl_history.log
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/joint4.stl_history.log
-/home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/spacer_short.stl
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/left_finger.stl_history.log
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/gripper_palm.stl_history.log
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/joint4.stl
@@ -33,4 +29,5 @@
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/gripper_palm.stl
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/base.stl_history.log
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/meshes/stl/joint1.stl
+/home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/urdf/6DoF_ros.urdf
 /home/robot/ws_moveit2/install/moveit_resources_dragon_description/share/moveit_resources_dragon_description/urdf/dragon.urdf

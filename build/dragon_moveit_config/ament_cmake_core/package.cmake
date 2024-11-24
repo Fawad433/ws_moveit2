@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "dragon_moveit_config")
 set(dragon_moveit_config_VERSION "0.3.0")
-set(dragon_moveit_config_MAINTAINER "Fawad <fawadahmed433@gmail.com>")
+set(dragon_moveit_config_MAINTAINER "Fawad Ahmad <fawadahmed433@gmail.com>")
 set(dragon_moveit_config_BUILD_DEPENDS )
 set(dragon_moveit_config_BUILDTOOL_DEPENDS "ament_cmake")
 set(dragon_moveit_config_BUILD_EXPORT_DEPENDS )

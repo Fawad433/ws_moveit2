@@ -24,6 +24,8 @@
 
   <exec_depend>moveit_resources_pr2_description</exec_depend>
 
+  <exec_depend>moveit_resources_dragon_description</exec_depend>
+
   <exec_depend>joint_state_publisher</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
 

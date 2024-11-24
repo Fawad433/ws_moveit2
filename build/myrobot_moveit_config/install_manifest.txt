@@ -35,6 +35,7 @@
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/ompl_planning.yaml
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/joint_limits.yaml
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/my_robot.srdf
+/home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/stl_robotic_arm.urdf
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/kinematics.yaml
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/moveit_controllers.yaml
 /home/robot/ws_moveit2/install/myrobot_moveit_config/share/myrobot_moveit_config/config/moveit.rviz

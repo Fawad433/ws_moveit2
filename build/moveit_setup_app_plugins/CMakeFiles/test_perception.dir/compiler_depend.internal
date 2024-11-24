@@ -4,11 +4,11 @@
 CMakeFiles/test_perception.dir/test/test_perception.cpp.o
  /home/robot/ws_moveit2/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins/test/test_perception.cpp
  /usr/include/stdc-predef.h
- /home/robot/ws_moveit2/install/moveit_setup_framework/include/moveit_setup_framework/testing_utils.hpp
- /home/robot/ws_moveit2/install/moveit_setup_framework/include/moveit_setup_framework/data_warehouse.hpp
- /home/robot/ws_moveit2/install/moveit_setup_framework/include/moveit_setup_framework/config.hpp
- /home/robot/ws_moveit2/install/moveit_setup_framework/include/moveit_setup_framework/generated_file.hpp
- /home/robot/ws_moveit2/install/moveit_setup_framework/include/moveit_setup_framework/utilities.hpp
+ /opt/ros/humble/include/moveit_setup_framework/testing_utils.hpp
+ /opt/ros/humble/include/moveit_setup_framework/data_warehouse.hpp
+ /opt/ros/humble/include/moveit_setup_framework/config.hpp
+ /opt/ros/humble/include/moveit_setup_framework/generated_file.hpp
+ /opt/ros/humble/include/moveit_setup_framework/utilities.hpp
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp
  /usr/include/c++/11/string
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
@@ -346,7 +346,7 @@ CMakeFiles/test_perception.dir/test/test_perception.cpp.o
  /usr/include/c++/11/bits/unordered_map.h
  /usr/include/yaml-cpp/node/parse.h
  /usr/include/yaml-cpp/node/emit.h
- /home/robot/ws_moveit2/install/moveit_setup_framework/include/moveit_setup_framework/generated_time.hpp
+ /opt/ros/humble/include/moveit_setup_framework/generated_time.hpp
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/class_forward.h
  /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h
  /usr/include/c++/11/iostream
@@ -354,7 +354,7 @@ CMakeFiles/test_perception.dir/test/test_perception.cpp.o
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h
  /usr/include/c++/11/bits/fstream.tcc
- /home/robot/ws_moveit2/install/moveit_setup_framework/include/moveit_setup_framework/templates.hpp
+ /opt/ros/humble/include/moveit_setup_framework/templates.hpp
  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp
  /usr/include/c++/11/condition_variable
  /usr/include/c++/11/bits/std_mutex.h
@@ -688,7 +688,7 @@ CMakeFiles/test_perception.dir/test/test_perception.cpp.o
  /usr/include/c++/11/bits/regex.tcc
  /usr/include/c++/11/bits/regex_executor.h
  /usr/include/c++/11/bits/regex_executor.tcc
- /home/robot/ws_moveit2/install/moveit_setup_framework/include/moveit_setup_framework/setup_step.hpp
+ /opt/ros/humble/include/moveit_setup_framework/setup_step.hpp
  /opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h
  /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h
  /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-port.h

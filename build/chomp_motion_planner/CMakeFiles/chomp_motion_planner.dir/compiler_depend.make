@@ -208,6 +208,22 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o: /home/robot/ws_moveit2
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -280,22 +296,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o: /home/robot/ws_moveit2
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -1452,6 +1452,22 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o: /home/robot/ws_mo
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -1524,22 +1540,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o: /home/robot/ws_mo
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -3213,6 +3213,22 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o: /home/robot/ws_move
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -3285,22 +3301,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o: /home/robot/ws_move
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -4615,6 +4615,10 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o: /home/robot/ws_move
   /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
@@ -4866,6 +4870,22 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -4938,22 +4958,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -5953,6 +5957,10 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
 
 /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h:
 
@@ -6998,36 +7006,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
-/usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/fcl/narrowphase/detail/traversal/distance/bvh_shape_distance_traversal_node-inl.h:
-
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
-
-/usr/include/fcl/narrowphase/detail/convexity_based_algorithm/polytope.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/boost/random/uniform_int_distribution.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
-
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
@@ -7077,6 +7055,58 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/StlIterators.h:
+
+/usr/include/boost/preprocessor/variadic/elem.hpp:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/fcl/narrowphase/detail/traversal/distance/shape_bvh_distance_traversal_node-inl.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/boost/preprocessor/facilities/empty.hpp:
+
+/usr/include/boost/random/detail/ptr_helper.hpp:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/usr/include/c++/11/math.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/string_map.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
+
+/opt/ros/humble/include/rmw/rmw/rmw.h:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
+
+/usr/include/boost/mpl/int.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_matrix.h:
+
+/usr/include/c++/11/system_error:
+
+/usr/include/fcl/narrowphase/detail/traversal/octree/octree_solver.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
+
+/usr/include/boost/config/detail/suffix.hpp:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/boost/random/detail/seed_impl.hpp:
 
@@ -7144,11 +7174,25 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/c++/11/set:
 
-/usr/include/boost/type_traits/is_unsigned.hpp:
+/usr/include/boost/config/user.hpp:
 
-/usr/include/c++/11/bits/shared_ptr_base.h:
+/usr/include/boost/assert/source_location.hpp:
 
-/usr/include/c++/11/bits/basic_string.h:
+/opt/ros/humble/include/rcl/rcl/event_callback.h:
+
+/opt/ros/humble/include/tracetools/tracetools/tracetools.h:
+
+/usr/include/wctype.h:
+
+/usr/include/boost/random/detail/generator_bits.hpp:
+
+/opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/sched.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -7174,13 +7218,7 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp:
 
-/usr/include/c++/11/system_error:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
-
-/opt/ros/humble/include/rmw/rmw/rmw.h:
+/usr/include/c++/11/bits/locale_facets.tcc:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:
 
@@ -7214,6 +7252,10 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
 
+/usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
 /usr/include/boost/config/stdlib/libstdcpp3.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
@@ -7229,12 +7271,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/c++/11/string_view:
-
-/usr/include/c++/11/cstdlib:
 
 /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h:
 
@@ -7256,14 +7292,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
-/usr/include/fcl/narrowphase/detail/traversal/distance/shape_bvh_distance_traversal_node-inl.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-/usr/include/boost/preprocessor/facilities/empty.hpp:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
 /usr/include/c++/11/bits/invoke.h:
@@ -7277,6 +7305,12 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
 /usr/include/c++/11/backward/binders.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
+
+/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
@@ -7366,6 +7400,8 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/c++/11/bits/string_view.tcc:
 
+/usr/include/c++/11/cwctype:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
@@ -7406,8 +7442,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/boost/preprocessor/arithmetic/dec.hpp:
 
-/usr/include/boost/mpl/int.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /opt/ros/humble/include/urdfdom_headers/urdf_model/pose.h:
@@ -7419,24 +7453,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/c++/11/climits:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp:
-
-/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_matrix.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -7504,10 +7520,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/eigen3/Eigen/src/StlSupport/details.h:
 
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
-
 /usr/include/fcl/geometry/bvh/detail/BV_splitter_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
@@ -7519,6 +7531,10 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/c++/11/bits/std_mutex.h:
 
 /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h:
+
+/home/robot/ws_moveit2/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h:
+
+/usr/include/c++/11/utility:
 
 /usr/include/boost/type_traits/is_enum.hpp:
 
@@ -7540,17 +7556,15 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
-/usr/include/boost/preprocessor/control/expr_iif.hpp:
+/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
 
-/usr/include/eigen3/Eigen/Cholesky:
+/usr/include/c++/11/debug/debug.h:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
-/home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h:
+/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp:
 
-/usr/include/boost/preprocessor/detail/is_binary.hpp:
-
-/usr/include/c++/11/bits/stl_relops.h:
+/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
 
 /usr/include/fcl/narrowphase/detail/traversal/collision/mesh_continuous_collision_traversal_node.h:
 
@@ -7594,8 +7608,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/eigen3/Eigen/src/Core/Assign.h:
 
-/home/robot/ws_moveit2/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h:
-
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/wchar2.h:
@@ -7611,6 +7623,22 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/fcl/narrowphase/detail/primitive_shape_algorithm/sphere_capsule-inl.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
+
+/usr/include/boost/type_traits/is_unsigned.hpp:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/fcl/narrowphase/detail/convexity_based_algorithm/polytope.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/opt/ros/humble/include/octomap/octomap_utils.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -7635,6 +7663,28 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/boost/preprocessor/variadic/size.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/string_view:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
 
 /usr/include/c++/11/typeinfo:
 
@@ -7686,19 +7736,7 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp:
 
-/usr/include/boost/random/detail/seed.hpp:
-
-/usr/include/string.h:
-
 /usr/include/c++/11/stdexcept:
-
-/usr/include/boost/random/detail/disable_warnings.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
 
 /usr/include/boost/type_traits/make_unsigned.hpp:
 
@@ -7728,6 +7766,14 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/boost/config/no_tr1/cmath.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/fcl/narrowphase/detail/traversal/distance/bvh_shape_distance_traversal_node-inl.h:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
+
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/clocale:
@@ -7735,6 +7781,12 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/fcl/narrowphase/detail/primitive_shape_algorithm/capsule_capsule.h:
 
 /opt/ros/humble/include/rcl/rcl/event.h:
+
+/usr/include/boost/random/uniform_int_distribution.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
 
@@ -7762,8 +7814,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/stdlib.h:
 
-/usr/include/c++/11/ext/aligned_buffer.h:
-
 /opt/ros/humble/include/tf2/tf2/buffer_core.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -7777,8 +7827,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/alloca.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
-
-/usr/include/c++/11/cwctype:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
 
@@ -7800,13 +7848,9 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp:
 
-/opt/ros/humble/include/octomap/octomap_utils.h:
+/usr/include/boost/random/detail/seed.hpp:
 
-/home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
+/usr/include/string.h:
 
 /usr/include/fcl/narrowphase/detail/traversal/traversal_recurse.h:
 
@@ -7819,32 +7863,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/boost/config/user.hpp:
-
-/usr/include/boost/assert/source_location.hpp:
-
-/opt/ros/humble/include/rcl/rcl/event_callback.h:
-
-/opt/ros/humble/include/tracetools/tracetools/tracetools.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
-
-/usr/include/sched.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
-
-/usr/include/wctype.h:
-
-/usr/include/boost/random/detail/generator_bits.hpp:
-
-/opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-/usr/include/c++/11/math.h:
-
-/opt/ros/humble/include/rcutils/rcutils/types/string_map.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -7874,6 +7892,10 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/boost/mpl/aux_/na_fwd.hpp:
 
+/usr/include/c++/11/ios:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/fcl/common/types.h:
@@ -7888,13 +7910,15 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/c++/11/bits/stl_vector.h:
 
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
 
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 
@@ -7909,6 +7933,28 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/boost/preprocessor/detail/is_binary.hpp:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/boost/preprocessor/control/expr_iif.hpp:
+
+/usr/include/eigen3/Eigen/Cholesky:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp:
+
+/home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/usr/include/boost/random/detail/disable_warnings.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /usr/include/boost/mpl/integral_c_tag.hpp:
 
@@ -7954,12 +8000,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/c++/11/bits/node_handle.h:
 
-/usr/include/fcl/narrowphase/detail/traversal/octree/octree_solver.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
-
-/usr/include/boost/config/detail/suffix.hpp:
-
 /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
 
 /usr/include/boost/preprocessor/tuple/elem.hpp:
@@ -7982,7 +8022,11 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
-/usr/include/c++/11/bits/locale_classes.h:
+/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/array:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
@@ -8003,16 +8047,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp:
 
@@ -8039,30 +8073,6 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp:
 
 /usr/include/c++/11/istream:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
-
-/usr/include/c++/11/ios:
-
-/usr/include/c++/11/utility:
-
-/usr/include/boost/random/detail/ptr_helper.hpp:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/boost/preprocessor/variadic/elem.hpp:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/11/array:
-
-/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
-
-/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
 
 /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
 
@@ -8217,6 +8227,8 @@ CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o: /home/robot/ws_m
 /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 

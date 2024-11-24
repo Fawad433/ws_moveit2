@@ -820,6 +820,10 @@ CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o: /home/robot/w
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
@@ -1231,6 +1235,7 @@ CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o: /home/robot/w
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -1244,7 +1249,6 @@ CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o: /home/robot/w
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -2173,6 +2177,22 @@ CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o: /home/robot/ws
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -2245,22 +2265,6 @@ CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o: /home/robot/ws
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -3171,6 +3175,10 @@ CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o: /home/robot/ws
   /opt/ros/humble/include/tf2/tf2/visibility_control.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -4872,6 +4880,12 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -4899,6 +4913,7 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -4912,7 +4927,6 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -5103,9 +5117,7 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_env.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_matrix.h \
@@ -6992,6 +7004,10 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
 
+/usr/include/boost/smart_ptr/scoped_ptr.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/util/Macros.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
@@ -7242,6 +7258,12 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 
 /usr/include/boost/mpl/identity.hpp:
 
+/usr/include/boost/mpl/push_front_fwd.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
+
+/usr/include/boost/preprocessor/variadic/size.hpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
 /usr/include/boost/preprocessor/facilities/overload.hpp:
@@ -7375,6 +7397,10 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 /usr/include/boost/mpl/aux_/na.hpp:
 
 /usr/include/boost/mpl/aux_/na_spec.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
+
+/usr/include/boost/mpl/or.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
 
@@ -7587,12 +7613,6 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 /usr/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/boost/mpl/push_front_fwd.hpp:
-
-/usr/include/boost/preprocessor/variadic/size.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
@@ -7922,6 +7942,8 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
@@ -8115,10 +8137,6 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 /usr/include/c++/11/vector:
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
-
-/usr/include/boost/smart_ptr/scoped_ptr.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp:
 
@@ -9072,6 +9090,10 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 
 /usr/include/eigen3/Eigen/QR:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
+
+/usr/include/eigen3/Eigen/Jacobi:
+
 /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
 
 /usr/include/eigen3/Eigen/Householder:
@@ -9136,6 +9158,8 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 
 /usr/include/boost/type_traits/aligned_storage.hpp:
@@ -9149,10 +9173,6 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 /usr/include/boost/optional/detail/optional_factory_support.hpp:
 
 /usr/include/c++/11/bits/quoted_string.h:
-
-/usr/include/eigen3/Eigen/Jacobi:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp:
 
@@ -9293,6 +9313,18 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
+
+/usr/include/boost/variant/recursive_variant.hpp:
+
+/usr/include/boost/function/function_fwd.hpp:
+
+/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/error_handling.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
 /usr/include/boost/variant/detail/forced_return.hpp:
 
@@ -9447,14 +9479,6 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp:
 
 /opt/ros/humble/include/rcl/rcl/types.h:
-
-/usr/include/boost/variant/recursive_variant.hpp:
-
-/usr/include/boost/function/function_fwd.hpp:
-
-/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
 /usr/include/boost/signals2/deconstruct_ptr.hpp:
 
@@ -9837,7 +9861,3 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: /home/robot/ws
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
-
-/usr/include/boost/mpl/or.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:

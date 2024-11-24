@@ -1548,6 +1548,12 @@ CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_rviz
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -2113,9 +2119,7 @@ CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_rviz
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
@@ -3142,6 +3146,12 @@ CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_setu
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -3707,9 +3717,7 @@ CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_setu
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
@@ -7486,6 +7494,12 @@ CMakeFiles/moveit_setup_framework.dir/src/rviz_panel.cpp.o: /home/robot/ws_movei
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -8051,9 +8065,7 @@ CMakeFiles/moveit_setup_framework.dir/src/rviz_panel.cpp.o: /home/robot/ws_movei
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /home/robot/ws_moveit2/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
@@ -13644,6 +13656,14 @@ CMakeFiles/moveit_setup_framework.dir/src/xml_syntax_highlighter.cpp.o: /home/ro
 
 /usr/include/boost/mpl/lambda_fwd.hpp:
 
+/usr/include/boost/mpl/aux_/na_spec.hpp:
+
+/usr/include/boost/mpl/aux_/config/eti.hpp:
+
+/usr/include/boost/mpl/aux_/value_wknd.hpp:
+
+/usr/include/boost/mpl/if.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:
@@ -13722,9 +13742,9 @@ CMakeFiles/moveit_setup_framework.dir/src/xml_syntax_highlighter.cpp.o: /home/ro
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
-/opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
-/opt/ros/humble/include/rcutils/rcutils/macros.h:
+/opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
 
 /usr/include/linux/types.h:
 
@@ -13827,10 +13847,6 @@ CMakeFiles/moveit_setup_framework.dir/src/xml_syntax_highlighter.cpp.o: /home/ro
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAtomicScalar.h:
 
 /opt/ros/humble/include/urdfdom_headers/urdf_model/color.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
@@ -14576,8 +14592,6 @@ include/moveit_setup_framework/qt/moc_helper_widgets.cpp:
 
 /usr/include/c++/11/bits/sstream.tcc:
 
-/usr/include/boost/mpl/aux_/value_wknd.hpp:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
 
 /usr/include/yaml-cpp/node/ptr.h:
@@ -14792,6 +14806,10 @@ include/moveit_setup_framework/qt/moc_double_list_widget.cpp:
 
 /usr/include/limits.h:
 
+/opt/ros/humble/include/rcutils/rcutils/macros.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp:
 
 /usr/include/eigen3/Eigen/Cholesky:
@@ -14891,6 +14909,10 @@ include/moveit_setup_framework/qt/moc_double_list_widget.cpp:
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
 /usr/include/c++/11/typeinfo:
+
+/usr/include/boost/mpl/aux_/config/integral.hpp:
+
+/usr/include/c++/11/bits/align.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
 
@@ -14998,11 +15020,11 @@ include/moveit_setup_framework/qt/moc_double_list_widget.cpp:
 
 /usr/include/c++/11/ext/aligned_buffer.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
-
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
 
@@ -15508,6 +15530,8 @@ include/moveit_setup_framework/qt/moc_double_list_widget.cpp:
 
 /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
@@ -15718,6 +15742,12 @@ include/moveit_setup_framework/qt/moc_double_list_widget.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp:
 
+/usr/include/boost/mpl/aux_/static_cast.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
+
 /usr/include/boost/range/mutable_iterator.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
@@ -15729,10 +15759,6 @@ include/moveit_setup_framework/qt/moc_double_list_widget.cpp:
 /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
 
 /usr/include/boost/mpl/aux_/has_apply.hpp:
 
@@ -15958,8 +15984,6 @@ include/moveit_setup_framework/qt/moc_double_list_widget.cpp:
 
 /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:
 
-/usr/include/boost/mpl/aux_/na_spec.hpp:
-
 /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp:
 
 /usr/include/boost/config/detail/select_platform_config.hpp:
@@ -16153,6 +16177,12 @@ include/moveit_setup_framework/qt/moc_double_list_widget.cpp:
 /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
 /opt/ros/humble/include/tf2/tf2/time.h:
 
@@ -16527,13 +16557,3 @@ include/moveit_setup_framework/qt/moc_double_list_widget.cpp:
 /usr/include/boost/version.hpp:
 
 /usr/include/boost/type_traits/make_unsigned.hpp:
-
-/usr/include/boost/mpl/if.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
-
-/usr/include/boost/mpl/aux_/static_cast.hpp:
-
-/usr/include/boost/mpl/aux_/config/eti.hpp:

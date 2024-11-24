@@ -893,6 +893,10 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -3052,6 +3056,14 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
 
 /usr/include/eigen3/Eigen/src/Core/NumTraits.h:
 
+/usr/include/eigen3/Eigen/src/Core/util/Memory.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
+
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
@@ -3350,8 +3362,6 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
-/opt/ros/humble/include/rcl/rcl/timer.h:
-
 /usr/include/boost/mpl/aux_/config/static_constant.hpp:
 
 /opt/ros/humble/include/rcl/rcl/subscription.h:
@@ -3496,6 +3506,8 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
 
 /usr/include/c++/11/stdlib.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
+
 /opt/ros/humble/include/rmw/rmw/types.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
@@ -3547,8 +3559,6 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
 /usr/include/boost/mpl/arg_fwd.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
-
-/opt/ros/humble/include/rcutils/rcutils/macros.h:
 
 /usr/include/boost/mpl/less.hpp:
 
@@ -4394,6 +4404,10 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
 
 /opt/ros/humble/include/urdf/urdf/visibility_control.hpp:
 
+/opt/ros/humble/include/rcl/rcl/timer.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /usr/include/boost/mp11/detail/mp_map_find.hpp:
 
 /usr/include/boost/mpl/list/aux_/item.hpp:
@@ -5080,6 +5094,10 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
+/opt/ros/humble/include/rcutils/rcutils/macros.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /usr/include/c++/11/bits/stl_numeric.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
@@ -5552,6 +5570,8 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
 /opt/ros/humble/include/tf2/tf2/exceptions.h:
 
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
@@ -5840,10 +5860,6 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
 
 /usr/include/boost/random/detail/signed_unsigned_tools.hpp:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
-
 /usr/include/boost/mpl/empty_fwd.hpp:
 
 /usr/include/boost/random/detail/generator_seed_seq.hpp:
@@ -5871,7 +5887,3 @@ local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/Meta.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/Memory.h:

@@ -3,11 +3,11 @@ moveit_setup_assistant_config:
     package: moveit_resources_dragon_description
     relative_path: urdf/dragon.urdf
   srdf:
-    relative_path: config/dragon_model.srdf
+    relative_path: config/dragon.srdf
   package_settings:
-    author_name: Fawad
+    author_name: Fawad Ahmad
     author_email: fawadahmed433@gmail.com
-    generated_timestamp: 1729898736
+    generated_timestamp: 1732236366
   control_xacro:
     command:
       - position

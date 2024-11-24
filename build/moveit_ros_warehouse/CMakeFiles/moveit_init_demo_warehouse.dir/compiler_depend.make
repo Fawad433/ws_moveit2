@@ -1158,6 +1158,10 @@ CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o: /home/ro
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -1183,6 +1187,17 @@ CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o: /home/ro
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -1196,17 +1211,6 @@ CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o: /home/ro
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -3266,6 +3270,18 @@ CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o: /home/ro
 
 /opt/ros/humble/include/srdfdom/visibility_control.h:
 
+/opt/ros/humble/include/urdfdom_headers/urdf_model/color.h:
+
+/opt/ros/humble/include/urdfdom_headers/urdf_model/types.h:
+
+/opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h:
+
+/opt/ros/humble/include/urdfdom_headers/urdf_exception/exception.h:
+
+/opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h:
+
+/opt/ros/humble/include/urdf/urdf/model.h:
+
 /usr/include/boost/type_index.hpp:
 
 /usr/include/boost/random/detail/disable_warnings.hpp:
@@ -3297,18 +3313,6 @@ CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o: /home/ro
 /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
 
 /usr/include/tinyxml2.h:
-
-/opt/ros/humble/include/urdfdom_headers/urdf_model/color.h:
-
-/opt/ros/humble/include/urdfdom_headers/urdf_model/types.h:
-
-/opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h:
-
-/opt/ros/humble/include/urdfdom_headers/urdf_exception/exception.h:
-
-/opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h:
-
-/opt/ros/humble/include/urdf/urdf/model.h:
 
 /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h:
 
@@ -3351,6 +3355,10 @@ CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o: /home/ro
 /opt/ros/humble/include/tf2/tf2/time.h:
 
 /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
 
@@ -3704,6 +3712,8 @@ moveit_warehouse_export.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
 /usr/include/boost/optional/optional.hpp:
@@ -3895,6 +3905,8 @@ moveit_warehouse_export.h:
 /usr/include/boost/preprocessor/slot/detail/def.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 

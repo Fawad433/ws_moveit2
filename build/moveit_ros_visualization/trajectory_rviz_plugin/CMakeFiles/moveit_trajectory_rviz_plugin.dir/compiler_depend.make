@@ -872,6 +872,12 @@ trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_i
   /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/transform_storage.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
@@ -914,6 +920,8 @@ trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_i
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
   /opt/ros/humble/include/srdfdom/model.h \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/11/climits \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -927,8 +935,6 @@ trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_i
   /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
   /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
-  /usr/include/tinyxml2.h \
-  /usr/include/c++/11/climits \
   /opt/ros/humble/include/srdfdom/visibility_control.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
   /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -1320,9 +1326,7 @@ trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_i
   /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/octomap_render.h \
   /opt/ros/humble/include/octomap/octomap.h \
   /opt/ros/humble/include/octomap/octomap_types.h \
@@ -1981,6 +1985,14 @@ trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_i
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreExports.h:
@@ -2228,8 +2240,6 @@ trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_i
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreNameGenerator.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
-
-/opt/ros/humble/include/rcl/rcl/timer.h:
 
 /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
 
@@ -2695,8 +2705,6 @@ trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_i
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/opt/ros/humble/include/rcutils/rcutils/macros.h:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:
@@ -2778,6 +2786,10 @@ trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_i
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/limits.h:
+
+/opt/ros/humble/include/rcutils/rcutils/macros.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
@@ -2901,11 +2913,11 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
-
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
@@ -3029,6 +3041,12 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 
 /usr/include/boost/preprocessor/control/if.hpp:
 
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSimpleRenderable.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
+
+/usr/include/endian.h:
+
 /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp:
 
 /opt/ros/humble/include/urdf/urdf/visibility_control.hpp:
@@ -3132,6 +3150,10 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
 /usr/include/x86_64-linux-gnu/bits/dlfcn.h:
+
+/opt/ros/humble/include/rcl/rcl/timer.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /usr/include/c++/11/ext/concurrence.h:
 
@@ -3282,6 +3304,8 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -3769,10 +3793,6 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
-
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
@@ -4143,6 +4163,14 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+
+/usr/include/boost/random/detail/const_mod.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
 /opt/ros/humble/include/tf2/tf2/transform_storage.h:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreControllerManager.h:
@@ -4193,8 +4221,6 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 
 /opt/ros/humble/include/rviz_common/rviz_common/properties/string_property.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
-
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
@@ -4202,6 +4228,10 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 /home/robot/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h:
 
 /usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp:
+
+/usr/include/c++/11/climits:
 
 /opt/ros/humble/include/urdf/urdf/model.h:
 
@@ -4214,10 +4244,6 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 /opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h:
 
 /opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp:
-
-/usr/include/c++/11/climits:
 
 /opt/ros/humble/include/srdfdom/visibility_control.h:
 
@@ -4425,8 +4451,6 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 
 /usr/include/boost/mpl/aux_/lambda_support.hpp:
 
-/usr/include/boost/random/detail/const_mod.hpp:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
@@ -4468,15 +4492,3 @@ trajectory_rviz_plugin/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cp
 /home/robot/ws_moveit2/src/moveit2/moveit_ros/visualization/trajectory_rviz_plugin/src/plugin_init.cpp:
 
 /usr/include/eigen3/Eigen/src/Core/util/Memory.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
-
-/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSimpleRenderable.h:
-
-/usr/include/endian.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:

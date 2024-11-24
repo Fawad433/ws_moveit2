@@ -1378,6 +1378,10 @@ doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src
   /opt/ros/humble/include/tf2/tf2/visibility_control.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
   /opt/ros/humble/include/tf2/tf2/time.h \
   /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -2864,6 +2868,10 @@ doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src
 
 /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
+
 /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h:
 
 /usr/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
@@ -4342,6 +4350,8 @@ doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src
 
 /usr/include/c++/11/bits/exception_defines.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
@@ -4941,6 +4951,8 @@ doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src
 /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 

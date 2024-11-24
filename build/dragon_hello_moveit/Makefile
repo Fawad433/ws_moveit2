@@ -223,6 +223,43 @@ dragon_get_pose/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_pose.dir/build.make CMakeFiles/dragon_get_pose.dir/build
 .PHONY : dragon_get_pose/fast
 
+#=============================================================================
+# Target rules for targets named dragon_get_max_range
+
+# Build rule for target.
+dragon_get_max_range: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dragon_get_max_range
+.PHONY : dragon_get_max_range
+
+# fast build rule for target.
+dragon_get_max_range/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_max_range.dir/build.make CMakeFiles/dragon_get_max_range.dir/build
+.PHONY : dragon_get_max_range/fast
+
+src/dragon_get_max_range.o: src/dragon_get_max_range.cpp.o
+.PHONY : src/dragon_get_max_range.o
+
+# target to build an object file
+src/dragon_get_max_range.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_max_range.dir/build.make CMakeFiles/dragon_get_max_range.dir/src/dragon_get_max_range.cpp.o
+.PHONY : src/dragon_get_max_range.cpp.o
+
+src/dragon_get_max_range.i: src/dragon_get_max_range.cpp.i
+.PHONY : src/dragon_get_max_range.i
+
+# target to preprocess a source file
+src/dragon_get_max_range.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_max_range.dir/build.make CMakeFiles/dragon_get_max_range.dir/src/dragon_get_max_range.cpp.i
+.PHONY : src/dragon_get_max_range.cpp.i
+
+src/dragon_get_max_range.s: src/dragon_get_max_range.cpp.s
+.PHONY : src/dragon_get_max_range.s
+
+# target to generate assembly for a file
+src/dragon_get_max_range.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_max_range.dir/build.make CMakeFiles/dragon_get_max_range.dir/src/dragon_get_max_range.cpp.s
+.PHONY : src/dragon_get_max_range.cpp.s
+
 src/dragon_get_pose.o: src/dragon_get_pose.cpp.o
 .PHONY : src/dragon_get_pose.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... dragon_hello_moveit_uninstall"
 	@echo "... uninstall"
+	@echo "... dragon_get_max_range"
 	@echo "... dragon_get_pose"
 	@echo "... dragon_hello_moveit"
+	@echo "... src/dragon_get_max_range.o"
+	@echo "... src/dragon_get_max_range.i"
+	@echo "... src/dragon_get_max_range.s"
 	@echo "... src/dragon_get_pose.o"
 	@echo "... src/dragon_get_pose.i"
 	@echo "... src/dragon_get_pose.s"

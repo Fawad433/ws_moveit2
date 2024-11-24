@@ -258,13 +258,13 @@ libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libqhull_r.so
 libsequence_capability.so: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so
 libsequence_capability.so: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so
 libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
+libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0
 libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0
-libsequence_capability.so: /opt/ros/humble/lib/libwarehouse_ros.so
-libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
 libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
 libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
+libsequence_capability.so: /opt/ros/humble/lib/libwarehouse_ros.so
 libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libsequence_capability.so: /opt/ros/humble/lib/libclass_loader.so
 libsequence_capability.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
