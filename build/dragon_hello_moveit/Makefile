@@ -236,6 +236,19 @@ dragon_get_max_range/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_get_max_range.dir/build.make CMakeFiles/dragon_get_max_range.dir/build
 .PHONY : dragon_get_max_range/fast
 
+#=============================================================================
+# Target rules for targets named dragon_move
+
+# Build rule for target.
+dragon_move: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dragon_move
+.PHONY : dragon_move
+
+# fast build rule for target.
+dragon_move/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_move.dir/build.make CMakeFiles/dragon_move.dir/build
+.PHONY : dragon_move/fast
+
 src/dragon_get_max_range.o: src/dragon_get_max_range.cpp.o
 .PHONY : src/dragon_get_max_range.o
 
@@ -308,6 +321,30 @@ src/dragon_hello_moveit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_hello_moveit.dir/build.make CMakeFiles/dragon_hello_moveit.dir/src/dragon_hello_moveit.cpp.s
 .PHONY : src/dragon_hello_moveit.cpp.s
 
+src/dragon_move.o: src/dragon_move.cpp.o
+.PHONY : src/dragon_move.o
+
+# target to build an object file
+src/dragon_move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_move.dir/build.make CMakeFiles/dragon_move.dir/src/dragon_move.cpp.o
+.PHONY : src/dragon_move.cpp.o
+
+src/dragon_move.i: src/dragon_move.cpp.i
+.PHONY : src/dragon_move.i
+
+# target to preprocess a source file
+src/dragon_move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_move.dir/build.make CMakeFiles/dragon_move.dir/src/dragon_move.cpp.i
+.PHONY : src/dragon_move.cpp.i
+
+src/dragon_move.s: src/dragon_move.cpp.s
+.PHONY : src/dragon_move.s
+
+# target to generate assembly for a file
+src/dragon_move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dragon_move.dir/build.make CMakeFiles/dragon_move.dir/src/dragon_move.cpp.s
+.PHONY : src/dragon_move.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +363,7 @@ help:
 	@echo "... dragon_get_max_range"
 	@echo "... dragon_get_pose"
 	@echo "... dragon_hello_moveit"
+	@echo "... dragon_move"
 	@echo "... src/dragon_get_max_range.o"
 	@echo "... src/dragon_get_max_range.i"
 	@echo "... src/dragon_get_max_range.s"
@@ -335,6 +373,9 @@ help:
 	@echo "... src/dragon_hello_moveit.o"
 	@echo "... src/dragon_hello_moveit.i"
 	@echo "... src/dragon_hello_moveit.s"
+	@echo "... src/dragon_move.o"
+	@echo "... src/dragon_move.i"
+	@echo "... src/dragon_move.s"
 .PHONY : help
 
 

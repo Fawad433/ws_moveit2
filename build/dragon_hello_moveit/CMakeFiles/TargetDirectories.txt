@@ -3,6 +3,7 @@
 /home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles/dragon_hello_moveit.dir
 /home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles/dragon_get_pose.dir
 /home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles/dragon_get_max_range.dir
+/home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles/dragon_move.dir
 /home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles/test.dir
 /home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles/edit_cache.dir
 /home/robot/ws_moveit2/build/dragon_hello_moveit/CMakeFiles/rebuild_cache.dir

@@ -14,6 +14,7 @@ find_package(yaml-cpp REQUIRED)
 add_executable(dragon_hello_moveit src/dragon_hello_moveit.cpp)
 add_executable(dragon_get_pose src/dragon_get_pose.cpp)
 add_executable(dragon_get_max_range src/dragon_get_max_range.cpp)
+add_executable(dragon_move src/dragon_move.cpp)
 
 target_include_directories(dragon_hello_moveit PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -34,17 +35,27 @@ ament_target_dependencies(
   "rclcpp"
   "yaml-cpp"
 )
-ament_target_dependencies(dragon_get_max_range
+ament_target_dependencies(
+dragon_get_max_range
 "rclcpp"
 "geometry_msgs"
 "moveit_ros_planning_interface"
 )
 
+ament_target_dependencies(
+  dragon_move
+  "moveit_ros_planning_interface"
+  "rclcpp"
+)
 # Link yaml-cpp explicitly to both executables
 target_link_libraries(dragon_hello_moveit yaml-cpp)
 target_link_libraries(dragon_get_pose yaml-cpp)
 
-install(TARGETS dragon_hello_moveit dragon_get_pose dragon_get_max_range
+install(
+  TARGETS dragon_hello_moveit 
+  dragon_get_pose 
+  dragon_get_max_range
+  dragon_move 
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
   // Initialize ROS and create the Node
   rclcpp::init(argc, argv);
   auto const node = std::make_shared<rclcpp::Node>(
-    "dragon_hello_moveit",
+    "dragon_hello_moveit_random",
     rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true)
   );
 

@@ -1326,4 +1326,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/dragon_hello_moveit.dir/DependInfo.cmake"
   "CMakeFiles/dragon_get_pose.dir/DependInfo.cmake"
   "CMakeFiles/dragon_get_max_range.dir/DependInfo.cmake"
+  "CMakeFiles/dragon_move.dir/DependInfo.cmake"
   )

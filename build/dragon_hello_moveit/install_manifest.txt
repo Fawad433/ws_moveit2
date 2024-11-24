@@ -1,6 +1,7 @@
 /home/robot/ws_moveit2/install/dragon_hello_moveit/lib/dragon_hello_moveit/dragon_hello_moveit
 /home/robot/ws_moveit2/install/dragon_hello_moveit/lib/dragon_hello_moveit/dragon_get_pose
 /home/robot/ws_moveit2/install/dragon_hello_moveit/lib/dragon_hello_moveit/dragon_get_max_range
+/home/robot/ws_moveit2/install/dragon_hello_moveit/lib/dragon_hello_moveit/dragon_move
 /home/robot/ws_moveit2/install/dragon_hello_moveit/share/ament_index/resource_index/package_run_dependencies/dragon_hello_moveit
 /home/robot/ws_moveit2/install/dragon_hello_moveit/share/ament_index/resource_index/parent_prefix_path/dragon_hello_moveit
 /home/robot/ws_moveit2/install/dragon_hello_moveit/share/dragon_hello_moveit/environment/ament_prefix_path.sh
