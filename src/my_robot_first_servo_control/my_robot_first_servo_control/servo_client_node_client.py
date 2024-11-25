@@ -13,8 +13,8 @@ class ServoClientClientNode(Node):
         super().__init__("servo_client_client")  # Node name
 
         # Declare parameters with default values for angles and speeds
-        self.declare_parameter("angles", [90.0, 125.0, 0.0, 90.0, 90.0, 70.0])
-        self.declare_parameter("speeds", [10.0, 10.0, 10.0, 10.0, 10.0, 10.0])
+        self.declare_parameter("angles", [90.0, 0.0, 0.0, 0.0, 0.0, 0.0])
+        self.declare_parameter("speeds", [5.0, 5.0, 5.0, 5.0, 5.0, 5.0])
 
         # Retrieve the parameter values
         self.angles = self.get_parameter("angles").value
@@ -76,18 +76,20 @@ class ServoClientClientNode(Node):
         is -π to +π radians (modify based on your robot configuration).
         """
         # Assuming the joint moves between -π to +π radians (or adjust based on joint limits)
-        servo_min_angle = 0.0   # Minimum servo angle in degrees
-        servo_max_angle = 180.0 # Maximum servo angle in degrees
+        #servo_min_angle = 0.0   # Minimum servo angle in degrees
+        #servo_max_angle = 180.0 # Maximum servo angle in degrees
 
-        joint_min_position = -math.pi  # Min joint position in radians
-        joint_max_position = math.pi   # Max joint position in radians
+        #joint_min_position = -math.pi  # Min joint position in radians
+        #joint_max_position = math.pi   # Max joint position in radians
 
         # Convert radians to degrees and map to the servo's range
         # This maps position from [-π, +π] to [0, 180] degrees
-        angle = (position - joint_min_position) * (servo_max_angle - servo_min_angle) / (joint_max_position - joint_min_position) + servo_min_angle
+        #angle = (position - joint_min_position) * (servo_max_angle - servo_min_angle) / (joint_max_position - joint_min_position) + servo_min_angle
 
         # Ensure the angle is within servo limits
-        angle = max(servo_min_angle, min(servo_max_angle, angle))
+        #angle = max(servo_min_angle, min(servo_max_angle, angle))
+        angle = position * 57.2958
+        self.get_logger().info(f"Converted angle: {angle}")
         return angle
 
     def goal_response_callback(self, future):

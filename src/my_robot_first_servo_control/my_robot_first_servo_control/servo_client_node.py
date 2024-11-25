@@ -34,10 +34,14 @@ class ServoClientServerNode(Node):
 
         self.get_logger().info("Executing the goal")
         ip = "10.0.0.150"
-
+	# 2 3 1 4 5
         # Construct the query string in the required format
-        query_string = "&".join([f"angle{i}={angles[i]}&speed{i}={speeds[i]}" for i in range(len(angles))])
-        url = f"http://{ip}/?{query_string}"
+        #query_string = "&".join([f"angle{i}={angles[i]}&speed{i}={speeds[i]}" for i in range(len(angles))])
+        if angles[5] > 0:
+            angles[5] = 0
+        if angles[5] == 0:
+            angles[5] = 90
+        url = f"http://10.0.0.150/?angle0={angles[2]}&speed0={speeds[2]}&angle1={angles[0]}&speed1={speeds[0]}&angle2={angles[1]}&speed2={speeds[1]}&angle3={angles[3]}&speed3={speeds[3]}&angle4={angles[4]}&speed4={speeds[4]}&angle5={angles[5]}&speed5={speeds[5]}"
 
         result = OneServo.Result()
 

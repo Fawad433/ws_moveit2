@@ -1,4 +1,4 @@
-<robot name="6DoF" version="1.0">
+<robot name="dragon" version="1.0">
   <joint name="joint1" type="revolute">
     <limit lower="0.00000000" upper="3.14199996" effort="87" velocity="2.3925"/>
     <origin rpy="0.00000000 0.00000000 -1.57079637" xyz="0.0 0.0 0.127335"/>
@@ -25,7 +25,7 @@
     <origin rpy="3.14159257 -0.00000012 0.00000000" xyz="-0.008356 -0.101547 0.00001584"/>
     <parent link="servo3_servo4_link"/>
     <child link="servo4_servo5_link"/>
-    <axis xyz="0.00000000 0.00000000 1.00000000"/>
+    <axis xyz="0.00000000 0.00000000 -1.00000000"/>
   </joint>
   <joint name="joint5" type="revolute">
     <limit lower="0.00000000" upper="3.14000010" effort="87" velocity="2.3925"/>

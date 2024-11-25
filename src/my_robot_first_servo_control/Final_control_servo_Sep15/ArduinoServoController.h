@@ -6,6 +6,7 @@
 class ArduinoServoController {
 public:
   uint16_t currentPositions[6];
+  uint16_t speeds[6];
   ArduinoServoController(uint8_t numberOfServos, uint16_t servomin, uint16_t servomax);
   void begin();
   void moveServo(uint16_t newPositions[], uint16_t speeds[]);

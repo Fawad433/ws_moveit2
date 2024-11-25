@@ -2,7 +2,7 @@
 #include "ArduinoServoController.h"
 
 // Define min and max PWM for servos
-#define SERVOMIN 160
+#define SERVOMIN 200 //160
 #define SERVOMAX 640
 #define NUM_SERVOS 6
 
@@ -17,8 +17,8 @@ void setup() {
   
   // Initialize servo controller
   servoController.begin();
-  uint16_t speeds[6] = {10,10,10,10,10,10};
-  servoController.moveServo(servoController.currentPositions, speeds);
+  
+  servoController.moveServo(servoController.currentPositions, servoController.speeds);
 
   // Start WiFi server
   wifiServerHandler.begin();
