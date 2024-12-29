@@ -1,2 +1,0 @@
-Invoking command in '/home/robot/ws_moveit2/build/dragon_moveit_config': /usr/bin/cmake /home/robot/ws_moveit2/src/dragon_moveit_config -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/dragon_moveit_config
-Invoked command in '/home/robot/ws_moveit2/build/dragon_moveit_config' returned '1': /usr/bin/cmake /home/robot/ws_moveit2/src/dragon_moveit_config -DCMAKE_INSTALL_PREFIX=/home/robot/ws_moveit2/install/dragon_moveit_config

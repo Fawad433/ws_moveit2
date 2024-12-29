@@ -1,3 +1,0 @@
-Instantiated with filepath=None->None, scale=[1.0, 1.0, 1.0], mesh=<bpy_struct, Mesh("right_finger") at 0x000001B8149FB908>, meshname=right_finger, material=None, mesh_orientation=None, {}
-->trying export of <bpy_struct, Mesh("right_finger") at 0x000001B8149FB908> to C:\home\robot\Documents\Robot Model\Final Design\urdf\6DoF\meshes\stl\right_finger.stl
-->wrote stl to C:\home\robot\Documents\Robot Model\Final Design\urdf\6DoF\meshes\stl\right_finger.stl from bpy_types.Mesh

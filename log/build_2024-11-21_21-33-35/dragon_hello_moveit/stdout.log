@@ -1,3 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target dragon_hello_moveit[0m
-[ 50%] Built target dragon_get_pose
-[ 75%] [32mBuilding CXX object CMakeFiles/dragon_hello_moveit.dir/src/dragon_hello_moveit.cpp.o[0m

@@ -1,3 +1,0 @@
-Instantiated with filepath=None->None, scale=[1.0, 1.0, 1.0], mesh=<bpy_struct, Mesh("joint1") at 0x000001B814A06B08>, meshname=joint1, material=None, mesh_orientation=None, {}
-->trying export of <bpy_struct, Mesh("joint1") at 0x000001B814A06B08> to C:\home\robot\Documents\Robot Model\Final Design\urdf\6DoF\meshes\stl\joint1.stl
-->wrote stl to C:\home\robot\Documents\Robot Model\Final Design\urdf\6DoF\meshes\stl\joint1.stl from bpy_types.Mesh

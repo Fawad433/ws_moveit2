@@ -1,9 +1,0 @@
-# Goal
-float64[] angles
-float64[] speeds
----
-# Result
-bool reached_angles
----
-# Feedback
-float64[] current_angles

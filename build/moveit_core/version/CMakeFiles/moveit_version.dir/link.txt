@@ -1,1 +1,0 @@
-/usr/bin/c++ --param ggc-min-expand=20 -O3 -DNDEBUG CMakeFiles/moveit_version.dir/version.cpp.o -o moveit_version 

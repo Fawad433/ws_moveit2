@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target dragon_get_max_range[0m
-[ 33%] Built target dragon_get_pose
-[ 50%] [32mBuilding CXX object CMakeFiles/dragon_get_max_range.dir/src/dragon_get_max_range.cpp.o[0m
-[ 83%] Built target dragon_hello_moveit
